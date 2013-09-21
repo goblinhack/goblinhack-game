@@ -9,6 +9,7 @@ goblinhack - a 2d smooth scrolling ascii dungeon romp
 | |  _ / _ \| '_ \| | | '_ \  | |_| |/ _` |/ __| |/ /
 | |_| | (_) | |_) | | | | | | |  _  | (_| | (__|   < 
  \____|\___/|_.__/|_|_|_| |_| |_| |_|\__,_|\___|_|\_\
+
 </pre>
 
 Welcome to GoblinHack 1.19. This version adds:                       
@@ -58,13 +59,14 @@ Welcome to GoblinHack 1.19. This version adds:
                                                                                 
 Press space/cursor keys to navigate this help. Escape/q to quit.                
                                                                                 
-                                                                                
+<pre>
 __        ___           _     _       _ _  ___ 
 \ \      / / |__   __ _| |_  (_)___  (_) ||__ \
  \ \ /\ / /| '_ \ / _` | __| | / __| | | __|/ /
   \ V  V / | | | | (_| | |_  | \__ \ | | |_|_| 
    \_/\_/  |_| |_|\__,_|\__| |_|___/ |_|\__(_) 
 
+</pre>
        
 Goblin Hack is an ASCII, SDL + opengl based game. It opts for terrible          
 graphics and no sound to give a nice simple game that should appeal to          
@@ -73,6 +75,7 @@ kids and adults alike.
 Think NetHack, but faster and with fewer keys; and worse graphics ;)            
                                                                                 
 
+<pre>
  _   _                 _                    _     _ 
 | | | | _____      __ | |_ ___     __ _  __| | __| |
 | |_| |/ _ \ \ /\ / / | __/ _ \   / _` |/ _` |/ _` |
@@ -86,6 +89,8 @@ Think NetHack, but faster and with fewer keys; and worse graphics ;)
 |___/\__|\__,_|_| |_|  (_) 
 
                            
+</pre>
+
 You want to add more monsters/treasure/etc...? It's best to look at examples.   
 e.g. look at                                                                    
                                                                                 
@@ -203,6 +208,7 @@ src/resources.
                                                                                 
 This file is src/resources/txt/help.txt. Please add to it 8).                   
                                                                                 
+<pre>
 
  ____                        
 | __ ) _   _  __ _  __ _ ___ 
@@ -211,11 +217,13 @@ This file is src/resources/txt/help.txt. Please add to it 8).
 |____/ \__,_|\__, |\__, |___/
              |___/ |___/     
 
+</pre>
 
 amulet of unchanging needs to block polymorph
 auto rage not working
 angels not responding to very low karma
                                                                                 
+<pre>
 
   ____            _             _   
  / ___|___  _ __ | |_ __ _  ___| |_ 
@@ -224,6 +232,8 @@ angels not responding to very low karma
  \____\___/|_| |_|\__\__,_|\___|\__|
 
 
+</pre>
+
 mail me at goblinhack@gmail.com                                                 
                                                                                 
 tx                                                                              
@@ -231,12 +241,14 @@ tx
 Neil McGIll                                                                     
                                                                                 
 
+<pre>
  ___    _                
 |_ _|__| | ___  __ _ ___ 
  | |/ _` |/ _ \/ _` / __|
  | | (_| |  __/ (_| \__ \
 |___\__,_|\___|\__,_|___/
                          
+</pre>
 
 blindness attacks - but what kind of monster?       
 slow motion spell, like slow monster, but for all
@@ -358,6 +370,7 @@ spellbooks and rooms (The Library of Forgotten Books)
                                                                                 
 auto open of doors                                                              
 
+<pre>
               ____ _                            _                               
              / ___| |__   __ _ _ __   __ _  ___| |    ___   __ _                
             | |   | '_ \ / _` | '_ \ / _` |/ _ \ |   / _ \ / _` |               
@@ -365,6 +378,7 @@ auto open of doors
              \____|_| |_|\__,_|_| |_|\__, |\___|_____\___/ \__, |               
                                      |___/                 |___/                
 
+</pre>
                                                                                 
 Tue Mar 24 14:43:01 EDT 2009                                                    
 ----------------------------                                                    
@@ -686,12 +700,15 @@ gcc 4.0 support
 bug fixes for shot damage                                                       
                                                                                 
 
+<pre>
  _                     _   ____  _          __  __ 
 | |    ___  __ _  __ _| | / ___|| |_ _   _ / _|/ _|
 | |   / _ \/ _` |/ _` | | \___ \| __| | | | |_| |_ 
 | |__|  __/ (_| | (_| | |  ___) | |_| |_| |  _|  _|
 |_____\___|\__, |\__,_|_| |____/ \__|\__,_|_| |_|  
            |___/                                   
+
+</pre>
 
 This game is free software; you can redistribute it and/or
 modify it under the terms of the GNU Library General Public
