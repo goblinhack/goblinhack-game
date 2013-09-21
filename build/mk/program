@@ -24,7 +24,7 @@
 include $(TOP)/build/mk/rules
 
 $(TARGET): $(OBJS) $(OLIBS)
-	$(CC) $(CFLAGS) $(OBJS) $(LIBS)  -L/opt/local/lib -lSDLmain -lSDL -Wl,-framework,Cocoa -lz   -L/System/Library/Frameworks/OpenGL.framework/Libraries -lGL -lGLU -framework SDL -framework SDL_image -framework SDL_mixer -framework OpenGL -o $(TARGET)
+	$(CC) $(CFLAGS) $(OBJS) $(LIBS)  -L/usr/local/lib -lSDLmain -lSDL -Wl,-framework,Cocoa -lz   -L/System/Library/Frameworks/OpenGL.framework/Libraries -lGL -lGLU -framework SDL -framework SDL_image -framework SDL_mixer -framework OpenGL -o $(TARGET)
 	echo $(TARGET).exe
 
 install all:: $(TARGET)
