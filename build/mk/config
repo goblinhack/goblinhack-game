@@ -26,7 +26,7 @@ SHELL = /bin/sh
 srcdir = .
 prefix = /usr/local
 
-TOPDIR = /Users/nmcgill/goblinhack
+TOPDIR = /home/zod/goblinhack
 
 CC = g++
 RANLIB = ranlib
@@ -67,7 +67,7 @@ INCLUDE +=  -I/usr/local/include -I$(TOPDIR)/src/include
 # -rdynamic is for traceback function names
 # -O3 enables -finline-functions
 #
-CFLAGS = -g -O2 -Wall -DMACOSX  -I/Library/Frameworks/SDL.framework/Headers  -I/Library/Frameworks/SDL.framework/Versions/A/Headers  -I/Library/Frameworks/SDL_image.framework/Headers  -I/Library/Frameworks/SDL_image.framework/Versions/A/Headers  -I/Library/Frameworks/SDL_mixer.framework/Headers  -I/Library/Frameworks/SDL_mixer.framework/Versions/A/Headers  -I/Library/Frameworks/OpenGL.framework/Headers  -I/System/Library/Frameworks/SDL.framework/Headers  -I/System/Library/Frameworks/SDL.framework/Versions/A/Headers  -I/System/Library/Frameworks/SDL_image.framework/Headers  -I/System/Library/Frameworks/SDL_image.framework/Versions/A/Headers  -I/System/Library/Frameworks/SDL_mixer.framework/Headers  -I/System/Library/Frameworks/SDL_mixer.framework/Versions/A/Headers  -I/System/Library/Frameworks/OpenGL.framework/Headers  -I/usr/local/include/SDL -D_GNU_SOURCE=1 -D_THREAD_SAFE -O3 
+CFLAGS = -g -O2 -Wall -DMACOSX  -I/Library/Frameworks/SDL.framework/Headers  -I/Library/Frameworks/SDL.framework/Versions/A/Headers  -I/Library/Frameworks/SDL_image.framework/Headers  -I/Library/Frameworks/SDL_image.framework/Versions/A/Headers  -I/Library/Frameworks/SDL_mixer.framework/Headers  -I/Library/Frameworks/SDL_mixer.framework/Versions/A/Headers  -I/Library/Frameworks/OpenGL.framework/Headers  -I/System/Library/Frameworks/SDL.framework/Headers  -I/System/Library/Frameworks/SDL.framework/Versions/A/Headers  -I/System/Library/Frameworks/SDL_image.framework/Headers  -I/System/Library/Frameworks/SDL_image.framework/Versions/A/Headers  -I/System/Library/Frameworks/SDL_mixer.framework/Headers  -I/System/Library/Frameworks/SDL_mixer.framework/Versions/A/Headers  -I/System/Library/Frameworks/OpenGL.framework/Headers  -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -O3 
 
 CFLAGS += -DGH_INSTALLED_DIR='"$(prefix)/games/ghack"' 
 
