@@ -355,7 +355,7 @@ gh_inline void gh_console::fixed_text_at (const char c,
     cursor.x++;
 }
 
-gh_inline void gh_console::putc (char c)
+gh_inline void gh_console::myputc (char c)
 {
     const float dx = (float)gh_global::screensize.w / (float)GH_TERM_WIDTH;
     const float dy = (float)gh_global::screensize.h / (float)GH_TERM_HEIGHT;
@@ -548,7 +548,7 @@ void gh_term_refresh (void)
 		console.bg(c->bg);
 
 		console.mv(p);
-		console.putc(ch);
+		console.myputc(ch);
 	    }
 	}
     }

@@ -21,6 +21,8 @@
     $Id: zip.cpp 829 2008-04-27 14:09:45Z goblinhack $
 */
 
+#include "ghack.h"
+#include "gh_zip.h"
 #include "zip.h"
 
 gh_zip::gh_zip() {

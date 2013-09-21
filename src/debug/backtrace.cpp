@@ -22,6 +22,7 @@
 */
 
 #include <ghack.h>
+#include <stdio.h>
 
 static const char *gh_function_names_arr[1024];
 static const char *gh_function_files_arr[1024];

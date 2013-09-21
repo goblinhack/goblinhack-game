@@ -47,7 +47,7 @@ public:
     void bg(uint8 c);
     void fg(uint8 c);
     void fgbg(uint8, uint8);
-    void putc(char c);
+    void myputc(char c);
     void putc_small(char c);
     void puts_at(string s, gh_point3d at);
     void putf_at(string s, gh_point3d at);

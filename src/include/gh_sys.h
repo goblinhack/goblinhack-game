@@ -28,6 +28,8 @@
 // All the horrible system dependent stuff
 //
 #include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
 #include <string>
 #include <vector>
 #include <list>
