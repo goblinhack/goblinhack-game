@@ -77,6 +77,21 @@ public:
     throw invalid_argument (string(msg));\
 }
 
+#define GH_ERR(msg) {\
+    if (msg != string("")) {\
+        cout << endl << "** Error ** " << __FILE__ << "(" << __LINE__ << ")::" << __FUNCTION__ <<\
+            "() " << msg << endl;\
+        cerr << endl << "** Error ** " << __FILE__ << "(" << __LINE__ << ")::" << __FUNCTION__ <<\
+            "() " << msg << endl;\
+        gh_backtrace();\
+    } else { \
+        cout << endl << "** Error ** " << __FILE__ << "(" << __LINE__ << ")::" << __FUNCTION__ <<\
+            "() " << endl;\
+        cerr << endl << "** Error ** " << __FILE__ << "(" << __LINE__ << ")::" << __FUNCTION__ <<\
+            "() " << endl;\
+    } \
+}
+
 #define GH_EXIT(msg) {\
     cout << endl << "** Bail-out ** " << __FILE__ << "(" << __LINE__ << ")::" << __FUNCTION__ <<\
         "() " << msg << endl;\

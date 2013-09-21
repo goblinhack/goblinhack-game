@@ -63,6 +63,9 @@ void sdl_loop_init (void)
 
     SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER,1);
 
+    gh_global::fullscreen = false;
+    gh_global::noframe = false;
+
     gh_sdl_screen = new gh_surface(
 			      gh_global::screensize,
 			      SDL_OPENGL |

@@ -79,7 +79,7 @@ void gh_thing::decref (gh_thing_ref r)
     if (!(ref_bitmap & (1 << r))) {
         GH_THING_LOG(this, "decref(" + string(gh_thing_ref_string(r)) + ")");
         debug();
-        GH_THROW("thing " + name + " ref does not exist " + string(gh_thing_ref_string(r)));
+        GH_ERR("thing " + name + " ref does not exist " + string(gh_thing_ref_string(r)));
         return;
     }
 

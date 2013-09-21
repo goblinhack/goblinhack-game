@@ -79,6 +79,8 @@ int main (int argc, char *argv[])
 
     __debugit_flag__on = 1;
 
+    gh_global::fullscreen = false;
+
     for(int i=1;i<argc;i++) {
 
 	char *arg = argv[i];
