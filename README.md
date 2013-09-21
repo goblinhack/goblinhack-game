@@ -3,12 +3,17 @@ goblinhack
 
 goblinhack - a 2d smooth scrolling ascii dungeon romp 
 
+<br>
   ____       _     _ _         _   _            _    
+<br>
  / ___| ___ | |__ | (_)_ __   | | | | __ _  ___| | __
 <br>
 | |  _ / _ \| '_ \| | | '_ \  | |_| |/ _` |/ __| |/ /
+<br>
 | |_| | (_) | |_) | | | | | | |  _  | (_| | (__|   < 
+<br>
  \____|\___/|_.__/|_|_|_| |_| |_| |_|\__,_|\___|_|\_\
+<br>
 
 Welcome to GoblinHack 1.19. This version adds:                       
                                                                                 
