@@ -1,0 +1,9 @@
+"teleport"
+render_depth=2
+does_stuff
+is_teleport
+cant_see_past
+is_light_source
+light_strength=10
+anim_speed=15
+explosion_type="explosion/teleport"

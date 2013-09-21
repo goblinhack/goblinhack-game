@@ -1,0 +1,22 @@
+"centipede body"
+render_depth=3
+does_stuff
+score=1
+strength=100
+stamina=100
+intelligence=0
+weight=10
+health=50
+loves_night
+loves_midnight
+karma=10
+is_monst
+leaves_corpse
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+follow_distance=5
+is_body_part
+metabolism=65

@@ -1,0 +1,44 @@
+"deep troll"
+fate=5
+leaves_corpse
+render_depth=3
+does_stuff
+score=800
+strength=550
+stamina=100
+intelligence=5
+weight=500
+health=900
+loves_night
+karma=-400
+bite_damage=150
+bite_delay_in_tenths=5
+bite_chance=100
+metabolism=30
+can_see_distance=8
+is_monst
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat_eater
+attacks=[
+	"evil"
+	"good"
+	"hero"
+	"dwarve"
+]
+attack_chance=[
+	0
+	200
+	100
+	200
+]
+appearing_chance=[ 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 2 3 4 5 5 5 10 10 10 10 20 20 ]
+explosion_type="explosion/harmless"
+hates_fire
+can_wield_weapons
+backpack=[
+    "100" "hoard/2" 
+]

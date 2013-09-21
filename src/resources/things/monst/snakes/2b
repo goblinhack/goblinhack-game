@@ -1,0 +1,19 @@
+"copperhead tail"
+render_depth=3
+score=10
+strength=1
+stamina=100
+intelligence=10
+health=500
+karma=10
+metabolism=40
+is_monst
+leaves_corpse
+does_stuff
+is_explorer
+is_movable
+is_body_part
+is_destroyable
+is_meat
+is_meat_eater
+follow_distance=8

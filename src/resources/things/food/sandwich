@@ -1,0 +1,8 @@
+"leafy sandwich"
+render_depth=2
+health=15
+is_edible
+is_movable
+is_destroyable
+appearing_chance=[ 20 ]
+cost=25

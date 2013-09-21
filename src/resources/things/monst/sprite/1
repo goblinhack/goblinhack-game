@@ -1,0 +1,37 @@
+"money sprite"
+render_depth=3
+does_stuff
+score=110
+strength=1
+stamina=100
+intelligence=60
+weight=1
+health=100
+bite_damage=1
+bite_armour=0
+bite_treasure=50
+bite_delay_in_tenths=5
+look_delay_in_tenths=5
+bite_chance=100
+metabolism=90
+can_see_distance=8
+is_monst
+only_in_forests
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+appearing_chance=[ 5 ]
+explosion_type="explosion/harmless"
+attacks=[
+	"monst"
+	"hero"
+]
+attack_chance=[
+	100
+	100
+]
+karma=-100
+teleport_chance=50
+teleport_delay_in_tenths=500

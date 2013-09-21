@@ -1,0 +1,37 @@
+"Monk"
+bravery_curr=0
+fate=2
+render_depth=3
+does_stuff
+strength=150
+dex=90
+intelligence=50
+stamina=800
+health=130
+keys=15
+treasure=0
+bite_damage=5
+bite_delay_in_tenths=1
+bite_chance=100
+armour=0
+metabolism=80
+is_hero
+can_cast_spells
+can_wield_weapons
+is_edible_eater
+is_treasure_eater
+is_meat
+explosion_type="explosion/hero"
+can_see_distance=60
+backpack=[ 
+    "treasure/staffs/basic" 
+    "treasure/staffs/basic" 
+    "treasure/staffs/basic" 
+    "magic/spell/guardian_angel"
+    "magic/spell/sleep"
+    "food/apple" 
+]
+is_destroyable
+audio_on_dead="System_Shutdown"
+karma=200
+can_see_cursed_items

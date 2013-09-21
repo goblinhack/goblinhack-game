@@ -1,0 +1,6 @@
+"gleaming black crystal"
+render_depth=2
+treasure=15000
+is_treasure
+is_movable
+appearing_chance=[ 1 ]

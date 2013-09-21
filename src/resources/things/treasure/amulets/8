@@ -1,0 +1,12 @@
+"elementalite"
+render_depth=2
+water_proof=70
+fire_proof=70
+cold_proof=70
+cost=1000
+is_amulet
+is_inventory_item
+is_treasure
+is_movable
+is_destroyable
+appearing_chance=[ 1 ]

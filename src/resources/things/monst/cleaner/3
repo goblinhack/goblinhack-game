@@ -1,0 +1,39 @@
+"mighty dungeon tidier"
+render_depth=3
+does_stuff
+score=30
+strength=10000
+stamina=100
+intelligence=0
+collects_stuff_but_doesnt_use_it
+weight=1000
+health=700
+karma=0
+bite_damage=300
+bite_armour=300
+bite_delay_in_tenths=2
+bite_chance=100
+metabolism=70
+moves_left_right
+moves_up_down
+never_slows_down
+look_delay_in_tenths=7
+cached_gfx
+can_see_distance=0
+is_monst
+loves_void
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_edible_eater
+is_treasure_eater
+attacks=[ "all" ]
+attack_chance=[ 100 ]
+appearing_chance=[ 10 ]
+explosion_type="explosion/monst_fire"
+opacity=50
+cant_see_past
+hates_fire
+is_transparent
+cannot_summon

@@ -1,0 +1,39 @@
+"Knight"
+bravery_curr=0
+fate=2
+render_depth=3
+does_stuff
+strength=190
+dex=65
+intelligence=50
+stamina=500
+health=150
+keys=15
+treasure=0
+bite_damage=5
+bite_delay_in_tenths=1
+bite_chance=100
+armour=0
+metabolism=75
+is_hero
+can_cast_spells
+can_wield_weapons
+is_edible_eater
+is_treasure_eater
+is_meat
+is_meat_eater
+explosion_type="explosion/hero"
+can_see_distance=60
+backpack=[ 
+    "magic/spell/metal_shield"
+    "treasure/swords/basic" 
+    "food/apple" 
+    "food/beer" 
+    "food/bread" 
+    "food/cheese" 
+    "treasure/armour/1" 
+    "treasure/bag_of_gold/1" 
+    "magic/potion/monsticide"
+]
+is_destroyable
+audio_on_dead="System_Shutdown"

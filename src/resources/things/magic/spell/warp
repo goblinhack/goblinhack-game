@@ -1,0 +1,13 @@
+"teleport"
+render_depth=2
+cost=1000
+intelligence_req=80
+audio_on_use="magic_tinkle"
+is_treasure
+is_spell
+is_inventory_item
+is_movable
+is_destroyable
+appearing_chance=[ 15 ]
+use_chance=[ 100 ]
+use_action=[ "warp" ]

@@ -1,0 +1,11 @@
+"cardboard"
+render_depth=2
+armour=100
+cost=50
+is_treasure
+is_movable
+is_inventory_item
+is_armour
+is_destroyable
+weight=60
+appearing_chance=[ 50 ]

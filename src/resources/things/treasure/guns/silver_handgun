@@ -1,0 +1,18 @@
+"silver handgun"
+render_depth=1
+cost=3200
+health=500
+wield_as="weapons/handgun"
+weight=5
+is_treasure
+is_gun
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+appearing_chance=[ 2 ]
+explosion_type="explosion/harmless"
+throws=[ "missiles/silver_bullet/hit_all" ]
+charges=3000
+audio_on_use="Electric_Zap"
+is_weapon

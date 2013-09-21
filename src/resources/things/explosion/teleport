@@ -1,0 +1,15 @@
+"explosion-teleport"
+render_depth=3
+does_stuff
+cant_see_past
+lifespan=3
+is_boring
+is_light_source
+light_strength=5
+cached_gfx
+is_missile
+is_bouncy
+missile_spread=90
+missile_spread_angle=17
+metabolism=80
+audio_on_dead="Teleport"

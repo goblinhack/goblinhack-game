@@ -1,0 +1,64 @@
+"dark imp"
+render_depth=3
+does_stuff
+score=60
+strength=1
+stamina=100
+intelligence=10
+weight=1
+health=120
+lifespan=3000
+loves_night
+loves_midnight
+loves_full_moon
+karma=-300
+bite_damage=3
+bite_delay_in_tenths=10
+bite_chance=100
+metabolism=50
+is_monst
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+can_see_distance=6
+is_destroyable
+is_meat
+is_meat_eater
+is_edible_eater
+is_treasure_eater
+attacks=[ 
+    "treasure" 
+    "food" 
+    "imp" 
+    "demon" 
+    "monst" 
+    "good" 
+    "hero" 
+]
+attack_chance=[ 
+    100 
+    100 
+    0 
+    0 
+    100 
+    100 
+    100 
+]
+appearing_chance=[ 2 ]
+cluster_amount=3
+cluster_radius=100
+hates_fire
+hates_cold
+spawns=[ 
+  "monst/imp/6" 
+]
+spawning_chance=[ 
+  10 
+]
+spawn_delay_in_tenths=500
+bite_treasure=100
+teleport_chance=50
+teleport_delay_in_tenths=100
+audio_on_dead="Frog_Bass_002"

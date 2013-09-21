@@ -1,0 +1,7 @@
+"exit"
+render_depth=3
+is_exit
+exit_jump=5
+cant_see_past
+appearing_chance=[ 3 ]
+does_stuff

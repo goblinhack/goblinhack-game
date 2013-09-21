@@ -1,0 +1,18 @@
+"energy bolt"
+render_depth=3
+does_stuff
+bite_damage=40
+bite_armour=10
+bite_delay_in_tenths=1
+bite_chance=100
+armour=100
+metabolism=100
+is_missile
+is_boring
+is_light_source
+lifespan=30
+audio_on_use="wand"
+attacks=[ "all" ]
+attack_chance=[ 100 ]
+missile_spread=3
+missile_spread_angle=5

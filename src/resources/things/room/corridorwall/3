@@ -1,0 +1,12 @@
+"corridor wall"
+render_depth=1
+cant_see_past
+is_joinable
+opacity=100
+is_boring
+cached_gfx
+health=2000
+is_destroyable
+anim_speed=255
+is_hard
+is_wall

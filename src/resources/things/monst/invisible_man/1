@@ -1,0 +1,33 @@
+"invisible man"
+render_depth=3
+does_stuff
+score=120
+strength=7
+stamina=100
+intelligence=70
+weight=150
+health=100
+loves_night
+loves_full_moon
+loves_midnight
+loves_halloween
+karma=-100
+bite_damage=20
+bite_delay_in_tenths=10
+bite_chance=100
+metabolism=30
+can_see_distance=6
+is_monst
+loves_void
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+attacks=[ "hero" ]
+attack_chance=[ 100 ]
+throws=[ "missiles/basic/hit_all" ]
+appearing_chance=[ 0 1 1 1 1 1 1 1 1 2 2 2 3 3 4 4 4 4 4 5 ]
+explosion_type="explosion/harmless"
+can_wield_weapons

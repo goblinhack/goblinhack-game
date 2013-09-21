@@ -1,0 +1,48 @@
+"baby glorkling"
+render_depth=3
+does_stuff
+score=200
+strength=2000
+stamina=100
+intelligence=1
+weight=300
+health=500
+loves_night
+loves_full_moon
+loves_friday_13th
+loves_midnight
+karma=-1000
+bite_damage=20
+bite_delay_in_tenths=5
+bite_chance=100
+metabolism=20
+can_see_distance=4
+is_monst
+loves_void
+only_in_dungeons
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+appearing_chance=[ 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 3 4 5 5 5 5 5 5 5 5 5 5 5 5 10 ]
+explosion_type="explosion/harmless"
+anim_speed=20
+hates_cold
+hates_fire
+transmogrifies_into=[ "monst/glork/2" ]
+transmogrify_chance=[ 100 ]
+transmog_delay_in_tenths=1000
+attack_chance=[ 
+    0
+    100 
+    100 
+]
+attacks=[ 
+    "glork" 
+    "monst" 
+    "hero" 
+]
+throws=[ 
+    "missiles/fireball/hit_all"
+]
+cannot_summon

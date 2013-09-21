@@ -1,0 +1,32 @@
+"acid blob"
+render_depth=3
+does_stuff
+score=50
+strength=1
+stamina=100
+intelligence=50
+weight=1
+health=350
+loves_night
+karma=-300
+bite_damage=10
+bite_delay_in_tenths=0
+bite_chance=100
+metabolism=5
+can_see_distance=5
+is_monst
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_movable
+is_destroyable
+is_meat_eater
+attacks=[ "monst" "hero" ]
+attack_chance=[ 100 100 ]
+throws=[ "missiles/basic/hit_all" ]
+appearing_chance=[ 30 ]
+explosion_type="explosion/monst_acid"
+acid_proof=100
+look_delay_in_tenths=5
+hates_cold
+hates_fire

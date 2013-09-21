@@ -1,0 +1,7 @@
+"blinding sunstone"
+render_depth=2
+treasure=2200
+is_treasure
+is_movable
+karma=100
+appearing_chance=[ 3 ]

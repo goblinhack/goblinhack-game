@@ -1,0 +1,46 @@
+"black mamba"
+leaves_corpse
+render_depth=3
+does_stuff
+score=380
+strength=100
+stamina=100
+intelligence=10
+weight=200
+health=350
+loves_night
+karma=10
+bite_damage=50
+bite_delay_in_tenths=10
+bite_chance=100
+metabolism=90
+can_see_distance=6
+is_monst
+only_in_caves
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+followers=[ 
+"monst/snakes/3a" 
+"monst/snakes/3a" 
+"monst/snakes/3a" 
+"monst/snakes/3a" 
+"monst/snakes/3a" 
+"monst/snakes/3a" 
+"monst/snakes/3a" 
+"monst/snakes/3a" 
+"monst/snakes/3a" 
+"monst/snakes/3a" 
+"monst/snakes/3a" 
+"monst/snakes/3a" 
+"monst/snakes/3b" 
+"monst/snakes/3b" 
+]
+follow_distance=10
+attacks=[ "hero" "monst" ]
+attack_chance=[ 100 100 ]
+appearing_chance=[ 0 1 1 1 1 1 1 2 3 4 5 5 5 5 5 5 10 20 30 40 50 ]
+bite_poison=30
+bite_poison_chance=50

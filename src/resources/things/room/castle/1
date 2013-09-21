@@ -1,0 +1,10 @@
+"brick wall"
+render_depth=2
+cant_see_past
+is_boring
+is_joinable
+is_wall
+opacity=100
+health=10000
+anim_speed=255
+is_hard

@@ -1,0 +1,10 @@
+"bone"
+render_depth=2
+cold_proof=70
+cost=5000
+is_amulet
+is_inventory_item
+is_treasure
+is_movable
+is_destroyable
+appearing_chance=[ 3 ]

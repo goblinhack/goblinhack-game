@@ -1,0 +1,20 @@
+"stoat fur"
+render_depth=3
+does_stuff
+score=5
+strength=10
+stamina=100
+intelligence=70
+weight=10
+health=10
+loves_night
+karma=5
+metabolism=90
+is_monst
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+is_body_part
+follow_distance=8

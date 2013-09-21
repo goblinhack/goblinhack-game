@@ -1,0 +1,31 @@
+"black ice"
+render_depth=1
+does_stuff
+score=5
+strength=7
+health=7
+bite_damage=10
+bite_delay_in_tenths=1
+bite_chance=100
+metabolism=3
+can_see_distance=0
+is_monst
+cannot_summon
+loves_void
+only_in_dungeons
+is_destroyable
+is_edible
+spawns=[ "room/traps/black_ice" ]
+spawning_chance=[ 100 ]
+spawn_delay_in_tenths=20
+appearing_chance=[ 3 ]
+cached_gfx
+lifespan=2000
+attacks=[ "hero" "meat" "undead" ]
+attack_chance=[ 100 100 50 ]
+opacity=0
+anim_speed=200
+karma=-10
+audio_on_dead="Slime_001"
+cold_proof=100
+hates_fire

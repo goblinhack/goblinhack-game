@@ -1,0 +1,9 @@
+"ripe cheese"
+render_depth=2
+health=20
+is_edible
+is_movable
+is_destroyable
+appearing_chance=[ 30 ]
+strength=1
+cost=20

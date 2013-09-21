@@ -1,0 +1,53 @@
+"death knight"
+fate=1
+leaves_corpse
+render_depth=3
+does_stuff
+score=500
+strength=500
+stamina=100
+intelligence=70
+weight=250
+health=220
+loves_night
+karma=-500
+bite_damage=40
+bite_armour=20
+bite_delay_in_tenths=2
+bite_chance=100
+armour=150
+metabolism=50
+can_see_distance=6
+is_monst
+only_in_forests
+only_in_landscapes
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+attacks=[
+	"good"
+	"police"
+	"dragon"
+	"evil"
+	"hero"
+]
+attack_chance=[
+	200
+	50
+	50
+	0
+	100
+]
+throws=[
+	"missiles/basic_triple/hit_all"
+]
+appearing_chance=[ 1 1 1 1 5 10 20 30 40 50 ]
+look_delay_in_tenths=2
+ability_can_auto_rage
+can_wield_weapons
+backpack=[
+    "100" "hoard/4" 
+]

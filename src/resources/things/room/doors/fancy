@@ -1,0 +1,12 @@
+"oak door"
+render_depth=2
+cant_see_past
+is_joinable
+opacity=2
+is_closed
+cached_gfx
+health=15000
+is_destroyable
+anim_speed=255
+appearing_chance=[ 2 ]
+is_door

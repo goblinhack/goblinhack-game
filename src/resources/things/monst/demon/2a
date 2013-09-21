@@ -1,0 +1,67 @@
+"dezaugl"
+can_insult
+poison_proof=100
+fate=4
+render_depth=3
+is_light_source
+does_stuff
+score=1500
+strength=1000
+stamina=100
+intelligence=100
+weight=1
+health=1000
+loves_night
+loves_full_moon
+loves_midnight
+loves_halloween
+loves_fire
+loves_death
+bite_damage=66
+bite_delay_in_tenths=1
+bite_chance=90
+armour=366
+metabolism=40
+can_see_distance=10
+is_monst
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+appearing_chance=[ 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 3 4 5 10 ]
+is_fire
+fire_proof=100
+hates_cold
+attacks=[
+	"demon"
+	"imp"
+	"monst"
+	"good"
+	"hero"
+]
+attack_chance=[
+	0
+	0
+	60
+	500
+	500
+]
+throws=[ 
+	"missiles/fireball_triple/hit_all" 
+]
+karma=-1000
+bite_karma=100
+bite_karma_chance=10
+is_undead
+explosion_type="explosion/monst_fire"
+audio_on_dead="demon_die"
+can_cast_spells
+spawns=[ 
+  "monst/demon/1" 
+]
+spawning_chance=[ 
+  1 
+]
+spawn_delay_in_tenths=3000

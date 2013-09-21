@@ -1,0 +1,91 @@
+"Deep Dragon"
+leaves_corpse
+render_depth=3
+does_stuff
+score=2500
+strength=4000
+stamina=100
+intelligence=100
+weight=1500
+health=15000
+loves_night
+loves_fire
+karma=-500
+bite_damage=250
+bite_armour=90
+bite_delay_in_tenths=5
+bite_chance=100
+armour=800
+metabolism=60
+can_see_distance=12
+is_monst
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+attacks=[
+	"evil"
+	"monst"
+	"hero"
+	"good"
+]
+attack_chance=[
+	100
+	100
+	100
+	200
+]
+throws=[ 
+	"missiles/basic_triple/hit_all" 
+	"missiles/fireball_triple/hit_all" 
+	"missiles/firebomb/hit_all" 
+	"missiles/lavaball/hit_all" 
+]
+appearing_chance=[ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 ]
+explosion_type="explosion/monst_fire"
+is_acid
+acid_proof=100
+fire_proof=100
+hates_cold
+look_delay_in_tenths=2
+anim_speed=5
+audio_on_hit="dinosaur"
+backpack=[
+    "90" "treasure/bag_of_gold/1" 
+    "90" "treasure/bag_of_gold/1" 
+    "90" "treasure/bag_of_gold/1" 
+    "90" "treasure/bag_of_gold/1" 
+    "50" "treasure/bag_of_gold/2" 
+    "50" "treasure/bag_of_gold/2" 
+    "50" "treasure/bag_of_gold/2" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/gems/moonstone" 
+    "50" "treasure/gems/moonstone" 
+    "50" "treasure/gems/emerald" 
+    "50" "treasure/gems/jade" 
+    "10" "treasure/bows/flame" 
+    "10" "treasure/bows/ice" 
+    "10" "treasure/bows/poison" 
+    "20" "treasure/bows/composite" 
+    "30" "treasure/staffs/hardened" 
+    "20" "treasure/swords/vorpal" 
+    "20" "treasure/axes/poison" 
+    "10" "treasure/axes/cleaving" 
+    "10" "magic/potion/monsticide"
+    "10" "magic/potion/monsticide2"
+    "10" "magic/potion/monsticide3"
+    "10" "magic/potion/monsticide4"
+    "10" "magic/potion/monsticide5"
+    "100" "hoard/5" 
+]
+ability_can_regenerate1
+ability_can_regenerate2
+ability_can_regenerate3
+can_cast_spells
+poison_proof=100

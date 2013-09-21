@@ -1,0 +1,22 @@
+"enchanted +4"
+render_depth=1
+cost=4000
+wield_as="weapons/warhammer"
+weight=80
+strength_req=350
+dex_req=55
+is_treasure
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+is_weapon
+appearing_chance=[ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 ]
+bite_damage=250
+bite_armour=50
+bite_delay_in_tenths=1
+bite_chance=100
+metabolism=130
+is_warhammer
+health=40000
+is_hard

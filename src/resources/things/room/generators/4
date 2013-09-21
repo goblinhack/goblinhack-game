@@ -1,0 +1,20 @@
+"mouse hole"
+render_depth=2
+does_stuff
+score=50
+health=100
+armour=10
+metabolism=30
+is_unable_to_move
+is_generator
+cannot_summon
+can_see_distance=0
+is_destroyable
+spawns=[ 
+"monst/mouse/1"
+]
+spawning_chance=[ 
+100
+]
+spawn_delay_in_tenths=400
+appearing_chance=[ 30 ]

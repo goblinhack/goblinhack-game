@@ -1,0 +1,12 @@
+"fools"
+render_depth=2
+hates_cold
+hates_fire
+is_cursed
+cost=1000
+is_amulet
+is_inventory_item
+is_treasure
+is_movable
+is_destroyable
+appearing_chance=[ 3 ]

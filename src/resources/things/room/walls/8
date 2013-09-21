@@ -1,0 +1,10 @@
+"perma wall"
+render_depth=1
+cant_see_past
+is_boring
+is_joinable
+is_wall
+opacity=10
+health=1700
+anim_speed=255
+is_hard

@@ -1,0 +1,18 @@
+"polyray"
+render_depth=3
+does_stuff
+bite_delay_in_tenths=1
+bite_chance=100
+armour=100
+metabolism=96
+is_missile
+is_light_source
+is_boring
+is_destroyable
+lifespan=10000
+attacks=[ "all" ]
+attack_chance=[ 100 ]
+is_bouncy
+opacity=45
+is_transparent
+bite_action=[ "polymorph" ]

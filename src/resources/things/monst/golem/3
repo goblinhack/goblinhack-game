@@ -1,0 +1,41 @@
+"Chocolate Golem"
+poison_proof=100
+teleport_proof=100
+acid_proof=100
+render_depth=3
+does_stuff
+score=900
+strength=300
+stamina=100
+intelligence=0
+weight=300
+health=2000
+loves_night
+loves_full_moon
+loves_midnight
+loves_halloween
+bite_damage=150
+bite_delay_in_tenths=5
+bite_chance=100
+metabolism=20
+can_see_distance=10
+is_monst
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_undead
+fate=9
+attacks=[
+	"monst"
+	"hero"
+]
+attack_chance=[
+	100
+	100
+]
+appearing_chance=[ 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 3 4 5 10 20 ]
+explosion_type="explosion/harmless"
+karma=0
+ability_can_regenerate1

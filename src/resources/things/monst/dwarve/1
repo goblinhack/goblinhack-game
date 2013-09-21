@@ -1,0 +1,70 @@
+"Dwarve"
+can_insult
+fate=1
+leaves_corpse
+render_depth=3
+does_stuff
+score=80
+strength=300
+stamina=100
+dex=40
+intelligence=40
+weight=200
+health=180
+loves_night
+karma=-20
+bite_delay_in_tenths=5
+bite_chance=30
+armour=200
+metabolism=50
+can_see_distance=4
+is_monst
+only_in_caves
+only_in_dungeons
+is_explorer
+is_destroyable
+is_meat
+attacks=[
+	"dwarve"
+	"elf"
+	"goblin"
+	"orc"
+	"dragon"
+	"evil"
+	"good"
+]
+attack_chance=[
+	0
+	100
+	100
+	100
+	100
+	100
+	0
+]
+appearing_chance=[ 1 1 1 1 1 2 2 2 3 3 4 4 5 5 10 10 10 10 10 20 30 40 ]
+explosion_type="explosion/harmless"
+is_movable
+backpack=[ 
+    "treasure/axes/basic" 
+    "10" "treasure/axes/great" 
+    "food/apple" 
+    "food/beer" 
+    "food/bread" 
+    "food/cheese" 
+    "90" "treasure/armour/1a" 
+    "40" "treasure/armour/1b" 
+    "20" "treasure/armour/1c" 
+    "90" "treasure/bag_of_gold/1" 
+    "50" "treasure/bag_of_gold/2" 
+    "10" "treasure/bag_of_gold/3" 
+    "10" "magic/potion/monsticide"
+    "10" "treasure/gems/blood_diamond" 
+    "10" "treasure/gems/tanzanite" 
+    "10" "treasure/gems/diamond" 
+    "1" "treasure/gems/infinitum" 
+    "10" "hoard/3"
+    "20" "hoard/2"
+    "30" "hoard/1"
+]
+can_wield_weapons

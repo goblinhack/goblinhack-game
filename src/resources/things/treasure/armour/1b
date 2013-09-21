@@ -1,0 +1,11 @@
+"masterwork"
+render_depth=2
+armour=200
+cost=400
+is_treasure
+is_movable
+is_inventory_item
+is_armour
+is_destroyable
+weight=10
+appearing_chance=[ 30 ]

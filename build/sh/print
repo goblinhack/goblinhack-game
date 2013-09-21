@@ -1,0 +1,7 @@
+#!/bin/sh
+line="`echo '12'`"
+if [ "$line" = '12' ]; then
+	echo -n "$*"
+else
+	echo "$*\c"
+fi

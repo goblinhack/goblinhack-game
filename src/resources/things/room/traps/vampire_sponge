@@ -1,0 +1,31 @@
+"vampire sponge"
+render_depth=1
+does_stuff
+score=5
+strength=7
+health=100
+bite_damage=20
+bite_delay_in_tenths=1
+bite_chance=100
+metabolism=5
+can_see_distance=0
+is_monst
+cannot_summon
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_destroyable
+is_meat
+is_meat_eater
+is_unable_to_move
+spawns=[ "room/traps/vampire_sponge" ]
+spawning_chance=[ 100 ]
+spawn_delay_in_tenths=20
+appearing_chance=[ 10 ]
+cached_gfx
+lifespan=600
+attacks=[ "hero" "meat" "undead" ]
+attack_chance=[ 100 100 "50" ]
+opacity=0
+karma=-300
+audio_on_dead="Slime_001"

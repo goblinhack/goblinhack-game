@@ -1,0 +1,97 @@
+####################################################
+all normal
+####################################################
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|     \/]/     |
+|     (ox)     |
+|      __      |
+|              |
+|              |
+|              |
+|              |
+|              |
+# foreground
+#  -Black w-white r-red    g-green y-yellow   b-blue   p-pink   c-cyan 
+# _-gray  W-snow  o-orange G-lime  Y-ltyellow B-ltblue P-purple C-ltcyan  
+# D - dark blue O-ltorange  
+# 0-9 dk-ltgray   R-random e-darkgreen
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|     nnnn     |
+|     n Bn     |
+|      nn      |
+|              |
+|              |
+|              |
+|              |
+|              |
+# background
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can bite mask; the areas that get bitten or bite
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|      ..      |
+|     ....     |
+|      ..      |
+|              |
+|              |
+|              |
+|              |
+|              |
+# obstacle mask; the areas we use in collisions with wall-like things
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|      ..      |
+|      ..      |
+|      ..      |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can touch mask; where we allow other things to interact with us
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|      ..      |
+|      ..      |
+|      ..      |
+|              |
+|              |
+|              |
+|              |
+|              |
++--------------+

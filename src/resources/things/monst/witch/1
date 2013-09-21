@@ -1,0 +1,38 @@
+"cackling witch"
+render_depth=3
+does_stuff
+score=300
+strength=7
+stamina=100
+intelligence=60
+weight=120
+health=100
+loves_night
+loves_full_moon
+loves_friday_13th
+loves_halloween
+loves_midnight
+karma=-300
+bite_damage=5
+bite_delay_in_tenths=5
+bite_chance=100
+metabolism=97
+can_see_distance=3
+is_monst
+only_in_hell
+only_in_dungeons
+is_movable
+is_destroyable
+is_meat
+attacks=[
+	"evil"
+	"good"
+]
+attack_chance=[
+	0
+	100
+]
+appearing_chance=[ 1 10 20 30 ]
+explosion_type="explosion/harmless"
+look_delay_in_tenths=30
+can_cast_spells

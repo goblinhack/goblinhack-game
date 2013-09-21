@@ -1,0 +1,39 @@
+"policeman"
+render_depth=3
+does_stuff
+score=350
+strength=10000
+stamina=100
+intelligence=70
+weight=1000
+health=30000
+karma=200
+bite_damage=150
+bite_armour=40
+bite_delay_in_tenths=1
+bite_chance=100
+metabolism=70
+can_see_distance=9
+is_monst
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+attacks=[
+	"thief"
+]
+attack_chance=[
+	100
+]
+throws=[ 
+	"missiles/fireball_triple/hit_all" 
+	"missiles/iceball_triple/hit_all" 
+]
+appearing_chance=[ 50 ]
+explosion_type="explosion/harmless"
+cluster_amount=3
+cluster_radius=1000
+look_delay_in_tenths=1
+cannot_summon
+leaves_corpse

@@ -1,0 +1,10 @@
+"banana"
+render_depth=2
+health=10
+is_edible
+is_movable
+is_destroyable
+appearing_chance=[ 100 ]
+cost=15
+cluster_amount=6
+cluster_radius=20

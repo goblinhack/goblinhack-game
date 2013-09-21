@@ -1,0 +1,8 @@
+"juicy orange"
+render_depth=2
+health=7
+is_edible
+is_movable
+is_destroyable
+appearing_chance=[ 30 ]
+cost=15

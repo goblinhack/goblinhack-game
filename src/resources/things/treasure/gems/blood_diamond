@@ -1,0 +1,7 @@
+"blood diamond"
+render_depth=2
+treasure=1000
+is_treasure
+is_movable
+karma=-200
+appearing_chance=[ 12 ]

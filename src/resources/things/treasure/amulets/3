@@ -1,0 +1,10 @@
+"fire walking"
+render_depth=2
+fire_proof=70
+cost=6000
+is_amulet
+is_inventory_item
+is_treasure
+is_movable
+is_destroyable
+appearing_chance=[ 2 ]

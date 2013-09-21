@@ -1,0 +1,16 @@
+"destruction"
+render_depth=2
+ability_can_regenerate1
+ability_can_regenerate2
+ability_can_regenerate3
+ability_can_rage
+ability_can_auto_rage
+fire_proof=90
+cold_proof=90
+cost=20000
+is_amulet
+is_inventory_item
+is_treasure
+is_movable
+is_destroyable
+appearing_chance=[ 1 ]

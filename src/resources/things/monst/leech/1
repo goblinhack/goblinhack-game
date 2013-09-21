@@ -1,0 +1,38 @@
+"giant leech"
+leaves_corpse
+render_depth=3
+does_stuff
+score=1
+strength=5
+stamina=100
+weight=200
+health=20
+bite_damage=2
+bite_delay_in_tenths=10
+bite_chance=100
+metabolism=40
+can_see_distance=4
+is_monst
+only_in_dungeons
+only_in_caves
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+followers=[ 
+"monst/leech/1a" 
+"monst/leech/1a" 
+"monst/leech/1a" 
+"monst/leech/1a" 
+"monst/leech/1a" 
+"monst/leech/1a" 
+"monst/leech/1a" 
+"monst/leech/1a" 
+]
+follow_distance=1
+attacks=[ "meat" ]
+attack_chance=[ 100 ]
+appearing_chance=[ 20 ]
+cluster_amount=5
+cluster_radius=500

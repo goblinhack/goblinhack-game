@@ -1,0 +1,25 @@
+"orc generator"
+render_depth=2
+does_stuff
+health=800
+armour=100
+metabolism=10
+can_see_distance=0
+is_unable_to_move
+is_generator
+cannot_summon
+is_destroyable
+spawns=[ 
+"monst/orc/1" 
+"monst/orc/2" 
+"monst/orc/3" 
+"monst/orc/4" 
+]
+spawning_chance=[ 
+100 
+50 
+10 
+5 
+]
+spawn_delay_in_tenths=20
+appearing_chance=[ 100 ]

@@ -1,0 +1,25 @@
+"snailosaurus"
+render_depth=3
+does_stuff
+score=1
+strength=10
+stamina=100
+intelligence=10
+weight=100
+health=5
+loves_night
+karma=7
+metabolism=2
+is_monst
+only_in_landscapes
+only_in_forests
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+appearing_chance=[ 10 ]
+hates_fire
+hates_cold
+hates_water

@@ -1,0 +1,8 @@
+"heaving bag of cookies"
+render_depth=2
+health=10
+is_edible
+is_movable
+is_destroyable
+appearing_chance=[ 20 ]
+cost=50

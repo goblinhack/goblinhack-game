@@ -1,0 +1,10 @@
+"juicy red apple"
+render_depth=2
+health=5
+is_edible
+is_movable
+is_destroyable
+appearing_chance=[ 50 ]
+cost=10
+cluster_amount=3
+cluster_radius=20

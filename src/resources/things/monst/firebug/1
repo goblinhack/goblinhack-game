@@ -1,0 +1,35 @@
+"firebug"
+render_depth=3
+does_stuff
+score=1
+strength=1
+stamina=100
+intelligence=1
+weight=1
+health=1
+loves_night
+karma=-10
+bite_damage=3
+bite_delay_in_tenths=10
+bite_chance=100
+metabolism=30
+is_monst
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_movable
+is_destroyable
+is_meat
+attacks=[ "monst" "hero" ]
+attack_chance=[ 100 100 ]
+appearing_chance=[ 10 ]
+cluster_amount=2
+cluster_radius=10
+is_fire
+fire_proof=100
+loves_fire
+hates_cold
+spawns=[ "room/traps/fire" "monst/firebug/1" ]
+spawning_chance=[ 90 10 ]
+spawn_delay_in_tenths=100
+hates_water

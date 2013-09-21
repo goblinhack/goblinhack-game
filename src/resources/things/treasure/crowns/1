@@ -1,0 +1,7 @@
+"crown"
+render_depth=2
+treasure=3000
+is_treasure
+is_movable
+is_destroyable
+appearing_chance=[ 2 ]

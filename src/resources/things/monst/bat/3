@@ -1,0 +1,36 @@
+"vampire bat"
+render_depth=3
+does_stuff
+score=500
+strength=10
+stamina=100
+intelligence=10
+weight=5
+health=100
+loves_night
+loves_full_moon
+loves_midnight
+loves_halloween
+karma=-500
+bite_damage=10
+bite_delay_in_tenths=5
+bite_chance=100
+metabolism=90
+can_see_distance=8
+is_monst
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat_eater
+attacks=[ "monst" "hero" ]
+attack_chance=[ 50 200 ]
+appearing_chance=[ 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 2 3 4 5 10 ]
+explosion_type="explosion/harmless"
+transmogrifies_into=[ "monst/vampire/1" ]
+transmogrify_chance=[ 100 ]
+transmog_delay_in_tenths=100
+look_delay_in_tenths=2
+is_meat

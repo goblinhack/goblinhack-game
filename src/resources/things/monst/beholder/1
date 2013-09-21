@@ -1,0 +1,37 @@
+"beholder"
+render_depth=3
+does_stuff
+score=200
+strength=1000
+stamina=100
+intelligence=10
+weight=300
+health=300
+loves_night
+loves_full_moon
+loves_midnight
+karma=-500
+bite_damage=30
+bite_delay_in_tenths=5
+bite_chance=70
+metabolism=40
+can_see_distance=8
+is_monst
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+attacks=[
+	"evil"
+	"good"
+	"hero"
+]
+attack_chance=[
+	0
+	200
+	100
+]
+appearing_chance=[  1 1 1 1 1 1 1 2 3 4 5 6 7 8 9 10 20 ]
+explosion_type="explosion/harmless"

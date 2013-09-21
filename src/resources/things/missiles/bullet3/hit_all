@@ -1,0 +1,15 @@
+"bullet"
+render_depth=3
+does_stuff
+bite_damage=120
+bite_armour=15
+bite_delay_in_tenths=1
+bite_chance=100
+armour=100
+metabolism=120
+is_missile
+is_boring
+lifespan=30
+audio_on_use="shotgun"
+attacks=[ "all" ]
+attack_chance=[ 100 ]

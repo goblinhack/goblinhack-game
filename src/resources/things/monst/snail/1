@@ -1,0 +1,23 @@
+"cute little snail"
+render_depth=3
+does_stuff
+score=1
+strength=1
+stamina=100
+intelligence=1
+weight=1
+health=1
+loves_night
+karma=7
+metabolism=1
+is_monst
+only_in_forests
+only_in_caves
+only_in_dungeons
+is_movable
+is_destroyable
+is_meat
+appearing_chance=[ 100 ]
+hates_fire
+hates_cold
+hates_water

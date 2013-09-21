@@ -1,0 +1,22 @@
+"fire explosion"
+render_depth=3
+does_stuff
+bite_damage=5
+bite_armour=5
+bite_delay_in_tenths=1
+bite_chance=100
+armour=100
+metabolism=100
+is_missile
+is_bouncy
+is_light_source
+is_boring
+lifespan=5
+attacks=[ "all" ]
+attack_chance=[ 100 ]
+missile_spread=21
+missile_spread_angle=16
+missile_angle_delta=0.1
+is_fire
+cached_gfx
+shake_screen_on_death

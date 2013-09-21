@@ -1,0 +1,19 @@
+"fire"
+intelligence_req=50
+render_depth=1
+cost=500
+health=2000
+wield_as="weapons/wand"
+weight=2
+is_treasure
+is_wand
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+appearing_chance=[ 10 ]
+explosion_type="explosion/wand"
+throws=[ "missiles/fireball/hit_all" ]
+charges=1000
+audio_on_use="Electric_Zap"
+is_weapon

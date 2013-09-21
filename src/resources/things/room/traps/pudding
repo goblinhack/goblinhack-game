@@ -1,0 +1,30 @@
+"black pudding"
+render_depth=1
+does_stuff
+score=20
+strength=7
+health=100
+bite_damage=10
+bite_delay_in_tenths=2
+bite_chance=100
+metabolism=25
+is_monst
+cannot_summon
+only_in_caves
+only_in_dungeons
+is_destroyable
+is_meat_eater
+is_meat
+spawns=[ "room/traps/pudding" ]
+spawning_chance=[ 100 ]
+spawn_delay_in_tenths=150
+appearing_chance=[ 5 10 20 30 40 ]
+cached_gfx
+attacks=[ "hero" "meat" "undead" ]
+attack_chance=[ 100 100 "50" ]
+opacity=0
+anim_speed=5
+karma=-10
+audio_on_dead="Slime_001"
+is_explorer
+can_see_distance=2

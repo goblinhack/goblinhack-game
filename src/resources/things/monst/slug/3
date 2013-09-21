@@ -1,0 +1,32 @@
+"greater jelly mold"
+leaves_corpse
+render_depth=3
+does_stuff
+score=3
+strength=50
+stamina=100
+intelligence=1
+weight=10
+health=100
+loves_night
+karma=-50
+bite_damage=30
+bite_delay_in_tenths=2
+bite_chance=100
+metabolism=10
+can_see_distance=4
+is_monst
+only_in_dungeons
+is_explorer
+is_destroyable
+is_meat
+attacks=[ "meat" ]
+attack_chance=[ 50 ]
+appearing_chance=[ 50 40 30 20 10 5 1 ]
+explosion_type="explosion/harmless"
+hates_fire
+hates_cold
+cluster_amount=2
+cluster_radius=600
+is_movable
+audio_on_dead="Slime_001"

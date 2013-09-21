@@ -1,0 +1,53 @@
+all normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++-+-+-+-+
+| | | | |
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++-+-+-+-+
+| | | | |
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++-+-+-+-+
+|w|w|Y|W|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++-+-+-+-+
+|w|B|r|y|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++-+-+-+-+
+|w|B|r|y|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++-+-+-+-+
+|w|B|r|y|
++-+-+-+-+

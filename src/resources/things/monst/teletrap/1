@@ -1,0 +1,49 @@
+"teletrap"
+render_depth=3
+does_stuff
+score=10
+strength=2000
+stamina=100
+intelligence=0
+collects_stuff_but_doesnt_use_it
+weight=1000
+health=500
+karma=0
+bite_damage=50
+bite_delay_in_tenths=10
+bite_chance=100
+metabolism=30
+moves_left_right
+moves_up_down
+never_slows_down
+look_delay_in_tenths=9
+can_see_distance=0
+is_monst
+only_in_hell
+loves_void
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_edible_eater
+is_treasure_eater
+attacks=[ 
+    "monst" 
+    "hero" 
+]
+attack_chance=[ 
+    100 
+    100 
+]
+appearing_chance=[ 0 1 1 1 1 1 1 1 1 2 2 2 2 2 2 3 4 5 10 20 ]
+explosion_type="explosion/monst_fire"
+opacity=10
+cant_see_past
+hates_fire
+is_transparent
+is_teleport_attack
+cluster_amount=2
+cluster_radius=60
+teleport_proof=100
+cannot_summon

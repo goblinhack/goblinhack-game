@@ -1,0 +1,77 @@
+all normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              |   ooO        |              |      oOo     |       oo     |      oO      |
+|     oOo      |  OOoOoO      |   ooOo       |     OoOo     |     oOooo    |     OoOo     |
+|   ooooooO    | ooOooOoOo    |  ooooooO     |   OooOoOo    |   ooooooOo   |   OooOoOo    |
+|  ooOOOoooo   | oOooOOoooo   | OoOOOooooO   |  OooOOoooo   |  ooOOOooooo  |  OooOOooooO  |
+| ooOOoooOooo  |ooOOOooooooO  |ooOOoooooooooo| oOOOooooooO  |oooOOoooOooo  | oOOOooooooOo |
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              |   337        |              |      3r3     |       33     |      r7      |
+|     373      |  773737      |   33r3       |     7373     |     3733r    |     7373     |
+|   333r337    | 33733r373    |  3333337     |   7r37373    |   3333r37    |   733737r    |
+|  33r773333   | r733773333   | 7377733r37   |  733773333   |  337773333   |  7337733333  |
+| 33773337333  |337773333337  |33773333333333| 37773333337  |333773337333  | 377733333373 |
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              |   253        |              |      535     |       55     |      53      |
+|     235      |  335353      |   5535       |     3535     |     53555    |     3535     |
+|   2555553    | 553553535    |  5555553     |   3553533    |   5555553    |   3553535    |
+|  253335555   | 5355335555   | 3533335553   |  355335555   |  553335355   |  3553355353  |
+| 25335553555  |553335555553  |55335555355553| 53335553553  |555333553355  | 533355353533 |
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              |   ooO        |              |      oOo     |       oo     |      oO      |
+|     oOo      |  OOoOoO      |   ooOo       |     OoOo     |     oOooo    |     OoOo     |
+|   ooooooO    | ooOooOoOo    |  ooooooO     |   OooOoOo    |   ooooooO    |   OooOoOo    |
+|  ooOOOoooo   | oOooOOoooo   | OoOOOooooO   |  OooOOoooo   |  ooOOOoooo   |  OooOOooooo  |
+| ooOOoooOooo  |ooOOOooooooO  |ooOOoooooooooo| oOOOooooooO  |oooOOoooOooo  | oOOOooooooOo |
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++--------------+--------------+--------------+--------------+--------------+------------  +
+|              |   ooO        |              |      oOo     |       oo     |      oO      |
+|     oOo      |  OOoOoO      |   ooOo       |     OoOo     |     oOooo    |     OoOo     |
+|   ooooooO    | ooOooOoOo    |  ooooooO     |   OooOoOo    |   ooooooO    |   OooOoOo    |
+|  ooOOOoooo   | oOooOOoooo   | OoOOOooooO   |  OooOOoooo   |  ooOOOoooo   |  OooOOooooo  |
+| ooOOoooOooo  |ooOOOooooooO  |ooOOoooooooooo| oOOOooooooO  |oooOOoooOooo  | oOOOooooooOo |
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++--------------+--------------+--------------+--------------+--------------+--------------+
+|              |   ooO        |              |      oOo     |       ooo    |      oO      |
+|     oOo      |  OOoOoO      |   ooOo       |     OoOo     |     oOooo    |     OoOo     |
+|   ooooooO    | ooOooOoOo    |  ooooooO     |   OooOoOo    |   ooooooO    |   OooOoOo    |
+|  ooOOOoooo   | oOooOOoooo   | OoOOOooooO   |  OooOOoooo   |  ooOOOoooo   |  OooOOooooo  |
+| ooOOoooOooo  |ooOOOooooooO  |ooOOoooooooooo| oOOOooooooO  |oooOOoooOooo  | oOOOooooooOo |
++--------------+--------------+--------------+--------------+--------------+--------------+

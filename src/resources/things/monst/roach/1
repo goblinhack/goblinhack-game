@@ -1,0 +1,33 @@
+"Metal Roach"
+render_depth=3
+does_stuff
+score=250
+strength=200
+stamina=100
+intelligence=50
+weight=200
+health=300
+loves_night
+loves_midnight
+karma=0
+bite_damage=10
+bite_delay_in_tenths=10
+bite_chance=65
+metabolism=95
+can_see_distance=4
+is_monst
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+attacks=[
+	"meat"
+]
+attack_chance=[
+	100
+]
+appearing_chance=[ 5 ]
+explosion_type="explosion/harmless"

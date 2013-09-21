@@ -1,0 +1,19 @@
+"haloball"
+render_depth=3
+does_stuff
+bite_damage=250
+bite_armour=100
+bite_karma=-100
+bite_delay_in_tenths=1
+bite_chance=100
+armour=100
+metabolism=100
+is_missile
+is_light_source
+is_boring
+lifespan=50
+explosion_type="explosion/harmless"
+audio_on_use="Bass_003"
+attacks=[ "hero" ]
+attack_chance=[ 100 ]
+cached_gfx

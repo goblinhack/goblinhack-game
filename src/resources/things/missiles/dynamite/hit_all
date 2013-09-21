@@ -1,0 +1,19 @@
+"dynamite"
+render_depth=3
+does_stuff
+bite_damage=150
+bite_armour=50
+bite_delay_in_tenths=1
+bite_chance=100
+armour=100
+is_unable_to_move
+metabolism=80
+is_missile
+is_boring
+lifespan=20
+explosion_type="explosion/bomb4"
+attacks=[ "all" ]
+attack_chance=[ 100 ]
+anim_speed=2
+anim=0
+audio_on_use="Button_Off_001"

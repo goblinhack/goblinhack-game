@@ -1,0 +1,16 @@
+"undeadaway"
+render_depth=2
+cost=500
+weight=1
+is_treasure
+is_inventory_item
+is_movable
+is_destroyable
+is_potion
+explosion_type="explosion/potion"
+appearing_chance=[ 3 ]
+use_chance=[ 100 ]
+use_action=[ "hit_all_visible undead" ]
+audio_on_use="Electric_Zap"
+bite_damage=1000
+bite_fate=1

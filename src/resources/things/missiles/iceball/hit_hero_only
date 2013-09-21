@@ -1,0 +1,19 @@
+"iceball"
+render_depth=3
+does_stuff
+bite_damage=90
+bite_armour=30
+bite_delay_in_tenths=1
+bite_chance=100
+armour=100
+metabolism=120
+is_missile
+is_light_source
+is_boring
+lifespan=100
+explosion_type="explosion/harmless"
+audio_on_use="Laser_Zap_003"
+attacks=[ "hero" ]
+attack_chance=[ 100 ]
+is_cold
+cached_gfx

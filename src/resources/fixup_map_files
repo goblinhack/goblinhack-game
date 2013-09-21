@@ -1,0 +1,111 @@
+#!/usr/bin/perl
+
+my @files = `find things/ -name "*.map"`;
+
+my $file;
+foreach $file (@files) {
+    chomp $file;
+
+    print $file,"\n";
+
+    my $section = 0;
+    if (!open(FILE,"$file")) {
+	next;
+    }
+
+    if (!open(FILE_OUT,">$file.out")) {
+	next;
+    }
+
+    $section = 0;
+    while (<FILE>) {
+	if (/^#/) {
+	    next;
+	}
+
+	$_ =~ s/\s*$//g;
+
+	if (/^\+/) {
+	    if ($section == 0) {
+		print FILE_OUT <<OUT;
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
+OUT
+	    }
+
+	    if ($section == 1) {
+		print FILE_OUT <<OUT;
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
+OUT
+	    }
+
+	    if ($section == 2) {
+		print FILE_OUT <<OUT;
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
+OUT
+	    }
+
+	    if ($section == 3) {
+		print FILE_OUT <<OUT;
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
+OUT
+	    }
+
+	    if ($section == 4) {
+		print FILE_OUT <<OUT;
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
+OUT
+	    }
+
+	    if ($section == 5) {
+		print FILE_OUT <<OUT;
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
+OUT
+		$section = -2;
+	    }
+
+	    $section++;
+	}
+
+	print FILE_OUT $_,"\n";
+    }
+
+    close(FILE);
+    close(FILE_OUT);
+
+    `mv $file.out $file`;
+
+    print $file, "\n";
+}

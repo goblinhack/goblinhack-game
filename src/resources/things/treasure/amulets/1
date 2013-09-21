@@ -1,0 +1,11 @@
+"unchanging"
+render_depth=2
+stone_proof=100
+teleport_proof=50
+cost=9000
+is_amulet
+is_inventory_item
+is_treasure
+is_movable
+is_destroyable
+appearing_chance=[ 1 ]

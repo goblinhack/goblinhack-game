@@ -1,0 +1,35 @@
+"sandman mushroom"
+render_depth=3
+does_stuff
+score=1
+strength=1
+intelligence=1
+weight=1
+health=10
+loves_night
+karma=0
+metabolism=2
+is_monst
+only_in_caves
+only_in_dungeons
+is_movable
+is_destroyable
+is_meat
+appearing_chance=[ 20 ]
+cluster_amount=5
+cluster_radius=2000
+hates_fire
+hates_cold
+attacks=[
+	"meat"
+]
+attack_chance=[
+	100
+]
+throws=[ "missiles/sleep_starburst/hit_all" ]
+is_edible
+bite_damage=5
+bite_chance=60
+bite_delay_in_tenths=100
+can_see_distance=5
+cannot_summon

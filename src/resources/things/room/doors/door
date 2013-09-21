@@ -1,0 +1,12 @@
+"door"
+render_depth=2
+cant_see_past
+is_joinable
+opacity=30
+is_closed
+cached_gfx
+health=500
+is_destroyable
+anim_speed=255
+appearing_chance=[ 100 ]
+is_door

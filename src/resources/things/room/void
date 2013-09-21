@@ -1,0 +1,23 @@
+"the void"
+render_depth=1
+does_stuff
+score=1000
+strength=0
+health=30000
+bite_damage=50
+bite_delay_in_tenths=2
+bite_chance=100
+metabolism=1
+can_see_distance=0
+loves_void
+is_meat_eater
+attacks=[
+    "all"
+]
+attack_chance=[
+    100
+]
+appearing_chance=[ 1 ]
+anim_speed=254
+is_cold
+is_suffocation

@@ -1,0 +1,33 @@
+"jelly mold"
+leaves_corpse
+render_depth=3
+does_stuff
+score=1
+strength=2
+stamina=100
+intelligence=0
+weight=1
+health=40
+loves_night
+karma=0
+bite_damage=20
+bite_delay_in_tenths=10
+bite_chance=50
+metabolism=10
+can_see_distance=1
+is_monst
+only_in_dungeons
+is_destroyable
+is_meat
+attacks=[ "meat" ]
+attack_chance=[ 20 ]
+appearing_chance=[ 50 40 30 20 10 5 1 ]
+hates_fire
+hates_cold
+cluster_amount=2
+cluster_radius=600
+is_movable
+transmogrifies_into=[ "monst/slug/3" ]
+transmogrify_chance=[ 100 ]
+transmog_delay_in_tenths=1000
+audio_on_dead="Slime_001"

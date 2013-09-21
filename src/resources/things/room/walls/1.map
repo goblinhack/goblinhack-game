@@ -1,0 +1,1435 @@
+all normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|++++++|
+|++++++|
+|++++++|
+|++++++|
+|++++++|
+|++++++|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|wwwwww|
+|wwwwww|
+|wwwwww|
+|wwwwww|
+|wwwwww|
+|wwwwww|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|bPbbbb|
+|bbPbbb|
+|bbbbPb|
+|bPbbbb|
+|bbbbbb|
+|bbbbPb|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+lr normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|++++++|
+|.-..,-|
+|      |
+|      |
+|.,..+.|
+|++++++|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|wwwwww|
+|000310|
+|      |
+|      |
+|011210|
+|wwwwww|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|bbbb3b|
+|      |
+|      |
+|      |
+|      |
+|Pb2bb1|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+ud normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|+.  ^+|
+|+(  .+|
+|+,  ,+|
+|+/   +|
+|+.  /+|
+|+.   +|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|w1  1w|
+|w2  3w|
+|w2  0w|
+|w0  0w|
+|w4  2w|
+|w3  1w|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|0    b|
+|b    b|
+|P    b|
+|b    P|
+|P    1|
+|b    b|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+left normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|++++++|
+|+...,!|
+|+,    |
+|+,    |
+|+,,,$.|
+|++++++|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|wwwwww|
+|w20002|
+|w0    |
+|w1    |
+|w00010|
+|wwwwww|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|bPbbbb|
+|b     |
+|P     |
+|b     |
+|2     |
+|bbbbPb|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+right normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|++++++|
+|..,$(+|
+|    )+|
+|    .+|
+|/_...+|
+|++++++|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|wwwwww|
+|10100w|
+|    1w|
+|    0w|
+|42311w|
+|wwwwww|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|bbPbbb|
+|     b|
+|     b|
+|     b|
+|     1|
+|P3bP5b|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+up normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|++++++|
+|+%^..+|
+|+,  ,+|
+|+/  /+|
+|+.  (+|
+|+.  .+|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|wwwwww|
+|w1052w|
+|w2  2w|
+|w3  1w|
+|w2  0w|
+|w1  1w|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|bPbbbb|
+|b    b|
+|1    b|
+|b    b|
+|P    0|
+|b    b|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+down normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|+.  ,+|
+|+.  .+|
+|+!  ,+|
+|+.  ,+|
+|+._.,+|
+|++++++|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|w1  1w|
+|w2  2w|
+|w3  3w|
+|w1  0w|
+|w1421w|
+|wwwwww|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|b    b|
+|P    b|
+|2    b|
+|b    b|
+|1    P|
+|bbPbP0|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+l0 normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|+.  )+|
+|+.  _.|
+|+,    |
+|+.    |
+|+.....|
+|++++++|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|w1  2w|
+|w2  21|
+|w1    |
+|w0    |
+|w12131|
+|wwwwww|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|b    b|
+|1     |
+|b     |
+|P     |
+|b     |
+|5bPbbb|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+l90 normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|++++++|
+|+.&!..|
+|+.    |
+|+_    |
+|+.  ..|
+|+.  .+|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|wwwwww|
+|w11321|
+|w2    |
+|w3    |
+|w3  11|
+|w0  0w|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|bbb45b|
+|P     |
+|b     |
+|b     |
+|b     |
+|b    1|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+l180 normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|++++++|
+|...$.+|
+|    !+|
+|    .+|
+|..  &+|
+|+.  .+|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|wwwwww|
+|00101w|
+|    2w|
+|    3w|
+|01  1w|
+|w2  0w|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|1bPbPP|
+|     b|
+|     b|
+|     P|
+|     b|
+|b    b|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+l270 normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|+.  .+|
+|..  .+|
+|    %+|
+|    (+|
+|._...+|
+|++++++|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|w1  1w|
+|12  2w|
+|    2w|
+|    6w|
+|44321w|
+|wwwwww|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|b    P|
+|     b|
+|     b|
+|     b|
+|     1|
+|0PbbPb|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+t0 normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|++++++|
+|..$...|
+|      |
+|      |
+|..  ,.|
+|+.  .+|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|wwwwww|
+|      |
+|      |
+|      |
+|31  12|
+|w1  1w|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|bPb01b|
+|      |
+|      |
+|      |
+|      |
+|b    b|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+t90 normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|+%  .+|
+|.,  j+|
+|    )+|
+|    (+|
+|..  .+|
+|+.  #+|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|w0  1w|
+|00  2w|
+|    3w|
+|    4w|
+|11  1w|
+|w1  1w|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|b    b|
+|     b|
+|     b|
+|     b|
+|     P|
+|P    1|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+t180 normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|+.  .+|
+|..  ..|
+|      |
+|      |
+|......|
+|++++++|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|w0  1w|
+|11  21|
+|      |
+|      |
+|032411|
+|wwwwww|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|b    b|
+|      |
+|      |
+|      |
+|      |
+|b1P0bb|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+t270 normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|+.  .+|
+|+.  ..|
+|+.    |
+|+.    |
+|+.  ..|
+|+.  .+|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|w1   w|
+|w2    |
+|w4    |
+|w0    |
+|w0    |
+|w0   w|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|b    b|
+|b     |
+|b     |
+|b     |
+|P     |
+|1    b|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+x normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+
+|+.  .+|
+|..  ..|
+|      |
+|      |
+|..  ..|
+|+.  .+|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|w1  2w|
+|12  10|
+|      |
+|      |
+|43  10|
+|w1  0w|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+
+|P    b|
+|      |
+|      |
+|      |
+|      |
+|b    b|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+
+|......|
+|......|
+|......|
+|......|
+|......|
+|......|
++------+
+node normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------------+------------+------------+------------+
+|      +     |   ;        |            |            |
+|     :+     |   ; :      |            |            |
+|   + :+ +   |   + :      |            |            |
+|   + ::;+   | - + : ;    |     ::;+   |     :      |
+|   +;;;;++  | - +;; ;+   |   +;;;;++  |     ;  +   |
+| + +;+;;;+  | - +;-;;;   | + +;+;;;+  | -   -; ;   |
+| ++;+::+++  | --;-::+++  | ++;+: +++  | -  -:: ++  |
+| +++;+:+:++ |----;-:+:++ | +++;  +:++ | -  ;-: :++ |
+| ++++;++;^+ |-----;-+;^+ | ++++   ;^+ | -- -;-+;^+ |
+|+++;++;+^^^+|---;--;+^^^+|+++;    ^^^+|--- --;+^^^+|
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------------+------------+------------+------------+
+|      W     |   W        |            |            |
+|     WW     |   W W      |            |            |
+|   W WW W   |   W W      |            |            |
+|   W WWWW   | W W W W    |     WWWW   |     W      |
+|   WWWWWWW  | W WWW WW   |   WWWWWWW  |     W  W   |
+| W WWWWWWW  | W WWWWWW   | W WWWWWWW  | W   WW W   |
+| WWWWWWWWW  | WWWWWWWWW  | WWWWW WWW  | W  WWW WW  |
+| WWWWWWWWWW |WWWWWWWWWWW | WWWW  WWWW | W  WWW WWW |
+| WWWWWWWWWW |WWWWWWWWWWW | WWWW   WWW | WW WWWWWWW |
+|WWWWWWWWWWWW|WWWWWWWWWWWW|WWWW    WWWW|WWW WWWWWWWW|
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------------+------------+------------+------------+
+|      5     |   2        |            |            |
+|     47     |   3 4      |            |            |
+|   5 47 5   |   5 4      |            |            |
+|   7 4427   | g 7 4 2    |     4427   |     4      |
+|   733227b  | g 733 27   |   733227b  |     3  7   |
+| b 72b2227  | g 72g222   | b 72b2227  | g   g2 2   |
+| bb3b44557  | gg3g44557  | bb3b4 557  | g  g44 57  |
+| bbb2b4547b |gggg2g4547b | bbb2  547b | g  2g4 47b |
+| bbbb3b5267 |ggggg3g5267 | bbbb   267 | gg g3g5267 |
+|bbb2bb356667|ggg2gg356667|bbb2    6667|ggg gg356667|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------------+------------+------------+------------+
+|      7     |   7        |            |            |
+|     47     |   7 4      |            |            |
+|   7 47 7   |   7 4      |            |            |
+|   7 4427   | 1 7 4 2    |     4427   |     4      |
+|   7332277  | 1 733 27   |   7332277  |     3  7   |
+| 1 7242227  | 1 724222   | 1 7242227  |     42 2   |
+| 113344557  | 113344557  | 1133 4557  | 1  344 57  |
+| 1122245477 |11122245477 | 1122  5477 | 1  224 477 |
+| 1112335267 |11112335267 | 111   5267 | 11 2335267 |
+|11w213356667|11w213356667|11w2    6667|11w 13356667|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------------+------------+------------+------------+
+|      5     |   2        |            |            |
+|     47     |   3 4      |            |            |
+|   5 47 5   |   5 4      |            |            |
+|   7 4427   | g 7 4 2    |     4427   |     4      |
+|   733227b  | g 733 27   |   733227b  |     3  7   |
+| b 72b2227  | g 72g222   | b 72b2227  | g   g2 2   |
+| bb3b44557  | gg3g44557  | bb3b4 557  | g  g44 57  |
+| bbb2b4547b |gggg2g4547b | bbb2   47b | g  2g4 47b |
+| bbbb3b5267 |ggggg3g5267 | bbb     67 | gg g3g5267 |
+|            |            |            |            |
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------------+------------+------------+------------+
+|      5     |   2        |            |            |
+|     47     |   3 4      |            |            |
+|   5 47 5   |   5 4      |            |            |
+|   7 4427   | g 7 4 2    |     4427   |     4      |
+|   733227b  | g 733 27   |   733227b  |     3  7   |
+| b 72b2227  | g 72g222   | b 72b2227  | g   g2 2   |
+| bb3b44557  | gg3g44557  | bb3b4 557  | g  g44 57  |
+| bbb2b4547b |gggg2g4547b | bbb2  547b | g  2g4 47b |
+| bbbb3b5267 |ggggg3g5267 | bbbb   267 | gg g3g5267 |
+|bbb2bb356667|ggg2gg356667|bbb2    6667|ggg gg356667|
++------------+------------+------------+------------+

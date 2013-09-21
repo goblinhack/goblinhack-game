@@ -1,0 +1,35 @@
+"Saboteur"
+bravery_curr=0
+fate=2
+render_depth=3
+does_stuff
+strength=180
+dex=80
+intelligence=70
+stamina=600
+health=190
+keys=10
+treasure=0
+bite_damage=20
+bite_delay_in_tenths=1
+bite_chance=100
+armour=0
+metabolism=85
+is_hero
+can_cast_spells
+can_wield_weapons
+is_edible_eater
+is_treasure_eater
+is_meat
+is_meat_eater
+explosion_type="explosion/hero"
+can_see_distance=54
+backpack=[ 
+    "treasure/bombs/mines" 
+    "treasure/guns/bazooka" 
+    "treasure/guns/rifle" 
+    "food/bread" 
+    "food/cheese" 
+]
+is_destroyable
+audio_on_dead="System_Shutdown"

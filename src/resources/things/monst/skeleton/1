@@ -1,0 +1,39 @@
+"giant skeleton"
+render_depth=3
+does_stuff
+score=13
+strength=10
+stamina=100
+intelligence=1
+weight=100
+health=120
+loves_night
+loves_full_moon
+loves_midnight
+loves_halloween
+karma=-200
+bite_damage=10
+bite_delay_in_tenths=1
+bite_chance=100
+metabolism=80
+can_see_distance=6
+is_monst
+only_in_hell
+only_in_dungeons
+is_explorer
+is_movable
+is_undead
+is_destroyable
+attacks=[
+	"evil"
+	"good"
+	"hero"
+]
+attack_chance=[
+	0
+	200
+	100
+]
+appearing_chance=[ 0 1 1 1 1 2 5 10 ]
+explosion_type="explosion/harmless"
+poison_proof=100

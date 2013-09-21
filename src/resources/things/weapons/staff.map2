@@ -1,0 +1,873 @@
+####################################################
+all normal
+####################################################
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|zzzzzzzzzzzzzz|
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# foreground
+#  -Black w-white r-red    g-green y-yellow   b-blue   p-pink   c-cyan 
+# _-gray  W-snow  o-orange G-lime  Y-ltyellow B-ltblue P-purple C-ltcyan  
+# D - dark blue O-ltorange  
+# 0-9 dk-ltgray   R-random e-darkgreen
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|nnnnnnnnnnnnnn|
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# background
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can bite mask; the areas that get bitten or bite
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|++++++++++++++|
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# obstacle mask; the areas we use in collisions with wall-like things
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can touch mask; where we allow other things to interact with us
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
++--------------+
+####################################################
+left normal
+####################################################
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|zzzzzzzzzzzzzz|
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# foreground
+#  -Black w-white r-red    g-green y-yellow   b-blue   p-pink   c-cyan 
+# _-gray  W-snow  o-orange G-lime  Y-ltyellow B-ltblue P-purple C-ltcyan  
+# D - dark blue O-ltorange  
+# 0-9 dk-ltgray   R-random e-darkgreen
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|nnnnnnnnnnnnnn|
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# background
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can bite mask; the areas that get bitten or bite
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|++++++++++++++|
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# obstacle mask; the areas we use in collisions with wall-like things
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can touch mask; where we allow other things to interact with us
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
++--------------+
+####################################################
+right normal
+####################################################
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|zzzzzzzzzzzzzz|
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# foreground
+#  -Black w-white r-red    g-green y-yellow   b-blue   p-pink   c-cyan 
+# _-gray  W-snow  o-orange G-lime  Y-ltyellow B-ltblue P-purple C-ltcyan  
+# D - dark blue O-ltorange  
+# 0-9 dk-ltgray   R-random e-darkgreen
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|nnnnnnnnnnnnnn|
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# background
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can bite mask; the areas that get bitten or bite
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|++++++++++++++|
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# obstacle mask; the areas we use in collisions with wall-like things
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can touch mask; where we allow other things to interact with us
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
++--------------+
+####################################################
+up normal
+####################################################
++--------------+
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+# foreground
+#  -Black w-white r-red    g-green y-yellow   b-blue   p-pink   c-cyan 
+# _-gray  W-snow  o-orange G-lime  Y-ltyellow B-ltblue P-purple C-ltcyan  
+# D - dark blue O-ltorange  
+# 0-9 dk-ltgray   R-random e-darkgreen
++--------------+
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+# background
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can bite mask; the areas that get bitten or bite
++--------------+
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+# obstacle mask; the areas we use in collisions with wall-like things
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can touch mask; where we allow other things to interact with us
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
++--------------+
+####################################################
+down normal
+####################################################
++--------------+
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+# foreground
+#  -Black w-white r-red    g-green y-yellow   b-blue   p-pink   c-cyan 
+# _-gray  W-snow  o-orange G-lime  Y-ltyellow B-ltblue P-purple C-ltcyan  
+# D - dark blue O-ltorange  
+# 0-9 dk-ltgray   R-random e-darkgreen
++--------------+
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+|      n       |
+# background
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can bite mask; the areas that get bitten or bite
++--------------+
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+|      {       |
+# obstacle mask; the areas we use in collisions with wall-like things
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can touch mask; where we allow other things to interact with us
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
++--------------+
+####################################################
+tl normal
+####################################################
++--------------+
+|              |
+| X            |
+|  X           |
+|   X          |
+|    X         |
+|     X        |
+|      X       |
+|       X      |
+|        X     |
+|         X    |
+|          X   |
+|           X  |
+|              |
+# foreground
+#  -Black w-white r-red    g-green y-yellow   b-blue   p-pink   c-cyan 
+# _-gray  W-snow  o-orange G-lime  Y-ltyellow B-ltblue P-purple C-ltcyan  
+# D - dark blue O-ltorange  
+# 0-9 dk-ltgray   R-random e-darkgreen
++--------------+
+|              |
+| n            |
+|  n           |
+|   n          |
+|    n         |
+|     n        |
+|      n       |
+|       n      |
+|        n     |
+|         n    |
+|          n   |
+|           n  |
+|              |
+# background
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can bite mask; the areas that get bitten or bite
++--------------+
+|              |
+| x            |
+|  x           |
+|   x          |
+|    x         |
+|     x        |
+|      x       |
+|       x      |
+|        x     |
+|         x    |
+|          x   |
+|           x  |
+|              |
+# obstacle mask; the areas we use in collisions with wall-like things
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can touch mask; where we allow other things to interact with us
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
++--------------+
+####################################################
+br normal
+####################################################
++--------------+
+|              |
+|  X           |
+|   X          |
+|    X         |
+|     X        |
+|      X       |
+|       X      |
+|        X     |
+|         X    |
+|          X   |
+|           X  |
+|            X |
+|              |
+# foreground
+#  -Black w-white r-red    g-green y-yellow   b-blue   p-pink   c-cyan 
+# _-gray  W-snow  o-orange G-lime  Y-ltyellow B-ltblue P-purple C-ltcyan  
+# D - dark blue O-ltorange  
+# 0-9 dk-ltgray   R-random e-darkgreen
++--------------+
+|              |
+|  n           |
+|   n          |
+|    n         |
+|     n        |
+|      n       |
+|       n      |
+|        n     |
+|         n    |
+|          n   |
+|           n  |
+|            n |
+|              |
+# background
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can bite mask; the areas that get bitten or bite
++--------------+
+|              |
+|  x           |
+|   x          |
+|    x         |
+|     x        |
+|      x       |
+|       x      |
+|        x     |
+|         x    |
+|          x   |
+|           x  |
+|            x |
+|             x|
+# obstacle mask; the areas we use in collisions with wall-like things
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can touch mask; where we allow other things to interact with us
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
++--------------+
+####################################################
+tr normal
+####################################################
++--------------+
+|              |
+|            x |
+|           x  |
+|          x   |
+|         x    |
+|        x     |
+|       x      |
+|      x       |
+|     x        |
+|    x         |
+|   x          |
+|  x           |
+|              |
+# foreground
+#  -Black w-white r-red    g-green y-yellow   b-blue   p-pink   c-cyan 
+# _-gray  W-snow  o-orange G-lime  Y-ltyellow B-ltblue P-purple C-ltcyan  
+# D - dark blue O-ltorange  
+# 0-9 dk-ltgray   R-random e-darkgreen
++--------------+
+|             n|
+|            n |
+|           n  |
+|          n   |
+|         n    |
+|        n     |
+|       n      |
+|      n       |
+|     n        |
+|    n         |
+|   n          |
+|  n           |
+|              |
+# background
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can bite mask; the areas that get bitten or bite
++--------------+
+|             x|
+|            x |
+|           x  |
+|          x   |
+|         x    |
+|        x     |
+|       x      |
+|      x       |
+|     x        |
+|    x         |
+|   x          |
+|  x           |
+|              |
+# obstacle mask; the areas we use in collisions with wall-like things
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can touch mask; where we allow other things to interact with us
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
++--------------+
+####################################################
+bl normal
+####################################################
++--------------+
+|              |
+|           x  |
+|          x   |
+|         x    |
+|        x     |
+|       x      |
+|      x       |
+|     x        |
+|    x         |
+|   x          |
+|  x           |
+| x            |
+|              |
+# foreground
+#  -Black w-white r-red    g-green y-yellow   b-blue   p-pink   c-cyan 
+# _-gray  W-snow  o-orange G-lime  Y-ltyellow B-ltblue P-purple C-ltcyan  
+# D - dark blue O-ltorange  
+# 0-9 dk-ltgray   R-random e-darkgreen
++--------------+
+|              |
+|           n  |
+|          n   |
+|         n    |
+|        n     |
+|       n      |
+|      n       |
+|     n        |
+|    n         |
+|   n          |
+|  n           |
+| n            |
+|              |
+# background
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can bite mask; the areas that get bitten or bite
++--------------+
+|              |
+|           n  |
+|          n   |
+|         n    |
+|        n     |
+|       n      |
+|      n       |
+|     n        |
+|    n         |
+|   n          |
+|  n           |
+| n            |
+|              |
+# obstacle mask; the areas we use in collisions with wall-like things
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+# can touch mask; where we allow other things to interact with us
++--------------+
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
++--------------+

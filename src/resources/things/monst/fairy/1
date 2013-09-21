@@ -1,0 +1,39 @@
+"Gossamer Fairy"
+render_depth=3
+does_stuff
+score=150
+strength=1
+stamina=100
+intelligence=80
+weight=1
+health=800
+bite_damage=50
+bite_armour=5
+bite_delay_in_tenths=5
+look_delay_in_tenths=5
+bite_chance=100
+metabolism=100
+can_see_distance=6
+is_monst
+only_in_forests
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+appearing_chance=[ 10 ]
+explosion_type="explosion/harmless"
+attacks=[
+	"evil"
+	"good"
+]
+attack_chance=[
+	500
+	-200
+]
+throws=[ 
+	"missiles/haloball/hit_all" 
+]
+karma=500
+bite_action=[ "sleep" ]
+can_wield_weapons

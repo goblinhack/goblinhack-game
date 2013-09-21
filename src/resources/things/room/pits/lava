@@ -1,0 +1,42 @@
+"lava pit"
+render_depth=2
+does_stuff
+score=1000
+strength=7
+health=1000
+loves_night
+loves_full_moon
+loves_friday_13th
+loves_midnight
+bite_damage=25
+bite_delay_in_tenths=2
+bite_chance=100
+metabolism=25
+can_see_distance=6
+is_monst
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_trap
+is_destroyable
+is_meat_eater
+is_movable
+is_light_source
+attacks=[
+    "lava"
+    "meat"
+    "water"
+    "cold"
+]
+attack_chance=[
+    0
+    100
+    100
+    100
+]
+appearing_chance=[ 15 ]
+throws=[ "missiles/fireball/hit_hero_only" ]
+anim_speed=10
+is_fire
+hates_cold
+fire_proof=100

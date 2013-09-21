@@ -1,0 +1,37 @@
+"vicious stoat"
+leaves_corpse
+render_depth=3
+does_stuff
+score=3
+strength=10
+stamina=100
+intelligence=60
+weight=10
+health=30
+loves_night
+karma=5
+bite_damage=1
+bite_delay_in_tenths=5
+bite_chance=100
+metabolism=90
+can_see_distance=3
+is_monst
+only_in_forests
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+followers=[ 
+"monst/stoat/1a" 
+"monst/stoat/1a" 
+"monst/stoat/1b" 
+]
+follow_distance=8
+attacks=[ "hero" "stoat" "monst" ]
+attack_chance=[ 100 0 100 ]
+appearing_chance=[ 0 1 1 1 1 2 3 4 5 10 10 10 10 20 20 30 30 ]
+cluster_amount=5
+cluster_radius=100
+hates_fire
+hates_cold

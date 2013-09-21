@@ -1,0 +1,18 @@
+"stun grenades"
+render_depth=1
+cost=1500
+health=10
+wield_as="weapons/handgun"
+weight=20
+is_treasure
+is_gun
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+appearing_chance=[ 5 ]
+explosion_type="explosion/monst_fire"
+throws=[ "missiles/grenade_sleep/hit_all" ]
+charges=30
+audio_on_use="Electric_Zap"
+is_weapon

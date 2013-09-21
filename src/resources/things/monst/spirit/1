@@ -1,0 +1,45 @@
+"ghast"
+render_depth=3
+does_stuff
+score=120
+strength=1
+stamina=100
+intelligence=1
+weight=2
+health=200
+loves_night
+loves_midnight
+loves_halloween
+karma=-500
+bite_damage=20
+bite_delay_in_tenths=1
+bite_chance=90
+metabolism=80
+can_see_distance=9
+is_monst
+only_in_forests
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_undead
+fate=1
+is_meat
+attacks=[
+	"evil"
+	"good"
+	"hero"
+]
+attack_chance=[
+	0
+	200
+	100
+]
+appearing_chance=[ 0 0 0 1 1 1 1 1 1 1 1 1 1 1 2 3 4 5 10 ]
+explosion_type="explosion/harmless"
+throws=[ "missiles/plasmaball/hit_all" ]
+is_transparent
+opacity=10
+can_cast_spells

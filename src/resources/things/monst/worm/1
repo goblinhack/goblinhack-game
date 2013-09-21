@@ -1,0 +1,23 @@
+"tiny worm"
+leaves_corpse
+render_depth=3
+does_stuff
+score=1
+strength=1
+stamina=100
+intelligence=1
+weight=1
+health=1
+loves_night
+karma=10
+metabolism=1
+is_monst
+only_in_forests
+only_in_caves
+is_movable
+is_destroyable
+is_meat
+appearing_chance=[ 50 ]
+hates_fire
+hates_water
+look_delay_in_tenths=100

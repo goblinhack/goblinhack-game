@@ -1,0 +1,70 @@
+"Dwarven Lord"
+can_insult
+fate=3
+leaves_corpse
+render_depth=3
+does_stuff
+score=450
+strength=450
+stamina=100
+dex=40
+intelligence=40
+weight=200
+health=550
+loves_night
+karma=-50
+bite_delay_in_tenths=4
+bite_chance=50
+armour=400
+metabolism=60
+can_see_distance=6
+is_monst
+only_in_caves
+only_in_dungeons
+is_explorer
+is_destroyable
+is_meat
+attacks=[
+	"dwarve"
+	"elf"
+	"goblin"
+	"orc"
+	"dragon"
+	"evil"
+	"good"
+]
+attack_chance=[
+	0
+	100
+	100
+	100
+	100
+	100
+	0
+]
+appearing_chance=[ 1 1 1 1 1 2 2 2 3 3 4 4 5 5 10 10 10 10 10 20 30 40 ]
+explosion_type="explosion/harmless"
+is_movable
+backpack=[ 
+    "100" "treasure/axes/cleaving" 
+    "50" "treasure/axes/enchanted" 
+    "food/apple" 
+    "food/beer" 
+    "food/bread" 
+    "food/cheese" 
+    "100" "treasure/armour/1c" 
+    "100" "treasure/bag_of_gold/1" 
+    "100" "treasure/bag_of_gold/1" 
+    "100" "treasure/bag_of_gold/2" 
+    "100" "treasure/bag_of_gold/2" 
+    "100" "treasure/bag_of_gold/3" 
+    "100" "treasure/bag_of_gold/3" 
+    "10" "magic/potion/monsticide"
+    "60" "treasure/gems/blood_diamond" 
+    "60" "treasure/gems/tanzanite" 
+    "60" "treasure/gems/diamond" 
+    "60" "treasure/gems/infinitum" 
+    "80" "hoard/3"
+    "40" "hoard/2"
+]
+can_wield_weapons

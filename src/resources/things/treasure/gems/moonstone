@@ -1,0 +1,7 @@
+"shiny moonstone"
+render_depth=2
+treasure=1600
+is_treasure
+is_movable
+karma=50
+appearing_chance=[ 4 ]

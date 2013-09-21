@@ -1,0 +1,46 @@
+"greater zombie"
+render_depth=3
+does_stuff
+fate=10
+score=100
+strength=80
+stamina=100
+intelligence=0
+weight=180
+health=180
+loves_night
+loves_full_moon
+loves_friday_13th
+loves_halloween
+loves_midnight
+bite_damage=40
+bite_delay_in_tenths=5
+bite_chance=70
+metabolism=20
+can_see_distance=6
+is_monst
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_undead
+is_meat
+is_meat_eater
+attacks=[ "meat" ]
+attack_chance=[ 100 ]
+appearing_chance=[ 10 ]
+explosion_type="explosion/harmless"
+spawns=[ "monst/zombie/1" ]
+spawning_chance=[ 100 ]
+spawn_delay_in_tenths=50
+anim_speed=30
+hates_fire
+karma=-500
+bite_karma=50
+bite_karma_chance=50
+bite_poison=10
+bite_poison_chance=50
+can_wield_weapons
+leaves_corpse

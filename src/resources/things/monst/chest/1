@@ -1,0 +1,37 @@
+"living treasure chest"
+render_depth=3
+does_stuff
+score=100
+strength=1000
+stamina=100
+intelligence=10
+weight=150
+health=500
+loves_night
+loves_full_moon
+loves_midnight
+loves_halloween
+bite_damage=70
+bite_delay_in_tenths=5
+look_delay_in_tenths=2
+bite_chance=50
+metabolism=65
+can_see_distance=3
+is_monst
+only_in_forests
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat_eater
+attacks=[ "hero" ]
+wake_reasons=[ "hero" ]
+attack_chance=[ 100 ]
+appearing_chance=[ 0 1 1 1 1 1 1 2 2 2 2 2 2 2 2 3 5 5 5 5 5 5 5 5 5 5 5 10 ]
+explosion_type="explosion/harmless"
+hates_fire
+karma=-100
+bite_karma=10
+bite_karma_chance=10
+sleeping=1000
+cannot_summon

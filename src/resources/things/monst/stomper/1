@@ -1,0 +1,41 @@
+"Stomper"
+leaves_corpse
+render_depth=3
+does_stuff
+score=400
+strength=200
+stamina=200
+intelligence=30
+weight=200
+health=200
+loves_night
+karma=0
+bite_damage=80
+bite_armour=10
+bite_delay_in_tenths=10
+bite_chance=100
+metabolism=70
+can_see_distance=4
+is_monst
+loves_void
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+attacks=[ "hero" ]
+attack_chance=[ 100 ]
+appearing_chance=[ 5 5 5 5 5 5 5 10 ]
+explosion_type="explosion/harmless"
+audio_on_hit="dinosaur"
+audio_on_dead="demon_die"
+spawns=[ 
+  "monst/stomper/1" 
+]
+spawning_chance=[ 
+  100
+]
+spawn_delay_in_tenths=300
+anim_speed=1

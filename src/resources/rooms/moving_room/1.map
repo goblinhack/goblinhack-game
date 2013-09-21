@@ -1,0 +1,211 @@
++------------+
+|XXXXXXXXXXXX|
+|Xw$..w$...$X|
+|X$.w.....w.X|
+|X$..$......X|
+|Xw.....w.$.X|
+|X...$......X|
+|X.w........X|
+|X$...w...w$X|
+|XXXXX..XXXXX|
+|    X..X    |
+|    X..X    |
+|    XDDX    |
++------------+
+|XXXXXXXXXXXX|
+|Xw.........X|
+|X.XXX.XXwX.X|
+|X..wX..X.X.X|
+|X.XXXX.X.X.X|
+|X.X....X.X.X|
+|X.X.XXXX.X.X|
+|X.X.wTpX.X!X|
+|X.X..$pX.X.X|
+|X.XwXXXXw..X|
+|XwXXXXXXXX.X|
+|X...w....X.X|
+|X.XXXX.X.X.X|
+|X.w..X.Xw..X|
+|XXXXXXDXXXXX|
++------------+
+|XXXXXXXXXXXX|
+|Xp$...$...$X|
+|X$.p..!..p.X|
+|X$..$!.....X|
+|Xp.....p.$.X|
+|X...$......X|
+|X.p...!....X|
+|X$...!...p$X|
+|XXXXX..XXXXX|
+|    X..X    |
+|    X..X    |
+|   XX..X    |
+|   X...X    |
+|   XX..X    |
+|    X..XX   |
+|    X...X   |
+|    X..XX   |
+|    X..X    |
+|    X..X    |
+|    X..X    |
+|    XDDX    |
++------------+
+|XXXXXXXXXXXX|
+|X!.........X|
+|X.XXX.XXwX.X|
+|X..wX..X.X.X|
+|X.XXXX.X.X.X|
+|X.X....X.X.X|
+|X.X....X.X.X|
+|X.X..M.X.X.X|
+|X.X....X.X!X|
+|X.X....X.X.X|
+|X.XwXXXXw..X|
+|X!XXXXXXXX.X|
+|X...-.!..X.X|
+|X.XXXX.X.X.X|
+|X.w..X.Xw..X|
+|XXXXXXDXXXXX|
++------------+
+|    XDDX    |
+|    X..X    |
+|   XX..X    |
+|   X...X    |
+|   XX..X    |
+|    X..XX   |
+|    X...X   |
+|    X..XX   |
+|    X..X    |
+|    X..X    |
+|XXXXX..XXXXX|
+|Xp$...$...$X|
+|X$.p..!..p.X|
+|X$..$!.....X|
+|Xp.....p.$.X|
+|X...$......X|
+|X.p...!....X|
+|X$...!...p$X|
+|XXXXX..XXXXX|
+|    X..X    |
+|    XXXX    |
++------------+
+|XXXXXXXXXXXX|
+|XG$...$...$X|
+|X$.G..!..G.X|
+|X$..$!.....X|
+|XG.....G.$.X|
+|X...$......X|
+|X.G...!....X|
+|X$...!...G$X|
+|XXXXX..XXXXX|
+|    X..X    |
+|    X..X    |
+|   XX..X    |
+|   X...X    |
+|   XX..X    |
+|    X..XX   |
+|    X...X   |
+|    X..XX   |
+|    X..X    |
+|    X..X    |
+|    X..X    |
+|    XDDX    |
++------------+
+|XXXXXXXXXXXX|
+|X!.........X|
+|X.XXX.XXwX.X|
+|X..wX..X.X.X|
+|X.XXXX.X.X.X|
+|X.XG.G.X.X.X|
+|X.X....X.X.X|
+|X.XG.$.X.X.X|
+|X.X....X.X!X|
+|X.XG..GX.X.X|
+|X.XwX.XXw..X|
+|X!XXpppXXX.X|
+|X.XXpppXXX.X|
+|X.XXpppXXX.X|
+|X.XXXXXXXX.X|
+|X...-.!..X.X|
+|X.XXXX.X.X.X|
+|X.w..X.Xw..X|
+|XXXXXXDXXXXX|
++------------+
+|    XDDX    |
+|    X..X    |
+|XXXXX..X    |
+|X...-..X    |
+|XXXXX..X    |
+|    X..XXXXX|
+|    X..-...X|
+|    X..XXXXX|
+|    X..X    |
+|    X..X    |
+|XXXXX..XXXXX|
+|Xp$...$...$X|
+|X$.p..!..p.X|
+|X$..$!.....X|
+|Xp.....p.$.X|
+|X...$......X|
+|X.p...!....X|
+|X$...!...p$X|
+|XXXXX..XXXXX|
+|    X..X    |
+|    XXXX    |
++------------+
+|    XDDX    |
+|    X..X    |
+|XXXXX..X    |
+|X...-..X    |
+|XXXXX..X    |
+|    X..XXXXX|
+|    X..-...X|
+|    X..XXXXX|
+|XXXXX..X    |
+|X...-..X    |
+|XXXXX..X    |
+|    X..XXXXX|
+|    X..-...X|
+|    X..XXXXX|
+|    X..X    |
+|    X..X    |
+|XXXXX..XXXXX|
+|Xp$...$...$X|
+|X$.p..!..p.X|
+|X$..$!.....X|
+|Xp.....p.$.X|
+|X...$......X|
+|X.p...!....X|
+|X$...!...p$X|
+|XXXXX..XXXXX|
+|    X..X    |
+|    XXXX    |
++------------+
+|    XDDX    |
+|    X..XXXXX|
+|    X..-...X|
+|    X..XXXXX|
+|    X!.X    |
+|    X..X    |
+|XXXXX..XXXXX|
+|Xp$...$...$X|
+|X$.p..!..p.X|
+|X$..$!.....X|
+|Xp.....p.$.X|
+|X...$......X|
+|X.p...!....X|
+|X$...!...p$X|
+|XXXXX..XXXXX|
+|    X..X    |
+|    X..X    |
+|XXXXX..X    |
+|X...-!.X    |
+|XXXXX..X    |
+|    X..XXXXX|
+|    X..-...X|
+|    X..XXXXX|
+|XXXXX.!X    |
+|X...-..X    |
+|XXXXX..X    |
+|    XDDX    |
++------------+

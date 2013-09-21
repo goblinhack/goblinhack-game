@@ -1,0 +1,9 @@
+"frothing beer"
+render_depth=2
+health=10
+is_edible
+is_movable
+is_destroyable
+appearing_chance=[ 20 ]
+karma=1
+cost=60

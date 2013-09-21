@@ -1,0 +1,25 @@
+"poison gas"
+render_depth=3
+does_stuff
+bite_poison=10
+bite_poison_chance=100
+bite_delay_in_tenths=5
+bite_chance=100
+armour=100
+metabolism=25
+health=50
+is_missile
+is_destroyable
+is_light_source
+is_boring
+lifespan=10000
+explosion_type="explosion/monst_fire"
+attacks=[ "meat" ]
+attack_chance=[ 100 ]
+missile_spread=50
+missile_spread_angle=7
+is_bouncy
+opacity=35
+is_transparent
+is_gas
+hates_fire

@@ -1,0 +1,54 @@
+
+.resizeableTable {
+	padding: 0px 0px 0px 0px;
+	border-width : 0;
+}
+
+.resizeableTable_br {
+	background-color: red;
+	background-repeat: no-repeat;
+	background-image: url('images/resizeableTable.GIF');
+
+}
+
+.squareEditLabel {
+	padding: 0px 0px 0px 0px;
+	font-family: 'lucida console', courier;
+	font-size: 12px;
+	width: 8px;
+	height: 12px;
+}
+
+.squareEditLabel_default {
+	background-color: black;
+	color: white;
+}
+
+.squareEditLabel_hover {
+	background-image: url('images/highlight-8x12.GIF');
+}
+
+.squareEditLabel_b1 {
+	background-color: grey
+	border-width: 0;
+	padding: 0px 0px 0px 0px;
+	font-family: 'lucida console', courier;
+	font-size: 12px;
+	width: 8px;
+	height: 12px;
+}
+
+.squareEditLabel_b2 {
+	background-color: white
+	border-width: 0;
+	padding: 0px 0px 0px 0px;
+	font-family: 'lucida console', courier;
+	font-size: 12px;
+	width: 8px;
+	height: 12px;
+}
+
+
+.squareEditLabel:hover {
+	background-color: white;
+}

@@ -1,0 +1,21 @@
+"Medusa Hair"
+render_depth=3
+score=700
+strength=250
+stamina=100
+intelligence=10
+weight=200
+health=500
+karma=10
+metabolism=40
+is_monst
+leaves_corpse
+does_stuff
+is_explorer
+is_movable
+is_body_part
+is_destroyable
+is_meat
+follow_distance=30
+is_chained_body_part
+is_suffocation

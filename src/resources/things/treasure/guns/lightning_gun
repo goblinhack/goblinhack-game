@@ -1,0 +1,18 @@
+"lightning rod"
+render_depth=1
+cost=10000
+health=1000
+wield_as="weapons/gun"
+weight=180
+is_treasure
+is_gun
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+appearing_chance=[ 1 ]
+explosion_type="explosion/monst_fire"
+throws=[ "missiles/lightning/hit_all" ]
+charges=200
+audio_on_use="Electric_Zap"
+is_weapon

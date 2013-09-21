@@ -1,0 +1,7 @@
+"pair of keys"
+keys=2
+cost=20
+render_depth=2
+is_treasure
+is_movable
+appearing_chance=[ 20 ]

@@ -1,0 +1,10 @@
+"lembas"
+render_depth=2
+health=150
+is_edible
+is_movable
+is_destroyable
+appearing_chance=[ 1 ]
+strength=5
+karma=20
+cost=100

@@ -1,0 +1,10 @@
+"power"
+render_depth=2
+ability_can_regenerate1
+cost=8000
+is_amulet
+is_inventory_item
+is_treasure
+is_movable
+is_destroyable
+appearing_chance=[ 1 ]

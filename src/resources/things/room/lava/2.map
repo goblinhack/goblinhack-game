@@ -1,0 +1,77 @@
+all normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------+------+------+------+------+------+------+------+
+| o+ . | o+ . | o+ . | o+ . | o+ . | o+ . | o+ . | o+ . |
+|o. .Oo|o. .Oo|o. .Oo|o. .Oo|o. .Oo|o. .Oo|o. .Oo|o. .Oo|
+|+.O..-|+.O..-|+.O..-|+.O..-|+.O..-|+.O..-|+.O..-|+.O..-|
+|. .o..|. .o..|. .o..|. .o..|. .o..|. .o..|. .o..|. .o..|
+| .o+. | .o+. | .o+. | .o+. | .o+. | .o+. | .o+. | .o+. |
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+------+------+------+------+------+------+------+
+| wwww | wwww | wwww | wwww | wwww | wwww | wwww | wwww |
+|wwwwow|wwwwww|wwwwww|wwwwww|wwowww|wwwwww|wwwwww|wwwwww|
+|wwowww|wwwwww|wwwwww|wwwwww|wwwwww|wowwww|wwwwww|wwowww|
+|wwwwww|wwwwow|wwwwww|wwwwww|wwwwow|wwwwww|wwwwww|wwwwow|
+| wwww | owww | wwww | wwww | wwww | wwww | wwww | wwww |
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------+------+------+------+------+------+------+------+
+| E rE |  ErE | r  E | EE E | r r  | rE   | rr E |  rr  |
+| ErErr| ErErr|EErE r|EE EE |rErErr| ErErr|EErEr |EErEE |
+|rErEEr|ErrEEr|EErE  | EEEE | ErEEr|r rErr|EErEEr| rEErE|
+| EErrE| EErEr|EEEErr| EErEr|rEErrE| EErr | EEEr | ErrE |
+| E EE | Er E | E EE | rr E | r Er | ErEE | r Er | rr r |
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------+------+------+------+------+------+------+------+
+| wwww | wwww | wwww | wwww | wwww | wwww | wwww | wwww |
+|wwwwww|wwwwww|wwwwww|wwwwww|wwwwww|wwwwww|wwwwww|wwwwww|
+|wwwwww|wwwwww|wwwwww|wwwwww|wwwwww|wwwwww|wwwwww|wwwwww|
+|wwwwww|wwwwww|wwwwww|wwwwww|wwwwww|wwwwww|wwwwww|wwwwww|
+| wwww | wwww | wwww | wwww | wwww | wwww | wwww | wwww |
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------+------+------+------+------+------+------+------+
+|      |      |      |      |      |      |      |      |
+|      |      |      |      |      |      |      |      |
+|  r   |   r  |   r  |   r  |  r   |  r   |  r   |   r  |
+|      |      |      |      |      |      |      |      |
+|      |      |      |      |      |      |      |      |
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------+------+------+------+------+------+------+------+
+| E rE |  ErE | r  E | EE E | r r  | rE   | rr E |  rr  |
+| ErErr| ErErr|EErE r|EE EE |rErErr| ErErr|EErEr |EErEE |
+|rErEEr|ErrEEr|EErE  | EEEE | ErEEr|r rErr|EErEEr| rEErE|
+| EErrE| EErEr|EEEErr| EErEr|rEErrE| EErr | EEEr | ErrE |
+| E EE | Er E | E EE | rr E | r Er | ErEE | r Er | rr r |
++------+------+------+------+------+------+------+------+

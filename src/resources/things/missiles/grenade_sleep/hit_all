@@ -1,0 +1,20 @@
+"grenade"
+render_depth=3
+does_stuff
+bite_damage=200
+bite_armour=25
+bite_delay_in_tenths=1
+bite_chance=100
+armour=100
+metabolism=80
+is_missile
+is_boring
+lifespan=1
+explosion_type="explosion/bomb2"
+audio_on_use="Lightning_Bolt"
+attacks=[ "all" ]
+attack_chance=[ 100 ]
+anim_speed=2
+anim=0
+is_light_source
+bite_action=[ "sleep" ]

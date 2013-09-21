@@ -1,0 +1,13 @@
+"protection"
+render_depth=2
+cost=700
+intelligence_req=70
+audio_on_use="magic_tinkle"
+is_treasure
+is_spell
+is_inventory_item
+is_movable
+is_destroyable
+appearing_chance=[ 10 ]
+use_chance=[ 100 ]
+use_action=[ "shield" ]

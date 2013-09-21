@@ -1,0 +1,14 @@
+"chocolate"
+render_depth=2
+armour=5
+cost=1
+is_treasure
+is_inventory_item
+is_armour
+is_movable
+is_destroyable
+is_cursed
+hates_fire
+weight=80
+appearing_chance=[ 5 ]
+water_proof=10

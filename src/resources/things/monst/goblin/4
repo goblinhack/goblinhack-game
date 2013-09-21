@@ -1,0 +1,53 @@
+"deep goblin"
+leaves_corpse
+render_depth=3
+does_stuff
+score=80
+strength=200
+stamina=100
+intelligence=20
+weight=200
+health=300
+loves_night
+karma=-300
+bite_damage=25
+bite_delay_in_tenths=7
+bite_chance=80
+armour=150
+metabolism=50
+can_see_distance=6
+is_monst
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+is_edible_eater
+attacks=[ 
+    "goblin" 
+    "orc" 
+    "dwarve" 
+    "good" 
+    "evil" 
+    "hero" 
+]
+attack_chance=[ 
+    -200
+    200
+    300 
+    200
+    0
+    200
+]
+throws=[ "missiles/basic/hit_all" ]
+appearing_chance=[ 10 ]
+explosion_type="explosion/harmless"
+cluster_amount=2
+cluster_radius=90
+ability_can_auto_rage
+backpack=[
+    "20" "hoard/2"
+    "10" "hoard/3"
+]

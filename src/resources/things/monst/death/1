@@ -1,0 +1,48 @@
+"Death"
+poison_proof=100
+render_depth=3
+does_stuff
+score=150
+strength=1
+stamina=100
+intelligence=100
+weight=1
+health=2000
+loves_night
+loves_full_moon
+loves_midnight
+loves_halloween
+bite_damage=50
+bite_delay_in_tenths=5
+bite_chance=100
+metabolism=40
+can_see_distance=8
+is_monst
+only_in_forests
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_undead
+fate=3
+attacks=[
+	"evil"
+	"good"
+	"hero"
+]
+attack_chance=[
+	0
+	500
+	100
+]
+appearing_chance=[ 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 3 4 5 10 20 ]
+explosion_type="explosion/harmless"
+karma=-800
+bite_karma=100
+bite_karma_chance=50
+bite_action=[ "paralysis" ]
+can_cast_spells
+loves_death

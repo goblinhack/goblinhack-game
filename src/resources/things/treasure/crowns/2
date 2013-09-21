@@ -1,0 +1,7 @@
+"Princess ASCII's Crown"
+render_depth=2
+treasure=100000
+is_treasure
+is_movable
+is_destroyable
+appearing_chance=[ 0 ]

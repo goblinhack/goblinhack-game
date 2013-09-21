@@ -1,0 +1,18 @@
+"shotgun"
+render_depth=1
+cost=2500
+health=1200
+wield_as="weapons/shotgun"
+weight=15
+is_treasure
+is_gun
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+appearing_chance=[ 5 ]
+explosion_type="explosion/harmless"
+throws=[ "missiles/bullet3/hit_all" ]
+charges=3000
+audio_on_use="shotgun"
+is_weapon

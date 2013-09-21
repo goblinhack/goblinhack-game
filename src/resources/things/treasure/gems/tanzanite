@@ -1,0 +1,7 @@
+"violet tanzanite"
+render_depth=2
+treasure=1500
+is_treasure
+is_movable
+appearing_chance=[ 5 ]
+karma=20

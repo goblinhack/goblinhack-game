@@ -1,0 +1,19 @@
+"enchanted +3"
+render_depth=1
+cost=6000
+health=6000
+wield_as="weapons/bow"
+weight=1
+is_treasure
+is_bow
+charges=5000
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+appearing_chance=[ 2 ]
+throws=[ "missiles/arrow5/hit_all" ]
+audio_on_use="Electric_Zap"
+is_weapon
+strength_req=320
+dex_req=90

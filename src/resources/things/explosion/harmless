@@ -1,0 +1,13 @@
+"explosion"
+render_depth=3
+does_stuff
+cant_see_past
+lifespan=0
+is_boring
+cached_gfx
+is_missile
+is_bouncy
+missile_spread=3
+missile_spread_angle=120
+metabolism=200
+missile_angle_delta=5.0

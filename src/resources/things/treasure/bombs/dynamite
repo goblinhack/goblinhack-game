@@ -1,0 +1,18 @@
+"dynamite"
+render_depth=1
+cost=2000
+health=10
+wield_as="weapons/nothing"
+weight=120
+is_treasure
+is_gun
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+appearing_chance=[ 25 ]
+explosion_type="explosion/bomb"
+throws=[ "missiles/dynamite/hit_all" ]
+charges=20
+audio_on_use="Electric_Zap"
+is_weapon

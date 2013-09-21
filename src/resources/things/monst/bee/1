@@ -1,0 +1,28 @@
+"killer bee!"
+leaves_corpse
+render_depth=3
+does_stuff
+score=2
+strength=1
+stamina=100
+intelligence=10
+weight=10
+health=1
+karma=5
+bite_damage=5
+bite_delay_in_tenths=5
+bite_chance=100
+metabolism=100
+can_see_distance=0
+is_monst
+only_in_forests
+only_in_dungeons
+is_destroyable
+is_meat
+attacks=[ "monst" "hero" ]
+attack_chance=[ 100 100 ]
+appearing_chance=[ 1 1 1 1 2 3 4 5 10 20 30 ]
+cluster_amount=10
+cluster_radius=100
+is_movable
+cached_gfx

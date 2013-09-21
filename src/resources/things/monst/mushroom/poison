@@ -1,0 +1,36 @@
+"bloodshade mushroom"
+render_depth=3
+does_stuff
+score=1
+strength=1
+intelligence=1
+weight=1
+health=15
+loves_night
+karma=0
+metabolism=3
+is_monst
+only_in_caves
+only_in_dungeons
+is_movable
+is_destroyable
+is_meat
+appearing_chance=[ 20 ]
+cluster_amount=5
+cluster_radius=2000
+hates_fire
+hates_cold
+attacks=[
+	"meat"
+]
+attack_chance=[
+	50
+]
+throws=[ "missiles/poison_starburst0/hit_all" ]
+is_edible
+bite_chance=60
+bite_poison=10
+bite_poison_chance=100
+bite_delay_in_tenths=100
+can_see_distance=4
+cannot_summon

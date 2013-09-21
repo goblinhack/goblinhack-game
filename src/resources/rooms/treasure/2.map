@@ -1,0 +1,313 @@
++------------+
+|    XXXX    |
+|    X$$X    |
+|    X$$X    |
+|XXXXX$$XXXXX|
+|X$$$$$$$$$$X|
+|X$$$$$$$$$$X|
+|XXXXX$$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    XDDX    |
++------------+
+|    XXXX    |
+|    X$$X    |
+|    X$$X    |
+|XXXXX$$XXXXX|
+|X$$$$$$$$$$D|
+|X$$$$$$$$$$D|
+|XXXXX$$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    XXXX    |
++------------+
+|    XXXX    |
+|    X$$X    |
+|    X$$X    |
+|XXXXX$mXXXXX|
+|Xm$p$$$$m$mD|
+|X$p$m$m$$$mD|
+|XXXXXp$XXXXX|
+|    XmpX    |
+|    X$$X    |
+|    XXXX    |
++------------+
+|    XXXX    |
+|    X$$X    |
+|    X$pX    |
+|XXXXX$$XXXXX|
+|Xp$$$p$$$$pX|
+|X$p$$$$$$p$X|
+|XXXXXp$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    XDDX    |
++------------+
+|    XXXX    |
+|    Xp$X    |
+|    X$pX    |
+|XXXXX$$XXXXX|
+|X$$p$$p$pp$D|
+|X$$$p$$p$p$D|
+|XXXXX$$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    XXXX    |
++------------+
+|    XXXX    |
+|    X$$X    |
+|    X$$X    |
+|XXXXX$mXXXXX|
+|Xm$m$$$$m$mD|
+|X$m$m$m$$$mD|
+|XXXXX$$XXXXX|
+|    Xm$X    |
+|    X$$X    |
+|    XXXX    |
++------------+
+|    XDDX    |
+|    X$$X    |
+|    X$$X    |
+|XXXXX$$XXXXX|
+|D$$$$$$$$$$D|
+|D$$$$$$$$$$D|
+|XXXXX$$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    XDDX    |
++------------+
+|    XXXX    |
+|    X$$X    |
+|    X$$X    |
+|XXXXX$$XXXXX|
+|X$$$$$$$$$$D|
+|X$$$$$$$$$$D|
+|XXXXX$$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    XXXX    |
++------------+
+|    XXXX    |
+|    X$$X    |
+|    X$$X    |
+|XXXXX$mXXXXX|
+|Dm$p$$$$m$mD|
+|D$p$m$m$$$mD|
+|XXXXXp$XXXXX|
+|    XmpX    |
+|    X$$X    |
+|    XXXX    |
++------------+
+|    XDDX    |
+|    X$$X    |
+|    X$pX    |
+|XXXXX$$XXXXX|
+|Xp$$$p$$$$pX|
+|X$p$$$$$$p$X|
+|XXXXXp$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    XDDX    |
++------------+
+|    XXXX    |
+|    Xp$X    |
+|    X$pX    |
+|XXXXX$$XXXXX|
+|X$$p$$p$pp$D|
+|X$$$p$$p$p$D|
+|XXXXX$$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    XDDX    |
++------------+
+|    XDDX    |
+|    Xm$X    |
+|    XmmX    |
+|XXXXXmmXXXXX|
+|Xm$mmmm$m$mD|
+|X$m$m$mm$$mD|
+|XXXXXm$XXXXX|
+|    Xm$X    |
+|    X$$X    |
+|    XXXX    |
++------------+
+|    XXXX    |
+|    X$$X    |
+|    X$$X    |
+|XXXXX$$XXXXX|
+|X$$$$$$$$$$X|
+|X$$$$$$$$$$X|
+|XXXXX$$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    X==X    |
++------------+
+|    XXXX    |
+|    X$$X    |
+|    X$$X    |
+|XXXXX$$XXXXX|
+|X$$$$$$$$$$=|
+|X$$$$$$$$$$=|
+|XXXXX$$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    XXXX    |
++------------+
+|    XXXX    |
+|    X$$X    |
+|    X$$X    |
+|XXXXX$mXXXXX|
+|Xm$p$$$$m$m=|
+|X$p$m$m$$$m=|
+|XXXXXp$XXXXX|
+|    XmpX    |
+|    X$$X    |
+|    XXXX    |
++------------+
+|    XXXX    |
+|    X$$X    |
+|    X$pX    |
+|XXXXX$$XXXXX|
+|Xp$$$p$$$$pX|
+|X$p$$$$$$p$X|
+|XXXXXp$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    X==X    |
++------------+
+|    XXXX    |
+|    Xp$X    |
+|    X$pX    |
+|XXXXX$$XXXXX|
+|X$$p$$p$pp$=|
+|X$$$p$$p$p$=|
+|XXXXX$$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    XXXX    |
++------------+
+|    XXXX    |
+|    X$$X    |
+|    X$$X    |
+|XXXXX$mXXXXX|
+|Xm$m$$$$m$m=|
+|X$m$m$m$$$m=|
+|XXXXX$$XXXXX|
+|    Xm$X    |
+|    X$$X    |
+|    XXXX    |
++------------+
+|    X==X    |
+|    X$$X    |
+|    X$$X    |
+|XXXXX$$XXXXX|
+|=$$$$$$$$$$=|
+|=$$$$$$$$$$=|
+|XXXXX$$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    X==X    |
++------------+
+|    XXXX    |
+|    X$$X    |
+|    X$$X    |
+|XXXXX$$XXXXX|
+|X$$$$$$$$$$=|
+|X$$$$$$$$$$=|
+|XXXXX$$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    XXXX    |
++------------+
+|    XXXX    |
+|    X$$X    |
+|    X$$X    |
+|XXXXX$mXXXXX|
+|=m$p$$$$m$m=|
+|=$p$m$m$$$m=|
+|XXXXXp$XXXXX|
+|    XmpX    |
+|    X$$X    |
+|    XXXX    |
++------------+
+|    X==X    |
+|    X$$X    |
+|    X$pX    |
+|XXXXX$$XXXXX|
+|Xp$$$p$$$$pX|
+|X$p$$$$$$p$X|
+|XXXXXp$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    X==X    |
++------------+
+|    XXXX    |
+|    Xp$X    |
+|    X$pX    |
+|XXXXX$$XXXXX|
+|X$$p$$p$pp$=|
+|X$$$p$$p$p$=|
+|XXXXX$$XXXXX|
+|    X$$X    |
+|    X$$X    |
+|    X==X    |
++------------+
+|    X==X    |
+|    Xm$X    |
+|    XmmX    |
+|XXXXXmmXXXXX|
+|Xm$mmmm$m$m=|
+|X$m$m$mm$$m=|
+|XXXXXm$XXXXX|
+|    Xm$X    |
+|    X$$X    |
+|    XXXX    |
++------------+
+|XXXXXXXXXXXX|
+|X.m.x..x.$$X|
+|X...x..x..$X|
+|X...x..x...X|
+|Xxxxx..xxxxX|
+|D..........D|
+|Xxxxx..xxxxX|
+|X...x..x...X|
+|X...x..x...X|
+|X.m.x..x..pX|
+|XXXXXXXXXXXX|
++------------+
+|XXXXXDDXXXXX|
+|X.m.x..x.m$X|
+|X...x..x..$X|
+|X...x..x...X|
+|Xxxxx..xxxxX|
+|D..........D|
+|Xxxxx..xxxxX|
+|X...x..x...X|
+|X...x..x...X|
+|X.p.x..x..mX|
+|XXXXXDDXXXXX|
++------------+
+|XXXXXDDXXXXX|
+|X.m.x..x.m$X|
+|X...x..x..$X|
+|X...x..x...X|
+|Xxxxx..x...X|
+|D......x...D|
+|Xxxxx..x...X|
+|X...x..x...X|
+|X...x..x...X|
+|X.p.x..x..mX|
+|XXXXXDDXXXXX|
++------------+
+|XXXXXDDXXXXX|
+|X.m....x.m$X|
+|X......x..$X|
+|X......x...X|
+|Xxxxxxxx...X|
+|D......x...D|
+|Xxxxx..x...X|
+|X...x..x...X|
+|X...x..x...X|
+|X.p.x..x..mX|
+|XXXXXDDXXXXX|
++------------+

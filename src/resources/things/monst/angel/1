@@ -1,0 +1,40 @@
+"angel"
+fate=7
+render_depth=3
+is_light_source
+does_stuff
+score=1000
+strength=1000
+stamina=100
+intelligence=100
+weight=1
+health=1000
+bite_damage=190
+bite_delay_in_tenths=1
+look_delay_in_tenths=3
+bite_chance=100
+metabolism=30
+can_see_distance=6
+is_monst
+loves_void
+is_explorer
+is_movable
+is_destroyable
+appearing_chance=[ 1 2 3 4 5 10 ]
+attacks=[
+	"evil"
+	"good"
+]
+attack_chance=[
+	100
+	-200
+]
+throws=[ 
+	"missiles/haloball/hit_all" 
+]
+karma=1000
+bite_karma=-100
+bite_karma_chance=10
+explosion_type="explosion/monst_fire"
+is_holy
+can_cast_spells

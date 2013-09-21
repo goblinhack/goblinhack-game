@@ -1,0 +1,10 @@
+"edge"
+render_depth=10
+cant_see_past
+is_joinable
+opacity=100
+is_boring
+cached_gfx
+health=30000
+is_hard
+anim_speed=255

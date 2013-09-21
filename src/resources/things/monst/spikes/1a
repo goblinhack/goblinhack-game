@@ -1,0 +1,28 @@
+"sharp spikes"
+render_depth=3
+does_stuff
+score=10
+strength=1
+stamina=100
+intelligence=0
+weight=100
+health=200
+loves_friday_13th
+karma=0
+bite_damage=10
+bite_delay_in_tenths=5
+bite_chance=100
+metabolism=40
+can_see_distance=3
+is_monst
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_trap
+is_movable
+is_destroyable
+attacks=[ "meat" "hero" ]
+attack_chance=[ 100 100 ]
+appearing_chance=[ 15 ]
+cluster_amount=3
+cluster_radius=150

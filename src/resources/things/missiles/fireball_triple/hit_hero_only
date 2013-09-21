@@ -1,0 +1,21 @@
+"fireball"
+render_depth=3
+does_stuff
+bite_damage=170
+bite_armour=35
+bite_delay_in_tenths=1
+bite_chance=100
+armour=100
+metabolism=100
+is_missile
+is_light_source
+is_boring
+lifespan=100
+explosion_type="explosion/harmless"
+audio_on_use="Lightning_Bolt"
+attacks=[ "hero" ]
+attack_chance=[ 100 ]
+missile_spread=3
+missile_spread_angle=5
+is_fire
+cached_gfx

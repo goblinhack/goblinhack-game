@@ -1,0 +1,22 @@
+"gravestone"
+render_depth=2
+does_stuff
+score=80
+health=600
+armour=10
+metabolism=30
+is_unable_to_move
+is_generator
+cannot_summon
+can_see_distance=0
+is_destroyable
+spawns=[ 
+"monst/skeleton/1"
+"monst/bat/1"
+]
+spawning_chance=[ 
+100
+100
+]
+spawn_delay_in_tenths=20
+appearing_chance=[ 40 ]

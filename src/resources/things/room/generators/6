@@ -1,0 +1,16 @@
+"spider web"
+render_depth=2
+does_stuff
+score=30
+health=300
+armour=10
+metabolism=30
+is_unable_to_move
+is_generator
+cannot_summon
+can_see_distance=0
+is_destroyable
+spawns=[ "monst/spider/1" "monst/spider/2" "monst/spider/3" ]
+spawning_chance=[ 30 30 30 ]
+spawn_delay_in_tenths=20
+appearing_chance=[ 50 ]

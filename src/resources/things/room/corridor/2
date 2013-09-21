@@ -1,0 +1,9 @@
+"corridor"
+render_depth=0
+is_joinable
+is_corridor
+is_floor
+is_boring
+cached_gfx
+appearing_chance=[ 200 ]
+anim_speed=255

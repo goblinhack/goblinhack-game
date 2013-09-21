@@ -1,0 +1,13 @@
+"poison cloud II"
+render_depth=2
+cost=1000
+intelligence_req=90
+audio_on_use="magic_tinkle"
+is_treasure
+is_spell
+is_inventory_item
+is_movable
+is_destroyable
+appearing_chance=[ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 ]
+use_chance=[ 100 ]
+use_action=[ "throw missiles/poison_starburst2/hit_all" ]

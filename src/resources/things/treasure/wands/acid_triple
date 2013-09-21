@@ -1,0 +1,18 @@
+"acid +3"
+render_depth=1
+cost=2000
+health=2000
+wield_as="weapons/wand"
+weight=2
+is_treasure
+is_wand
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+appearing_chance=[ 2 ]
+explosion_type="explosion/monst_acid"
+throws=[ "missiles/acidball_triple/hit_all" ]
+charges=1000
+audio_on_use="Electric_Zap"
+is_weapon

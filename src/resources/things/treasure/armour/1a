@@ -1,0 +1,11 @@
+"leather"
+render_depth=2
+armour=150
+cost=200
+is_treasure
+is_movable
+is_inventory_item
+is_armour
+is_destroyable
+weight=30
+appearing_chance=[ 50 ]

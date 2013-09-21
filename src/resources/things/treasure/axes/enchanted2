@@ -1,0 +1,21 @@
+"enchanted +2"
+render_depth=1
+cost=4000
+wield_as="weapons/axe"
+weight=120
+strength_req=280
+is_treasure
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+is_weapon
+appearing_chance=[ 0 0 0 0 0 0 1 ]
+bite_damage=100
+bite_armour=30
+bite_delay_in_tenths=1
+bite_chance=100
+metabolism=130
+is_axe
+health=30000
+is_hard

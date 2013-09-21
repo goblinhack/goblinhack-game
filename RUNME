@@ -1,0 +1,277 @@
+#!/bin/sh
+#
+#   ghack.
+#   Copyright (C) 1999-2002 Neil McGill
+#
+#   This game is free software; you can redistribute it and/or
+#   modify it under the terms of the GNU Library General Public
+#   License as published by the Free Software Foundation; either
+#   version 2 of the License, or (at your option) any later version.
+#
+#   This game is distributed in the hope that it will be fun,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#   Library General Public License for more details.
+#
+#   You should have received a copy of the GNU Library General Public
+#   License along with this game; if not, write to the Free
+#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
+#   Neil McGill
+#
+#   $Id: RUNME 1297 2009-08-24 13:50:50Z Goblinhack $
+#
+#                                    
+#                                                   
+#                                                   
+#     XXXX          XX        XX       X            
+#    X    X          X         X                    
+#   X                X         X                    
+#   X        XXXXX   XXXXX     X     XXX    XX XX   
+#   X       X     X  X    X    X       X     XX  X  
+#   X   XXX X     X  X    X    X       X     X   X  
+#   X     X X     X  X    X    X       X     X   X  
+#    X    X X     X  X    X    X       X     X   X  
+#     XXXX   XXXXX  XXXXXX   XXXXX   XXXXX  XXX XXX 
+#                                                   
+#                                                   
+#                                           
+#                                           
+#   XXX XXX                 XX         X    
+#    X   X                   X         X    
+#    X   X                   X         X    
+#    X   X   XXXX    XXXXX   X  XX     X    
+#    XXXXX       X  X     X  X  X      X    
+#    X   X   XXXXX  X        X X       X    
+#    X   X  X    X  X        XXX       X    
+#    X   X  X    X  X     X  X  X           
+#   XXX XXX  XXXX X  XXXXX  XX   XX    X    
+#                                           
+#                                           
+#                                           
+#                                    
+#                                    
+
+fallover() {
+    exit $*
+}
+
+if [ "$1" = "-n" ]
+then
+    shift;
+    ARGS="$* --cache-file=config.generic.cache"
+    MAKE=0
+else
+    ARGS="$* --cache-file=config.generic.cache"
+    MAKE=1
+fi
+
+trap fallover 1 2 3 15
+
+TOP=`pwd`
+export TOP
+
+BUILD=build
+. $BUILD/sh/shell.sh
+
+cat build/etc/VERSION | sed 's/^\(.*\)/GoblinHack Version \1/g' 
+
+#
+# Only update the version header if it changes to avoid rebuilds after 
+# each RUNME
+#
+cat build/etc/VERSION | \
+	sed 's/^\(.*\)/#define GH_VERSION "\1"/g' \
+		> src/include/gh_version.h.new
+cat build/etc/VERSION | \
+	sed 's/^\(.*\)\..*/#define GH_MAJOR_VERSION "\1"/g' \
+		>> src/include/gh_version.h.new
+cat build/etc/VERSION | \
+	sed 's/^.*\.\(.*\)/#define GH_MINOR_VERSION "\1"/g' \
+		>> src/include/gh_version.h.new
+cat build/etc/VERSION | \
+	sed 's/^\(.*\)\..*/#define GH_MAJOR_VERSION_NUMBER \1/g' \
+		>> src/include/gh_version.h.new
+cat build/etc/VERSION | \
+	sed 's/^.*\.\(.*\)/#define GH_MINOR_VERSION_NUMBER \1/g' \
+		>> src/include/gh_version.h.new
+
+echo
+bright "   ____       _     _ _       _   _            _    "
+bright "  / ___| ___ | |__ | (_)_ __ | | | | __ _  ___| | __"
+bright " | |  _ / _ \\| '_ \\| | | '_ \\| |_| |/ _\` |/ __| |/ /"
+bright " | |_| | (_) | |_) | | | | | |  _  | (_| | (__|   < "
+bright "  \\____|\\___/|_.__/|_|_|_| |_|_| |_|\\__,_|\\___|_|\\_\\"
+echo
+                                        
+if [ -x /usr/bin/svn ]
+then
+    echo "Trying to update to the latest version before building..."
+    /usr/bin/svn update
+fi
+
+/bin/rm -f build/configure
+
+if [ ! -f src/include/gh_version.h ]
+then
+    echo Making version file 
+    mv src/include/gh_version.h.new mv src/include/gh_version.h
+else
+    diff src/include/gh_version.h.new src/include/gh_version.h >/dev/null 2>&1
+
+    if [ $? -ne 0 ]
+    then
+	echo Version change from
+	diff src/include/gh_version.h.new src/include/gh_version.h 
+	echo Complete rebuild required
+	
+	mv src/include/gh_version.h.new src/include/gh_version.h
+    fi
+fi
+
+#
+# First get the system settings
+#
+log "cd $BUILD/"
+cd $BUILD
+
+if [ ! -f configure ]
+then
+    log "autoconf configure.in > configure"
+    autoconf configure.in > configure
+    if [ $? -ne 0 ]
+    then
+    echo "Configure failed"
+    fi
+fi
+
+chmod +x configure
+
+if [ $? -ne 0 ]
+then
+    buglog "Configure failed"
+fi
+
+log "sh ./configure $ARGS"
+sh ./configure $ARGS
+
+if [ $? -ne 0 ]
+then
+    log ""
+    log "Do you have g++ installed? And SDL, and SDL_image? See libsdl.org"
+    log ""
+    buglog "Configure failed"
+fi
+
+cd ..
+
+if [ $MAKE -gt 0 ]
+then
+    log `which make` "all"
+
+    log ""
+    log "Cleaning out the old source first"
+    log ""
+
+    make clean
+
+    make depend 2>/dev/null 
+
+    bright " ____        _ _     _ _             "
+    bright "| __ ) _   _(_) | __| (_)_ __   __ _ "
+    bright "|  _ \\| | | | | |/ _\` | | '_ \\ / _\` |"
+    bright "| |_) | |_| | | | (_| | | | | | (_| |"
+    bright "|____/ \\__,_|_|_|\\__,_|_|_| |_|\\__, |"
+    bright "                               |___/ "
+
+    make $* all
+    RET=$?
+    FAILED=0
+
+    #
+    # Check make didn't lie to us. It does.
+    #
+    if [ ! -x src/ghack ]
+    then
+	FAILED=1
+    fi
+
+    if [ $RET -ne 0 ]
+    then
+	FAILED=1
+    fi
+    
+    if [ $FAILED -ne 0 ]
+    then
+	log ""
+	buglog "Make failed; "
+	log ""
+	log "Here's some ideas that might help"
+	log ""
+	log "- If this is a new linux install then you want to make sure"
+	log "  you've done something like (this is for debian):"
+	log ""
+	log "    sudo apt-get install make"
+	log "    sudo apt-get install autoconf"
+	log "    sudo apt-get install automake"
+	log "    sudo apt-get install g++"
+	log ""
+	log " - Use a recent g++ compiler: tested up to 4.01"
+	log ""
+	log " - Make sure you have SDL_image installed. Go to libsdl.org"
+	log ""
+	log " - Try the latest version checked into SVN"
+	log ""
+	log "      svn co https://svn.sourceforge.net/svnroot/goblinhack/trunk goblinhack"
+	log ""
+	buglog "Make failed"
+	log ""
+	exit 1
+    fi
+fi
+
+if [ $? -eq 0 ]
+then
+    if [ "$1" != "-n" ]
+    then
+	sh build/sh/builddist.sh
+
+	log ""
+	log "Note you can also do:"
+	log ""
+	log "    'make install' to install ghack,"
+	log "    'make clean  ' to remove object files,"
+	log "    'make all    ' to rebuild the source after clean,"
+	log "    'make clobber' to remove all generated files,"
+	log ""
+	log "To play:"
+	log ""
+
+	bright " _           _ _ _                       __    _                _    "
+	bright "| |__  _   _(_) | |_ _   ___ _ __ ___   / /_ _| |__   __ _  ___| | __"
+	bright "| '_ \\| | | | | | __(_) / __| '__/ __| / / _\` | '_ \\ / _\` |/ __| |/ /"
+	bright "| |_) | |_| | | | |_ _  \\__ \\ | | (__ / / (_| | | | | (_| | (__|   < "
+	bright "|_.__/ \\__,_|_|_|\\__(_) |___/_|  \\___/_/ \\__, |_| |_|\\__,_|\\___|_|\\_\\"
+	bright "                                         |___/                       "
+
+	log "    ./ghack"
+	log ""
+	log "Please consider helping in the development. Rooms, monsters, code "
+	log "snippets are all most welcome."
+	log ""
+	log "goblinhack@gmail.com"
+	log ""
+    fi
+
+    if [ -x src/ghack.exe ]
+    then
+	ln -sf src/ghack.exe .
+    else
+	ln -sf src/ghack .
+    fi
+
+    strip ghack*
+fi
+
+cat src/resources/txt/help.txt | sed -e 's/%%fg=green//g' -e 's/%%fg=white//g' -e 's/%%fg=red//g' -e 's/%%fg=red//g' -e 's/%%fg=blue//g' -e 's/%%fg=random//g' > README
+exit 0

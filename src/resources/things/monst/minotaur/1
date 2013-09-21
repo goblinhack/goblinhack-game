@@ -1,0 +1,56 @@
+"Minotaur"
+score=350
+leaves_corpse
+audio_on_hit="Monster_Roar"
+look_delay_in_tenths=5
+is_explorer
+is_movable
+only_in_dungeons
+loves_night
+loves_midnight
+loves_halloween
+bravery_curr=0
+fate=1
+render_depth=3
+does_stuff
+strength=450
+dex=40
+intelligence=25
+stamina=800
+health=450
+keys=30
+treasure=0
+bite_damage=65
+karma=-450
+bite_delay_in_tenths=1
+bite_chance=140
+armour=50
+metabolism=65
+is_monst
+can_cast_spells
+can_wield_weapons
+is_edible_eater
+is_treasure_eater
+is_meat
+is_meat_eater
+explosion_type="explosion/hero"
+can_see_distance=7
+backpack=[ 
+    "treasure/warhammers/basic" 
+    "5" "hoard/1"
+]
+is_destroyable
+audio_on_dead="System_Shutdown"
+attacks=[
+	"evil"
+	"good"
+	"hero"
+	"minotaur"
+]
+attack_chance=[
+	0
+	200
+	100
+	20
+]
+appearing_chance=[ 1 2 3 4 5 6 7 8 9 10 ]

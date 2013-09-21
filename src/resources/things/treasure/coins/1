@@ -1,0 +1,6 @@
+"1 gold piece"
+treasure=1
+render_depth=2
+is_treasure
+is_movable
+appearing_chance=[ 100 ]

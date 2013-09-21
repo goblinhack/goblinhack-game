@@ -1,0 +1,63 @@
+"devourer"
+fate=4
+leaves_corpse
+render_depth=3
+does_stuff
+score=3500
+strength=750
+stamina=100
+intelligence=10
+weight=300
+health=800
+loves_night
+karma=-300
+metabolism=50
+can_see_distance=8
+is_monst
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat_eater
+attacks=[
+	"evil"
+	"good"
+	"hero"
+	"dwarve"
+]
+attack_chance=[
+	0
+	200
+	100
+	200
+]
+appearing_chance=[ 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 2 3 4 5 5 5 10 10 10 10 20 20 ]
+explosion_type="explosion/harmless"
+hates_fire
+can_wield_weapons
+bite_intelligence=1
+bite_intelligence_chance=50
+bite_karma=50
+bite_karma_chance=50
+bite_fate=50
+bite_fate_chance=10
+bite_damage=150
+bite_chance=100
+bite_delay_in_tenths=5
+teleport_chance=1
+teleport_delay_in_tenths=90
+backpack=[
+    "90" "treasure/bag_of_gold/1" 
+    "50" "treasure/bag_of_gold/2" 
+    "10" "treasure/bag_of_gold/3" 
+    "10" "magic/potion/monsticide"
+    "10" "magic/potion/monsticide2"
+    "10" "magic/potion/monsticide3"
+    "10" "magic/potion/monsticide4"
+    "10" "magic/potion/monsticide5"
+    "90" "treasure/gems/blood_diamond" 
+    "10" "treasure/gems/ruby" 
+    "10" "treasure/gems/diamond" 
+    "1" "treasure/gems/infinitum" 
+]

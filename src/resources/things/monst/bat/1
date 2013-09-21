@@ -1,0 +1,32 @@
+"little bat"
+leaves_corpse
+render_depth=3
+does_stuff
+score=1
+strength=1
+stamina=100
+intelligence=1
+weight=1
+is_monst
+only_in_caves
+only_in_dungeons
+is_destroyable
+health=5
+loves_night
+loves_full_moon
+loves_midnight
+loves_halloween
+karma=-1
+metabolism=86
+can_see_distance=2
+bite_damage=1
+attacks=[ "leech" "worm" "spider/1" "snail/1" ]
+attack_chance=[ 50 20 20 20 ]
+appearing_chance=[ 200 ]
+cluster_amount=10
+cluster_radius=60
+is_movable
+look_delay_in_tenths=2
+hates_fire
+audio_on_dead="Frog_Bass_002"
+is_meat

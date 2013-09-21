@@ -1,0 +1,63 @@
+"Elf"
+can_insult
+fate=3
+leaves_corpse
+render_depth=3
+does_stuff
+score=100
+strength=200
+dex=80
+intelligence=90
+stamina=800
+weight=200
+health=120
+only_in_forests
+only_in_landscapes
+karma=300
+bite_delay_in_tenths=5
+bite_chance=30
+metabolism=110
+can_see_distance=12
+is_monst
+only_in_dungeons
+is_explorer
+is_destroyable
+is_meat
+attacks=[
+	"elf"
+	"dwarve"
+	"goblin"
+	"orc"
+	"dragon"
+	"evil"
+	"good"
+]
+attack_chance=[
+	0
+	100
+	100
+	100
+	100
+	100
+	0
+]
+appearing_chance=[ 1 1 1 1 1 1 1 1 1 2 2 2 3 3 4 4 5 5 10 10 10 10 10 20 30 40 ]
+explosion_type="explosion/harmless"
+is_movable
+backpack=[ 
+    "treasure/bows/basic" 
+    "10" "treasure/bows/composite" 
+    "1" "treasure/wands/plasma" 
+    "1" "treasure/wands/halo" 
+    "food/lembas" 
+    "food/lembas" 
+    "food/lembas" 
+    "10" "treasure/gems/moonstone" 
+    "10" "treasure/gems/crystal" 
+    "10" "treasure/gems/sunstone" 
+    "10" "treasure/gems/tanzanite" 
+    "10" "hoard/4"
+    "50" "hoard/1"
+]
+look_delay_in_tenths=2
+can_wield_weapons

@@ -1,0 +1,90 @@
+"Gold Dragon"
+poison_proof=100
+fate=3
+leaves_corpse
+render_depth=3
+does_stuff
+score=5000
+strength=7000
+stamina=100
+intelligence=100
+weight=1000
+health=9000
+loves_night
+loves_fire
+loves_cold
+karma=-100
+bite_damage=220
+bite_armour=80
+bite_delay_in_tenths=5
+bite_chance=100
+armour=1500
+metabolism=70
+can_see_distance=15
+is_monst
+only_in_dungeons
+only_in_caves
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+attacks=[
+	"knight"
+	"dragon"
+	"hero"
+	"meat"
+]
+attack_chance=[
+	80
+	20
+	80
+	80
+]
+throws=[ 
+	"missiles/fireball_triple/hit_all" 
+]
+appearing_chance=[ 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 ]
+explosion_type="explosion/monst_acid"
+is_acid
+acid_proof=100
+hates_fire
+hates_cold
+look_delay_in_tenths=2
+anim_speed=4
+audio_on_hit="dinosaur"
+backpack=[
+    "90" "treasure/bag_of_gold/1" 
+    "90" "treasure/bag_of_gold/1" 
+    "90" "treasure/bag_of_gold/1" 
+    "90" "treasure/bag_of_gold/1" 
+    "90" "treasure/bag_of_gold/1" 
+    "90" "treasure/bag_of_gold/1" 
+    "50" "treasure/bag_of_gold/2" 
+    "50" "treasure/bag_of_gold/2" 
+    "50" "treasure/bag_of_gold/2" 
+    "50" "treasure/bag_of_gold/2" 
+    "50" "treasure/bag_of_gold/2" 
+    "50" "treasure/bag_of_gold/2" 
+    "50" "treasure/bag_of_gold/2" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "100" "hoard/5" 
+]
+ability_can_regenerate1
+ability_can_regenerate2
+can_cast_spells
+cannot_summon

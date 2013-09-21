@@ -1,0 +1,17 @@
+"potion explosion"
+render_depth=3
+does_stuff
+bite_delay_in_tenths=1
+bite_chance=100
+armour=100
+metabolism=100
+is_missile
+is_light_source
+is_boring
+is_bouncy
+lifespan=100
+explosion_type="explosion/harmless"
+audio_on_use="Woosh_Build"
+missile_spread=60
+missile_spread_angle=6
+cached_gfx

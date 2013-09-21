@@ -1,0 +1,45 @@
+#
+#   ghack.
+#   Copyright (C) 1999-2010 Neil McGill
+#
+#   This game is free software; you can redistribute it and/or
+#   modify it under the terms of the GNU Library General Public
+#   License as published by the Free Software Foundation; either
+#   version 2 of the License, or (at your option) any later version.
+#
+#   This game is distributed in the hope that it will be fun,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#   Library General Public License for more details.
+#
+#   You should have received a copy of the GNU Library General Public
+#   License along with this game; if not, write to the Free
+#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
+#   Neil McGill
+#
+#   $Id: Makefile.in 1241 2009-07-10 21:32:09Z Goblinhack $
+#
+
+TOP=../..
+
+include $(TOP)/build/mk/config
+
+OBJS =\
+	loop.o \
+	editor.o \
+	help.o \
+	quit.o \
+	info.o \
+	pause.o \
+	keys.o \
+	player.o \
+	tick.o \
+	score.o \
+	item.o \
+	save.o \
+	use.o \
+
+TARGET = $(TOP)/src/ghack
+
+include $(TOP)/build/mk/library

@@ -1,0 +1,12 @@
+"dragon scale"
+render_depth=2
+armour=350
+cost=3000
+is_treasure
+is_inventory_item
+is_armour
+is_movable
+is_destroyable
+fire_proof=80
+weight=50
+appearing_chance=[ 1 ]

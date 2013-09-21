@@ -1,0 +1,12 @@
+"steel"
+render_depth=2
+armour=220
+cost=800
+is_treasure
+is_inventory_item
+is_armour
+is_movable
+is_destroyable
+weight=80
+appearing_chance=[ 30 ]
+water_proof=10

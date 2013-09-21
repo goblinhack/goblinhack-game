@@ -1,0 +1,4 @@
+"teleport once per level"
+cost=3000
+can_self_teleport_once_per_level
+can_self_teleport

@@ -1,0 +1,52 @@
+"greater orc"
+leaves_corpse
+render_depth=3
+does_stuff
+score=24
+strength=300
+stamina=100
+intelligence=70
+weight=250
+health=200
+loves_night
+karma=-100
+bite_damage=30
+bite_armour=3
+bite_delay_in_tenths=5
+bite_chance=80
+armour=250
+metabolism=50
+can_see_distance=8
+is_monst
+only_in_landscapes
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+attacks=[ 
+    "orc" 
+    "goblin" 
+    "dwarve" 
+    "good" 
+    "evil" 
+    "hero"
+]
+attack_chance=[ 
+    -200 
+    200 
+    300 
+    200
+    0
+    200
+]
+throws=[ "missiles/basic/hit_all" ]
+appearing_chance=[ 10 20 30 40 50 90 90 90 90 80 70 60 50 50 40 40 30 30 30 20 20 10 ]
+explosion_type="explosion/harmless"
+cluster_amount=3
+cluster_radius=100
+backpack=[
+    "50" "hoard/1"
+    "10" "hoard/2"
+]

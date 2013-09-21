@@ -1,0 +1,47 @@
+"demon ghost"
+render_depth=3
+does_stuff
+score=100
+strength=1
+stamina=100
+intelligence=1
+weight=1
+health=200
+loves_night
+loves_full_moon
+loves_midnight
+loves_halloween
+karma=-600
+bite_karma=20
+bite_karma_chance=20
+bite_damage=5
+bite_delay_in_tenths=0
+bite_chance=100
+metabolism=90
+can_see_distance=8
+is_monst
+lifespan=2000
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_undead
+fate=3
+attacks=[
+	"evil"
+	"good"
+	"hero"
+]
+attack_chance=[
+	0
+	200
+	200
+]
+appearing_chance=[  1 1 5 10 20 ]
+explosion_type="explosion/harmless"
+look_delay_in_tenths=2
+is_transparent
+opacity=80
+can_cast_spells

@@ -1,0 +1,55 @@
+"black knight"
+fate=1
+leaves_corpse
+render_depth=3
+does_stuff
+score=50
+strength=200
+stamina=100
+intelligence=70
+weight=200
+health=180
+loves_night
+karma=-400
+bite_damage=20
+bite_armour=3
+bite_delay_in_tenths=10
+bite_chance=50
+armour=150
+metabolism=40
+can_see_distance=6
+is_monst
+only_in_forests
+only_in_landscapes
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+attacks=[
+	"good"
+	"police"
+	"dragon"
+	"evil"
+	"hero"
+]
+attack_chance=[
+	200
+	50
+	50
+	0
+	100
+]
+throws=[
+	"missiles/basic/hit_all"
+]
+appearing_chance=[ 5 10 20 30 40 50 ]
+cluster_amount=3
+cluster_radius=100
+look_delay_in_tenths=6
+ability_can_auto_rage
+can_wield_weapons
+backpack=[
+    "100" "hoard/3" 
+]

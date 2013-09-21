@@ -1,0 +1,11 @@
+"suit of armour"
+render_depth=2
+armour=300
+cost=4000
+is_treasure
+is_inventory_item
+is_armour
+is_movable
+is_destroyable
+weight=200
+appearing_chance=[ 1 ]

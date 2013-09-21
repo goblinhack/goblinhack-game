@@ -1,0 +1,1319 @@
+#################################################################
+# This maps characters used in level maps to possible things
+#################################################################
+:map   room/rock/2
+:map   room/rock/2
+:map   room/rock/2
+:map   room/rock/2
+:map   room/rock/2
+:map   room/rock/2
+:map   room/rock/2
+:map   room/rock/2
+:map   room/rock/2
+:map   room/rock/2
+:map   room/rock/2
+:map   room/rock/2
+:map   room/rock/2
+:map   room/rock/2
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map   room/rock/1
+:map , room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map   room/terrain/cave_dirt
+:map L room/lava/2
+:map : room/void
+:map ; room/void_floor
+:map   room/lava/1
+:map   room/lava/1
+:map   room/lava/1
+:map   room/lava/1
+:map   room/lava/1
+:map   room/lava/1
+:map   room/lava/1
+:map   room/lava/1
+:map   room/lava/1
+:map   room/lava/1
+:map   room/lava/1
+:map   room/lava/1
+:map   room/lava/1
+:map   room/lava/1
+:map   room/lava/1
+:map   room/lava/1
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map   room/terrain/dirt
+:map ` room/terrain/grass
+:map   room/terrain/grass
+:map   room/terrain/grass
+:map   room/terrain/grass
+:map   room/terrain/grass
+:map   room/terrain/grass
+:map   room/terrain/grass
+:map   room/terrain/grass
+:map   room/terrain/grass
+:map   room/terrain/grass
+:map   room/terrain/grass
+:map   room/terrain/grass
+:map F room/terrain/grass
+:map F room/terrain/dirt
+:map F room/terrain/grass
+:map F room/terrain/grass
+:map F room/terrain/grass
+:map % room/terrain/dirt
+:map   room/exits/2
+:map   room/exits/3
+:map   treasure/coins/1
+:map   treasure/coins/1
+:map   treasure/gems/tanzanite
+:map   treasure/gems/crystal
+:map   treasure/gems/emerald
+:map / room/water/1
+:map \ room/water/2
+:map | room/water/3
+:map t room/tree/1
+:map t room/tree/1
+:map t room/tree/1
+:map t room/tree/1
+:map t room/tree/1
+:map t room/tree/1
+:map t room/tree/1
+:map t room/tree/1
+:map t room/tree/1
+:map r room/rock/1
+:map r room/rock/1
+:map r room/rock/1
+:map r room/rock/1
+:map r room/rock/1
+:map r room/rock/1
+:map r room/rock/1
+:map r room/rock/1
+:map r room/rock/1
+:map r room/rock/1
+:map r room/rock/1
+:map r room/rock/1
+:map r room/rock/1
+:map r room/rock/2
+:map r room/rock/2
+:map r room/rock/2
+:map r room/rock/2
+:map r room/rock/2
+:map r room/rock/2
+:map r room/rock/2
+:map r room/rock/2
+:map r room/rock/2
+:map r room/rock/2
+:map r room/rock/2
+:map r room/rock/2
+:map r room/rock/2
+:map r room/rock/2
+:map r room/rock/2
+:map r room/rock/2
+:map r room/lava/1
+:map & room/rock/2
+:map ! monst/moving_wall/1
+:map " room/corridorwall/1
+:map " room/corridorwall/2
+:map " room/corridorwall/4
+:map " room/corridorwall/4
+:map x room/secretwall/1
+:map x room/secretwall/2
+:map x room/secretwall/3
+:map x room/secretwall/4
+:map . room/floor/1
+:map . room/floor/1
+:map . room/floor/1
+:map . room/floor/2
+:map . room/floor/3
+:map . room/floor/4
+:map . room/floor/5
+:map . room/floor/6
+:map . room/floor/7
+:map . room/floor/8
+:map . room/floor/9
+:map . room/floor/10
+:map . room/floor/11
+:map . room/floor/12
+:map . room/floor/13
+:map . room/floor/14
+:map . room/floor/15
+:map . room/floor/16
+:map . room/floor/17
+:map . room/floor/18
+:map # room/corridor/1
+:map # room/corridor/2
+:map # room/corridor/3
+:map # room/corridor/4
+:map $ treasure/fate/fate
+:map $ monst/chest/1
+:map $ treasure/armour/1
+:map $ treasure/armour/1a
+:map $ treasure/armour/1b
+:map $ treasure/armour/1c
+:map $ treasure/armour/2
+:map $ treasure/armour/3
+:map $ treasure/armour/chocolate
+:map $ treasure/armour/ice
+:map $ treasure/armour/acid
+:map $ treasure/bag_of_gold/1
+:map $ treasure/bag_of_gold/2
+:map $ treasure/bag_of_gold/3
+:map $ treasure/chest/1
+:map $ treasure/chest/2
+:map $ treasure/chest/3
+:map $ treasure/chest/4
+:map $ treasure/chest/5
+:map $ treasure/chest/6
+:map $ treasure/chest/7
+:map $ treasure/chest/8
+:map $ treasure/chest/dollar
+:map $ treasure/chest/dollar_bunch
+:map $ treasure/coins/1
+:map $ treasure/coins/1a
+:map $ treasure/coins/2
+:map $ treasure/coins/2a
+:map $ treasure/coins/3
+:map $ treasure/coins/3a
+:map $ treasure/crowns/1
+:map $ treasure/crowns/2
+:map $ treasure/amulets/1
+:map $ treasure/amulets/2
+:map $ treasure/amulets/3
+:map $ treasure/amulets/4
+:map $ treasure/amulets/5
+:map $ treasure/amulets/6
+:map $ treasure/amulets/7
+:map $ treasure/amulets/8
+:map $ treasure/amulets/9
+:map $ treasure/amulets/10
+:map $ treasure/amulets/11
+:map $ treasure/amulets/12
+:map $ treasure/amulets/13
+:map $ treasure/gems/4
+:map $ treasure/gems/7
+:map $ treasure/gems/8
+:map $ treasure/gems/amethyst
+:map $ treasure/gems/black_crystal
+:map $ treasure/gems/blood_diamond
+:map $ treasure/gems/crystal
+:map $ treasure/gems/diamond
+:map $ treasure/gems/emerald
+:map $ treasure/gems/infinitum
+:map $ treasure/gems/jade
+:map $ treasure/gems/moonstone
+:map $ treasure/gems/ruby
+:map $ treasure/gems/sapphire
+:map $ treasure/gems/sunstone
+:map * treasure/gems/tanzanite
+:map * treasure/gems/4
+:map * treasure/gems/7
+:map * treasure/gems/8
+:map * treasure/gems/amethyst
+:map * treasure/gems/black_crystal
+:map * treasure/gems/blood_diamond
+:map * treasure/gems/crystal
+:map * treasure/gems/diamond
+:map * treasure/gems/emerald
+:map * treasure/gems/infinitum
+:map * treasure/gems/jade
+:map * treasure/gems/moonstone
+:map * treasure/gems/ruby
+:map * treasure/gems/sapphire
+:map * treasure/gems/sunstone
+:map * treasure/gems/tanzanite
+:map $ treasure/keys/1
+:map $ treasure/keys/1
+:map $ treasure/keys/2
+:map $ treasure/keys/3
+:map $ treasure/keys/4
+:map $ treasure/wands/basic
+:map $ treasure/wands/basic_triple
+:map $ treasure/wands/fire
+:map $ treasure/wands/fire_triple
+:map $ treasure/wands/halo
+:map $ treasure/wands/ice
+:map $ treasure/wands/ice_triple
+:map $ treasure/wands/acid
+:map $ treasure/wands/acid_triple
+:map $ treasure/wands/lava
+:map $ treasure/wands/death
+:map $ treasure/wands/polymorph
+:map $ treasure/wands/plasma
+:map $ treasure/wands/digging
+:map $ treasure/wands/plasma_triple
+:map $ treasure/guns/lightning_gun
+:map $ treasure/guns/mini_laser
+:map $ treasure/guns/bazooka
+:map $ treasure/guns/rocket_launcher
+:map $ treasure/guns/handgun
+:map $ treasure/guns/rifle
+:map $ treasure/guns/musket
+:map $ treasure/guns/shotgun
+:map $ treasure/guns/silver_handgun
+:map $ treasure/guns/laser
+:map $ treasure/bombs/mines
+:map $ treasure/bombs/grenades
+:map $ treasure/bombs/grenades_sleep
+:map $ treasure/bombs/grenades_poison
+:map $ treasure/bombs/grenades_cursed
+:map $ treasure/bows/basic
+:map $ treasure/bows/composite
+:map $ treasure/bows/poison
+:map $ treasure/bows/flame
+:map $ treasure/bows/ice
+:map $ treasure/bows/enchanted
+:map $ treasure/bows/enchanted_cursed
+:map $ treasure/bows/enchanted2
+:map $ treasure/bows/enchanted3
+:map $ treasure/staffs/basic
+:map $ treasure/staffs/hardened
+:map $ treasure/staffs/enchanted
+:map $ treasure/staffs/enchanted2
+:map $ treasure/staffs/enchanted3
+:map $ treasure/staffs/enchanted4
+:map $ treasure/staffs/enchanted5
+:map $ treasure/swords/basic
+:map $ treasure/swords/silver
+:map $ treasure/swords/broad
+:map $ treasure/swords/vorpal
+:map $ treasure/swords/enchanted_cursed
+:map $ treasure/swords/chocolate
+:map $ treasure/swords/enchanted
+:map $ treasure/swords/enchanted2
+:map $ treasure/swords/enchanted3
+:map $ treasure/swords/enchanted4
+:map $ treasure/swords/enchanted5
+:map $ treasure/swords/death
+:map $ treasure/swords/excalibur
+:map $ treasure/swords/holy
+:map $ treasure/axes/stone
+:map $ treasure/axes/fire
+:map $ treasure/axes/ice
+:map $ treasure/axes/enchanted_cursed
+:map $ treasure/axes/chocolate
+:map $ treasure/axes/enchanted
+:map $ treasure/axes/enchanted2
+:map $ treasure/axes/enchanted3
+:map $ treasure/axes/enchanted4
+:map $ treasure/axes/enchanted5
+:map $ treasure/axes/basic
+:map $ treasure/axes/silver
+:map $ treasure/axes/great
+:map $ treasure/axes/cleaving
+:map $ treasure/axes/poison
+:map $ treasure/warhammers/basic
+:map $ treasure/warhammers/fire
+:map $ treasure/warhammers/ice
+:map $ treasure/warhammers/enchanted_cursed
+:map $ treasure/warhammers/chocolate
+:map $ treasure/warhammers/enchanted
+:map $ treasure/warhammers/enchanted2
+:map $ treasure/warhammers/enchanted3
+:map $ treasure/warhammers/enchanted4
+:map $ treasure/warhammers/enchanted5
+:map $ treasure/warhammers/basic
+:map $ treasure/warhammers/silver
+:map $ treasure/warhammers/great
+:map $ treasure/warhammers/cleaving
+:map $ treasure/warhammers/poison
+:map 1 treasure/wands/basic
+:map 1 treasure/wands/basic_triple
+:map 1 treasure/wands/fire
+:map 1 treasure/wands/fire_triple
+:map 1 treasure/wands/halo
+:map 1 treasure/wands/ice
+:map 1 treasure/wands/ice_triple
+:map 1 treasure/wands/acid
+:map 1 treasure/wands/acid_triple
+:map 1 treasure/wands/lava
+:map 1 treasure/wands/death
+:map 1 treasure/wands/polymorph
+:map 1 treasure/wands/plasma
+:map 1 treasure/wands/digging
+:map 1 treasure/wands/plasma_triple
+:map 2 treasure/guns/lightning_gun
+:map 2 treasure/guns/mini_laser
+:map 2 treasure/guns/bazooka
+:map 2 treasure/guns/rocket_launcher
+:map 2 treasure/guns/handgun
+:map 2 treasure/guns/rifle
+:map 2 treasure/guns/shotgun
+:map 2 treasure/guns/silver_handgun
+:map 2 treasure/guns/laser
+:map 3 treasure/bombs/mines
+:map 3 treasure/bombs/grenades
+:map 3 treasure/bombs/grenades_sleep
+:map 3 treasure/bombs/grenades_poison
+:map 3 treasure/bombs/grenades_cursed
+:map 4 treasure/bows/basic
+:map 4 treasure/bows/composite
+:map 4 treasure/bows/poison
+:map 4 treasure/bows/flame
+:map 4 treasure/bows/ice
+:map 4 treasure/bows/enchanted
+:map 4 treasure/bows/enchanted_cursed
+:map 4 treasure/bows/enchanted2
+:map 4 treasure/bows/enchanted3
+:map 5 treasure/staffs/basic
+:map 5 treasure/staffs/hardened
+:map 5 treasure/staffs/enchanted
+:map 5 treasure/staffs/enchanted2
+:map 5 treasure/staffs/enchanted3
+:map 5 treasure/staffs/enchanted4
+:map 5 treasure/staffs/enchanted5
+:map 6 treasure/swords/basic
+:map 6 treasure/swords/silver
+:map 6 treasure/swords/broad
+:map 6 treasure/swords/vorpal
+:map 6 treasure/swords/enchanted_cursed
+:map 6 treasure/swords/chocolate
+:map 6 treasure/swords/enchanted
+:map 6 treasure/swords/enchanted2
+:map 6 treasure/swords/enchanted3
+:map 6 treasure/swords/enchanted4
+:map 6 treasure/swords/enchanted5
+:map 6 treasure/swords/death
+:map 6 treasure/swords/excalibur
+:map 6 treasure/swords/holy
+:map 7 treasure/axes/fire
+:map 7 treasure/axes/ice
+:map 7 treasure/axes/enchanted_cursed
+:map 7 treasure/axes/chocolate
+:map 7 treasure/axes/enchanted
+:map 7 treasure/axes/enchanted2
+:map 7 treasure/axes/enchanted3
+:map 7 treasure/axes/enchanted4
+:map 7 treasure/axes/enchanted5
+:map 7 treasure/axes/basic
+:map 7 treasure/axes/silver
+:map 7 treasure/axes/great
+:map 7 treasure/axes/cleaving
+:map 7 treasure/axes/poison
+:map - monst/moving_wall/2
+:map = room/doors/electro_door
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/cave_dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/dirt
+:map ? room/terrain/grass
+:map ? room/terrain/grass
+:map ? room/terrain/grass
+:map ? room/terrain/grass
+:map ? room/terrain/grass
+:map ? room/generators/1
+:map ? room/generators/1a
+:map ? room/generators/1b
+:map ? room/generators/1c
+:map ? room/generators/2
+:map ? room/generators/7
+:map ? room/generators/1
+:map ? room/generators/1a
+:map ? room/generators/1b
+:map ? room/generators/1c
+:map ? room/generators/2
+:map ? room/generators/7
+:map ? room/generators/1
+:map ? room/generators/1a
+:map ? room/generators/1b
+:map ? room/generators/1c
+:map ? room/generators/2
+:map ? room/generators/7
+:map ? room/generators/1
+:map ? room/generators/1a
+:map ? room/generators/1b
+:map ? room/generators/1c
+:map ? room/generators/2
+:map ? room/generators/7
+:map ? room/generators/8
+:map ? treasure/armour/1
+:map ? treasure/armour/2
+:map ? treasure/armour/liquid
+:map ? treasure/armour/suit
+:map ? treasure/bag_of_gold/1
+:map ? treasure/bag_of_gold/2
+:map ? treasure/coins/1a
+:map ? treasure/gems/ruby
+:map ? treasure/keys/1
+:map ? treasure/keys/2
+:map ? treasure/keys/3
+:map ? treasure/wands/basic
+:map ? treasure/wands/basic_triple
+:map ? treasure/wands/fire
+:map ? treasure/wands/fire_triple
+:map ? treasure/wands/ice
+:map ? treasure/wands/ice_triple
+:map ? treasure/wands/acid
+:map ? treasure/wands/acid_triple
+:map ? treasure/wands/lava
+:map ? treasure/wands/death
+:map ? treasure/wands/polymorph
+:map ? treasure/wands/plasma
+:map ? treasure/wands/digging
+:map ? treasure/bows/basic
+:map ? treasure/bows/composite
+:map ? treasure/staffs/basic
+:map ? treasure/staffs/hardened
+:map ? treasure/swords/basic
+:map ? treasure/swords/silver
+:map ? treasure/swords/broad
+:map ? treasure/axes/basic
+:map ? treasure/axes/silver
+:map ? treasure/axes/great
+:map @ room/border
+:map D room/doors/broken_door
+:map D room/doors/fancy
+:map D room/doors/cell_door
+:map D room/doors/door
+:map D room/doors/portcullis
+:map E room/enter/1
+:map E room/exits/1
+:map R room/return_exit/1
+:map G room/generators/1
+:map G room/generators/1a
+:map G room/generators/1b
+:map G room/generators/1c
+:map G room/generators/2
+:map G room/generators/3
+:map G room/generators/4
+:map G room/generators/5
+:map G room/generators/6
+:map G room/generators/7
+:map G room/generators/8
+:map G room/generators/bat
+:map m monst/hydra/1
+:map M monst/medusa/1
+:map M monst/hydra/2
+:map M monst/flayer/1
+:map M monst/dragon/1
+:map M monst/dragon/2
+:map M monst/dragon/3
+:map M monst/dragon/4
+:map M monst/dragon/5
+:map M monst/dragon/6
+:map M monst/dragon/7
+:map M monst/knight/3
+:map M monst/beholder/2
+:map M monst/death/1
+:map M monst/demon/1
+:map M monst/demon/2a
+:map M monst/demon/2b
+:map M monst/glork/1
+:map M monst/glork/1
+:map M monst/glork/3
+:map M monst/glork/egg
+:map M monst/hulk/1
+:map M monst/hulk/2
+:map m monst/hulk/1
+:map m monst/hulk/2
+:map m monst/smurlinger/1
+:map m monst/minotaur/1
+:map m monst/morhock/1
+:map M monst/lich/1
+:map m monst/lich/1a
+:map m monst/lich/1b
+:map m monst/minotaur/2
+:map m monst/minotaur/3
+:map M monst/spirit/1
+:map m monst/spirit/1
+:map m monst/troll/1
+:map m monst/troll/2
+:map M monst/troll/1
+:map M monst/troll/2
+:map M monst/troll/3
+:map M monst/vampire/1
+:map m monst/vampire/1
+:map m monst/galump/1
+:map S hero/warrior
+:map S hero/civil
+:map S hero/minotaur
+:map S hero/warlock
+:map S hero/barbarian
+:map S hero/valkyrie
+:map S hero/monk
+:map S hero/druid
+:map S hero/elf
+:map S hero/dwarve
+:map S hero/orc
+:map S hero/half_orc
+:map S hero/wizard
+:map S hero/sorceror
+:map S hero/soldier
+:map S hero/soldier2
+:map S hero/soldier3
+:map S hero/future_soldier
+:map S hero/necromancer
+:map T room/teleport/1
+:map ^ room/castle/1
+:map ^ room/castle/1a
+:map ^ room/castle/1b
+:map ^ room/castle/2
+:map ^ room/castle/2a
+:map ^ room/castle/2b
+:map ^ room/castle/2c
+:map ^ room/castle/2d
+:map ^ room/castle/3
+:map ^ room/castle/3a
+:map W treasure/wands/basic
+:map W treasure/wands/basic_triple
+:map W treasure/wands/fire
+:map W treasure/wands/fire_triple
+:map W treasure/wands/halo
+:map W treasure/wands/ice
+:map W treasure/wands/ice_triple
+:map W treasure/wands/acid
+:map W treasure/wands/acid_triple
+:map W treasure/wands/lava
+:map W treasure/wands/death
+:map W treasure/wands/plasma
+:map W treasure/wands/digging
+:map W treasure/wands/plasma_triple
+:map X room/walls/1
+:map X room/walls/2
+:map X room/walls/3
+:map X room/walls/4
+:map X room/walls/5
+:map X room/walls/6
+:map X room/walls/7
+:map X room/walls/7a
+:map X room/walls/8
+:map X room/walls/8a
+:map _ monst/spikes/1
+:map _ monst/mushroom/sleep
+:map _ monst/mushroom/poison
+:map _ monst/spikes/1a
+:map _ monst/spikes/2
+:map _ monst/spikes/3
+:map _ monst/spikes/4
+:map _ room/exits/2
+:map _ room/exits/3
+:map _ room/exits/4
+:map _ room/exits/5
+:map _ room/exits/6
+:map _ room/exits/7
+:map _ room/pits/crack_of_doom
+:map _ room/pits/dimensional_rift
+:map _ room/pits/killer_tar
+:map _ room/pits/lava
+:map _ room/pits/lava2
+:map _ room/traps/fire
+:map _ room/traps/pudding
+:map _ room/traps/greater_pudding
+:map _ room/traps/blood_pudding
+:map _ room/traps/king_pudding
+:map _ room/traps/slime
+:map _ room/traps/slime2
+:map _ room/traps/slime3
+:map _ room/traps/slime4
+:map _ room/traps/slime5
+:map _ room/traps/ice
+:map _ room/traps/black_ice
+:map _ room/traps/vampire_sponge
+:map A treasure/armour/1
+:map A treasure/armour/1a
+:map A treasure/armour/1b
+:map A treasure/armour/1c
+:map A treasure/armour/2
+:map A treasure/armour/2
+:map A treasure/armour/3
+:map A treasure/armour/3
+:map A treasure/armour/4
+:map A treasure/armour/4
+:map A treasure/armour/chocolate
+:map A treasure/armour/ice
+:map A treasure/armour/acid
+:map A treasure/armour/liquid
+:map A treasure/armour/suit
+:map c treasure/coins/1
+:map c treasure/coins/1a
+:map c treasure/coins/2
+:map c treasure/coins/2a
+:map c treasure/coins/3
+:map c treasure/coins/3a
+:map d monst/worm/1
+:map d monst/dragon/1
+:map d monst/dragon/2
+:map d monst/dragon/3
+:map d monst/dragon/4
+:map d monst/dragon/5
+:map d monst/dragon/6
+:map d monst/dragon/7
+:map e room/exits/1
+:map e room/exits/2
+:map e room/exits/3
+:map e room/exits/4
+:map e room/exits/5
+:map e room/exits/6
+:map e room/exits/7
+:map e room/enter/1
+:map f food/apple
+:map f food/cherries
+:map f food/apple2
+:map f food/banana
+:map f food/apricot
+:map f food/beer
+:map f food/bread
+:map f food/candy/candy
+:map f food/cheese
+:map f food/lembas
+:map f food/chocolate/chocolate
+:map f food/chocolate/dark_chocolate
+:map f food/cookies/1
+:map f food/cookies/2
+:map f food/cookies/3
+:map f food/lemon
+:map f food/milk
+:map f food/orange
+:map f food/purplegrokjuice
+:map f food/redapple
+:map f food/sandwich
+:map f food/water
+:map g monst/goblin/1
+:map g monst/goblin/2
+:map g monst/goblin/3
+:map g monst/goblin/4
+:map i treasure/fate/fate
+:map i magic/potion/draggone
+:map i magic/potion/gobgone
+:map i magic/potion/insecticide
+:map i magic/potion/lavanomore
+:map i magic/potion/maggotsurprise
+:map i magic/potion/monsticide
+:map i magic/potion/monsticide2
+:map i magic/potion/monsticide3
+:map i magic/potion/monsticide4
+:map i magic/potion/monsticide5
+:map i magic/potion/pesticide
+:map i magic/potion/skeletonkey
+:map i magic/potion/slimeaway
+:map i magic/potion/stoatpowder
+:map i magic/potion/trolloff
+:map i magic/potion/undeadaway
+:map i magic/potion/vamprinse
+:map i magic/potion/vessel_of_light
+:map i magic/spell/fire2
+:map i magic/spell/poison
+:map i magic/spell/feather
+:map i magic/spell/rock_wall_cursed
+:map i magic/spell/summon_monst_cursed
+:map i magic/spell/guardian_angel
+:map i magic/spell/sleep2
+:map i magic/spell/summon_monst2_cursed
+:map i magic/spell/heal
+:map i magic/spell/summon_undead
+:map i magic/spell/decurse
+:map i magic/spell/curse
+:map i magic/spell/guardian_demon
+:map i magic/spell/summon_monst_wall
+:map i magic/spell/instafood
+:map i magic/spell/summon_monst2
+:map i magic/spell/summon_monst_cursed_wall
+:map i magic/spell/fast
+:map i magic/spell/slow
+:map i magic/spell/snow
+:map i magic/spell/heavy
+:map i magic/spell/lightning
+:map i magic/spell/invisible
+:map i magic/spell/rock_wall
+:map i magic/spell/see
+:map i magic/spell/warp
+:map i magic/spell/exit_wall
+:map i magic/spell/metal_shield
+:map i magic/spell/fire
+:map i magic/spell/info
+:map i magic/spell/blind
+:map i magic/spell/snake_charmer
+:map i magic/spell/sleep
+:map i magic/spell/shield
+:map i magic/spell/snow2
+:map i magic/spell/summon_monst
+:map i magic/spell/lightning2
+:map i magic/spell/living_wall
+:map i magic/spell/poison2
+:map i magic/spell/raise_dead
+:map i treasure/armour/1
+:map i treasure/armour/1a
+:map i treasure/armour/1b
+:map i treasure/armour/1c
+:map i treasure/armour/2
+:map i treasure/armour/3
+:map i treasure/wands/basic
+:map i treasure/wands/basic_triple
+:map i treasure/wands/fire
+:map i treasure/wands/fire_triple
+:map i treasure/wands/halo
+:map i treasure/wands/ice
+:map i treasure/wands/ice_triple
+:map i treasure/wands/acid
+:map i treasure/wands/acid_triple
+:map i treasure/wands/lava
+:map i treasure/wands/plasma
+:map i treasure/wands/digging
+:map i treasure/wands/plasma_triple
+:map i treasure/guns/lightning_gun
+:map i treasure/guns/mini_laser
+:map I treasure/guns/bazooka
+:map I treasure/guns/rocket_launcher
+:map I treasure/guns/handgun
+:map I treasure/guns/rifle
+:map I treasure/guns/shotgun
+:map I treasure/guns/silver_handgun
+:map i treasure/guns/laser
+:map I treasure/bombs/mines
+:map I treasure/bombs/grenades
+:map I treasure/bombs/grenades_cursed
+:map i treasure/axes/enchanted_cursed
+:map i treasure/axes/chocolate
+:map i treasure/swords/enchanted_cursed
+:map i treasure/swords/chocolate
+:map i treasure/bows/basic
+:map I treasure/bows/composite
+:map I treasure/bows/poison
+:map I treasure/bows/flame
+:map I treasure/bows/ice
+:map i treasure/staffs/basic
+:map i treasure/staffs/hardened
+:map i treasure/swords/basic
+:map i treasure/swords/silver
+:map i treasure/swords/broad
+:map i treasure/axes/basic
+:map i treasure/axes/silver
+:map i treasure/axes/great
+:map I treasure/staffs/basic
+:map I treasure/staffs/hardened
+:map I treasure/swords/basic
+:map I treasure/swords/silver
+:map I treasure/swords/broad
+:map I treasure/axes/basic
+:map I treasure/axes/silver
+:map I treasure/axes/great
+:map k monst/knight/1
+:map k monst/knight/1a
+:map k monst/knight/2
+:map m monst/beetles/1
+:map m monst/mist/1
+:map m monst/dwarve/1
+:map m monst/dwarve/2
+:map m monst/dwarve/3
+:map m monst/elf/1
+:map m monst/elf/2
+:map m monst/roach/1
+:map m monst/angel/1
+:map m monst/bat/1
+:map m monst/bat/2
+:map m monst/bat/3
+:map m monst/bee/1
+:map m monst/beholder/1
+:map m monst/caterpillar/1
+:map C monst/centipede/1
+:map C monst/centipede/2
+:map C monst/centipede/3
+:map C monst/centipede/giant
+:map m monst/centipede/1
+:map m monst/centipede/2
+:map m monst/centipede/3
+:map m monst/centipede/giant
+:map m monst/chest/1
+:map m monst/cleaner/1
+:map m monst/cleaner/2
+:map m monst/cleaner/3
+:map m monst/creepy/1
+:map m monst/death/1
+:map m monst/demon/2
+:map m monst/demon/2a
+:map m monst/demon/1
+:map m monst/flayer/1
+:map m monst/hydra/1
+:map m monst/medusa/1
+:map m monst/hydra/2
+:map m monst/dragon/1
+:map m monst/dragon/2
+:map m monst/fairy/1
+:map m monst/fairy/2
+:map m monst/firebug/1
+:map m monst/firelord/1
+:map m monst/ghost/1
+:map m monst/ghost/2
+:map m monst/ghost/3
+:map m monst/ghost/4
+:map m monst/ghost/5
+:map m monst/ghost/6
+:map m monst/ghost/7
+:map m monst/ghost/8
+:map m monst/ghost/9
+:map m monst/ghost/10
+:map m monst/glork/egg
+:map m monst/goblin/1
+:map m monst/goblin/2
+:map m monst/goblin/3
+:map m monst/goblin/4
+:map m monst/hole/1
+:map m monst/hole/2
+:map m monst/blob/1
+:map m monst/blob/2
+:map m monst/hulk/1
+:map m monst/hulk/2
+:map m monst/stomper/1
+:map m monst/imp/1
+:map m monst/imp/2
+:map m monst/imp/3
+:map m monst/imp/4
+:map m monst/imp/5
+:map m monst/imp/6
+:map m monst/invisible_man/1
+:map m monst/knight/1
+:map k monst/knight/1a
+:map m monst/knight/2
+:map m monst/maggots/1
+:map m monst/mouse/1
+:map m monst/mouse/2
+:map m monst/moving_wall/1
+:map m monst/moving_wall/2
+:map m monst/moving_wall/3
+:map m monst/orc/1
+:map m monst/orc/2
+:map m monst/orc/3
+:map m monst/orc/4
+:map m monst/police/1
+:map m monst/pumpkin/1
+:map m monst/rat/1
+:map m monst/rust/1
+:map m monst/skeleton/1
+:map m monst/skull/1
+:map m monst/mushroom/sleep
+:map m monst/mushroom/poison
+:map m monst/snail/1
+:map m monst/snail/2
+:map m monst/snail/3
+:map m monst/leech/1
+:map s monst/snakes/1
+:map s monst/snakes/2
+:map s monst/snakes/3
+:map s monst/snakes/4
+:map m monst/snakes/4
+:map m monst/snakes/1
+:map m monst/snakes/2
+:map m monst/snakes/3
+:map M monst/snakes/3
+:map m monst/spider/goliath
+:map m monst/spider/bird
+:map m monst/spider/widow
+:map m monst/spider/banana
+:map m monst/spider/vampire
+:map m monst/spider/2
+:map m monst/spider/3
+:map m monst/spider/4
+:map m monst/spider/5
+:map m monst/spider/trapdoor
+:map m monst/squarm/1
+:map m monst/slug/1
+:map m monst/gnasher/1
+:map m monst/teletrap/1
+:map m monst/slug/2
+:map m monst/slug/3
+:map m monst/spikes/1
+:map m monst/spikes/1a
+:map m monst/spikes/2
+:map m monst/spikes/3
+:map m monst/spikes/4
+:map m monst/spirit/1
+:map m monst/sprite/1
+:map m monst/stoat/1
+:map m monst/troll/1
+:map m monst/troll/2
+:map m monst/troll/3
+:map m monst/vampire/1
+:map m monst/witch/1
+:map m monst/witch/2
+:map m monst/wizard/1
+:map m monst/worm/1
+:map m monst/zombie/1
+:map m monst/zombie/2
+:map m room/generators/1
+:map m room/generators/1a
+:map m room/generators/1b
+:map m room/generators/1c
+:map m room/generators/2
+:map m room/generators/3
+:map m room/generators/4
+:map m room/generators/5
+:map m room/generators/6
+:map m room/generators/7
+:map m room/generators/8
+:map m room/generators/bat
+:map m room/traps/fire
+:map m room/traps/pudding
+:map m room/traps/greater_pudding
+:map m room/traps/blood_pudding
+:map m room/traps/king_pudding
+:map m room/traps/slime2
+:map m room/traps/slime3
+:map m room/traps/slime4
+:map m room/traps/slime5
+:map m room/traps/ice
+:map m room/traps/vampire_sponge
+:map M monst/golem/1
+:map M monst/golem/2
+:map M monst/golem/3
+:map M monst/golem/4
+:map o monst/orc/1
+:map o monst/orc/2
+:map o monst/orc/3
+:map o monst/orc/4
+:map p treasure/fate/fate
+:map p magic/potion/draggone
+:map p magic/potion/gobgone
+:map p magic/potion/insecticide
+:map p magic/potion/lavanomore
+:map p magic/potion/maggotsurprise
+:map p magic/potion/monsticide
+:map p magic/potion/monsticide2
+:map p magic/potion/monsticide3
+:map p magic/potion/monsticide4
+:map p magic/potion/monsticide5
+:map p magic/potion/pesticide
+:map p magic/potion/skeletonkey
+:map p magic/potion/slimeaway
+:map p magic/potion/stoatpowder
+:map p magic/potion/trolloff
+:map p magic/potion/undeadaway
+:map p magic/potion/vamprinse
+:map p magic/potion/vessel_of_light
+:map p magic/spell/fire2
+:map p magic/spell/poison
+:map p magic/spell/feather
+:map p magic/spell/rock_wall_cursed
+:map p magic/spell/summon_monst_cursed
+:map p magic/spell/guardian_angel
+:map p magic/spell/sleep2
+:map p magic/spell/summon_monst2_cursed
+:map p magic/spell/heal
+:map p magic/spell/summon_undead
+:map p magic/spell/decurse
+:map p magic/spell/curse
+:map p magic/spell/guardian_demon
+:map p magic/spell/summon_monst_wall
+:map p magic/spell/instafood
+:map p magic/spell/summon_monst2
+:map p magic/spell/summon_monst_cursed_wall
+:map p magic/spell/fast
+:map p magic/spell/slow
+:map p magic/spell/snow
+:map p magic/spell/heavy
+:map p magic/spell/lightning
+:map p magic/spell/invisible
+:map p magic/spell/rock_wall
+:map p magic/spell/see
+:map p magic/spell/warp
+:map p magic/spell/exit_wall
+:map p magic/spell/metal_shield
+:map p magic/spell/fire
+:map p magic/spell/info
+:map p magic/spell/blind
+:map p magic/spell/snake_charmer
+:map p magic/spell/sleep
+:map p magic/spell/shield
+:map p magic/spell/snow2
+:map p magic/spell/summon_monst
+:map p magic/spell/lightning2
+:map p magic/spell/living_wall
+:map p magic/spell/poison2
+:map p magic/spell/raise_dead
+:map K monst/shopkeeper/1
+:map u monst/golem/1
+:map u monst/golem/2
+:map u monst/golem/3
+:map u monst/golem/4
+:map u monst/ghost/10
+:map u monst/ghost/9
+:map u monst/ghost/8
+:map u monst/ghost/7
+:map u monst/ghost/6
+:map u monst/ghost/5
+:map u monst/ghost/4
+:map u monst/ghost/3
+:map u monst/ghost/2
+:map u monst/ghost/1
+:map u monst/pumpkin/1
+:map u monst/skull/1
+:map u monst/skeleton/1
+:map u monst/spirit/1
+:map u monst/vampire/1
+:map u monst/wizard/1
+:map u monst/zombie/1
+:map u monst/zombie/2
+:map u monst/knight/3
+:map u monst/death/1
+:map w monst/cleaner/1
+:map w monst/cleaner/2
+:map w monst/cleaner/3
+:map w monst/minotaur/1
+:map w monst/minotaur/2
+:map w monst/minotaur/3
+:map w monst/moving_wall/1
+:map w monst/moving_wall/2
+:map w monst/moving_wall/3
+:map w monst/moving_wall/3

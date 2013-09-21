@@ -1,0 +1,71 @@
+"vampire"
+poison_proof=100
+fate=3
+render_depth=3
+does_stuff
+score=550
+strength=1000
+stamina=100
+intelligence=80
+weight=150
+health=1500
+loves_night
+loves_full_moon
+loves_midnight
+loves_halloween
+loves_cold
+metabolism=80
+can_see_distance=6
+is_monst
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_undead
+is_destroyable
+attacks=[
+	"monst"
+	"hero"
+]
+attack_chance=[
+	100
+	100
+]
+appearing_chance=[ 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 5 5 10 20 20 20 20 50 ]
+explosion_type="explosion/harmless"
+transmogrifies_into=[ "monst/bat/3" ]
+transmogrify_chance=[ 100 150 200 ]
+transmog_delay_in_tenths=100
+is_cold
+cold_proof=100
+hates_fire
+karma=-800
+teleport_chance=5
+teleport_delay_in_tenths=90
+audio_on_dead="demon_die"
+look_delay_in_tenths=3
+backpack=[
+    "90" "treasure/bag_of_gold/1" 
+    "50" "treasure/bag_of_gold/2" 
+    "10" "treasure/bag_of_gold/3" 
+    "10" "magic/potion/monsticide"
+    "10" "magic/potion/monsticide2"
+    "10" "magic/potion/monsticide3"
+    "10" "magic/potion/monsticide4"
+    "10" "magic/potion/monsticide5"
+    "90" "treasure/gems/blood_diamond" 
+    "10" "treasure/gems/ruby" 
+    "10" "treasure/gems/diamond" 
+    "1" "treasure/gems/infinitum" 
+]
+bite_delay_in_tenths=5
+bite_fate=1
+bite_fate_chance=10
+bite_karma=200
+bite_karma_chance=50
+bite_damage=80
+bite_chance=100
+hates_water
+ability_can_regenerate1
+loves_death

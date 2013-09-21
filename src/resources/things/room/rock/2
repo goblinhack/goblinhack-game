@@ -1,0 +1,16 @@
+"solid rock"
+render_depth=1
+cant_see_past
+is_joinable
+is_destroyable
+opacity=100
+is_boring
+cached_gfx
+health=100
+is_hard
+appearing_chance=[ 100 ]
+anim_speed=255
+is_movable
+is_rock
+cluster_amount=3
+cluster_radius=20

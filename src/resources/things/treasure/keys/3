@@ -1,0 +1,7 @@
+"bundle of keys"
+keys=3
+cost=30
+render_depth=2
+is_treasure
+is_movable
+appearing_chance=[ 5 ]

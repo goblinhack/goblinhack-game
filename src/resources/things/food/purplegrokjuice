@@ -1,0 +1,8 @@
+"purple grok juice"
+render_depth=2
+health=100
+is_edible
+is_movable
+is_destroyable
+appearing_chance=[ 5 ]
+cost=90

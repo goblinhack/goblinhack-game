@@ -1,0 +1,44 @@
+"stone troll"
+fate=3
+leaves_corpse
+render_depth=3
+does_stuff
+score=400
+strength=450
+stamina=100
+intelligence=10
+weight=300
+health=800
+loves_night
+karma=-300
+bite_damage=80
+bite_delay_in_tenths=5
+bite_chance=100
+metabolism=50
+can_see_distance=6
+is_monst
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat_eater
+attacks=[
+	"evil"
+	"good"
+	"hero"
+	"dwarve"
+]
+attack_chance=[
+	0
+	200
+	100
+	200
+]
+appearing_chance=[ 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 2 3 4 5 5 5 10 10 10 10 20 20 ]
+explosion_type="explosion/harmless"
+hates_fire
+can_wield_weapons
+backpack=[
+    "100" "hoard/1" 
+]

@@ -1,0 +1,11 @@
+"enchanted +1"
+render_depth=2
+armour=300
+cost=600
+is_treasure
+is_movable
+is_inventory_item
+is_armour
+is_destroyable
+weight=10
+appearing_chance=[ 30 ]

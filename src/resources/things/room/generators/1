@@ -1,0 +1,23 @@
+"ghost generator"
+render_depth=2
+does_stuff
+health=400
+armour=5
+metabolism=1
+can_see_distance=0
+is_unable_to_move
+is_generator
+cannot_summon
+is_destroyable
+spawns=[ 
+"monst/ghost/1" 
+"monst/ghost/2" 
+"monst/ghost/7" 
+]
+spawning_chance=[ 
+100 
+50 
+20 
+]
+spawn_delay_in_tenths=5
+appearing_chance=[ 100 ]

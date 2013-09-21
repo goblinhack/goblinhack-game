@@ -1,0 +1,38 @@
+"rust monster"
+render_depth=3
+does_stuff
+score=34
+strength=100
+stamina=100
+intelligence=10
+weight=250
+health=250
+loves_night
+karma=-60
+bite_damage=10
+bite_armour=200
+bite_delay_in_tenths=10
+bite_chance=100
+armour=90
+metabolism=50
+can_see_distance=5
+is_monst
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+attacks=[ 
+    "treasure"
+    "dwarve" 
+    "hero" 
+]
+attack_chance=[ 
+    100
+    100 
+    100 
+]
+appearing_chance=[ 1 1 2 2 3 3 4 5 10 ]
+explosion_type="explosion/harmless"
+leaves_corpse

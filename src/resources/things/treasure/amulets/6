@@ -1,0 +1,10 @@
+"venomite I"
+render_depth=2
+poison_proof=50
+cost=3000
+is_amulet
+is_inventory_item
+is_treasure
+is_movable
+is_destroyable
+appearing_chance=[ 4 ]

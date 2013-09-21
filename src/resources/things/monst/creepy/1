@@ -1,0 +1,39 @@
+"creepy button-eyed thing"
+render_depth=3
+does_stuff
+score=15
+strength=20
+stamina=100
+intelligence=70
+weight=120
+health=130
+loves_night
+loves_full_moon
+loves_friday_13th
+loves_halloween
+loves_midnight
+karma=-200
+bite_damage=10
+bite_delay_in_tenths=5
+bite_chance=50
+metabolism=40
+can_see_distance=5
+is_monst
+only_in_forests
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+attacks=[
+	"evil"
+	"good"
+	"hero"
+]
+attack_chance=[
+	0
+	200
+	100
+]
+appearing_chance=[ 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 3 5 ]
+explosion_type="explosion/harmless"

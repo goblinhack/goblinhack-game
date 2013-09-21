@@ -1,0 +1,7 @@
+"gem-filled chest"
+render_depth=2
+treasure=1450
+is_treasure
+is_movable
+appearing_chance=[ 5 ]
+is_destroyable

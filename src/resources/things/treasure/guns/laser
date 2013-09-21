@@ -1,0 +1,18 @@
+"laser rifle"
+render_depth=1
+cost=5000
+health=1000
+wield_as="weapons/gun"
+weight=150
+is_treasure
+is_gun
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+appearing_chance=[ 2 ]
+explosion_type="explosion/monst_fire"
+throws=[ "missiles/laser/hit_all" ]
+charges=600
+audio_on_use="Electric_Zap"
+is_weapon

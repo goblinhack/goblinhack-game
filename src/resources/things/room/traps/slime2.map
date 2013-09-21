@@ -1,0 +1,65 @@
+all normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++----+----+----+----+----+----+----+----+----+----+
+|. .O|o   |O.. | o..| O.o|. .O|o   |O.. | o..| O.o|
+|.O..|. ..|..o.|..O.|.o .|.O..|. ..|..o.|..O.|.o .|
+| .o.|..O.|o. .|O.o.|O.O | .o.|..O.|o. .|O.o.|O.O |
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++----+----+----+----+----+----+----+----+----+----+
+|B BW|C   |WBB | CBB| WBC|B BW|C   |WBB | CBB| WBC|
+|BWBB|B BB|BBCB|BBWB|BC B|BWBB|B BB|BBCB|BBWB|BC B|
+| BCB|BBWB|CB B|WBCB|WBW | BCB|BBWB|CB B|WBCB|WBW |
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++----+----+----+----+----+----+----+----+----+----+
+|bBbb|bbbb|bbbb|bBbb|bbbB|bBbb|Bbbb|bbbb|bBbb|bbbB|
+|Bbbb|bbBb|bbbb|bbbb|BBbb|bbbB|bBbb|bbBb|bbbb|bBbb|
+|bbbb|bbbb|Bbbb|bbBb|bbbb|bbBb|bbBb|Bbbb|bbBb|bbbB|
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++----+----+----+----+----+----+----+----+----+----+
+|bbbb|bbbb|bbbb|bBbb|bbbB|bbbb|Bbbb|bbbb|bBbb|bbbB|
+|bbbb|bbbb|bbbb|bbbb|bBbb|bbbb|bbbb|bbBb|bbbb|bBbb|
+|bbbb|bbbb|Bbbb|bbBb|bbbb|bbBb|bbbb|Bbbb|bbBb|bbbb|
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++----+----+----+----+----+----+----+----+----+----+
+|bbbb|bbbb|bbbb|bBbb|bbbB|bbbb|Bbbb|bbbb|bBbb|bbbB|
+|bbbb|bbbb|bbbb|bbbb|bBbb|bbbb|bbbb|bbBb|bbbb|bBbb|
+|bbbb|bbbb|Bbbb|bbBb|bbbb|bbBb|bbbb|Bbbb|bbBb|bbbb|
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++----+----+----+----+----+----+----+----+----+----+
+|bbbb|bbbb|bbbb|bBbb|bbbB|bbbb|Bbbb|bbbb|bBbb|bbbB|
+|bbbb|bbbb|bbbb|bbbb|bBbb|bbbb|bbbb|bbBb|bbbb|bBbb|
+|bbbb|bbbb|Bbbb|bbBb|bbbb|bbBb|bbbb|Bbbb|bbBb|bbbb|
++----+----+----+----+----+----+----+----+----+----+

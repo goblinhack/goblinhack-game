@@ -1,0 +1,85 @@
+"Black Dragon"
+poison_proof=100
+fate=2
+leaves_corpse
+render_depth=3
+does_stuff
+score=2000
+strength=6000
+stamina=100
+intelligence=100
+weight=1000
+health=9000
+loves_night
+loves_fire
+loves_acid
+karma=-200
+bite_damage=180
+bite_armour=50
+bite_delay_in_tenths=5
+bite_chance=100
+armour=1000
+metabolism=70
+can_see_distance=12
+is_monst
+only_in_hell
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+attacks=[
+	"knight"
+	"dragon"
+	"hero"
+	"meat"
+]
+attack_chance=[
+	100
+	100
+	100
+	100
+]
+throws=[ 
+	"missiles/acidball_triple/hit_all" 
+	"missiles/fireball_triple/hit_all" 
+	"missiles/poison_starburst/hit_all"
+]
+appearing_chance=[ 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 ]
+explosion_type="explosion/monst_acid"
+is_acid
+acid_proof=100
+hates_fire
+hates_cold
+look_delay_in_tenths=2
+anim_speed=4
+audio_on_hit="dinosaur"
+backpack=[
+    "90" "treasure/bag_of_gold/1" 
+    "50" "treasure/bag_of_gold/2" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/bag_of_gold/3" 
+    "50" "treasure/gems/black_crystal" 
+    "50" "treasure/gems/black_crystal" 
+    "50" "treasure/gems/black_crystal" 
+    "10" "magic/potion/monsticide"
+    "10" "magic/potion/monsticide2"
+    "10" "magic/potion/monsticide3"
+    "10" "magic/potion/monsticide4"
+    "10" "magic/potion/monsticide5"
+    "1" "treasure/bows/flame" 
+    "1" "treasure/bows/ice" 
+    "1" "treasure/bows/poison" 
+    "2" "treasure/bows/composite" 
+    "3" "treasure/staffs/hardened" 
+    "2" "treasure/swords/broad" 
+    "1" "treasure/swords/vorpal" 
+    "2" "treasure/axes/great" 
+    "100" "hoard/5" 
+]
+ability_can_regenerate1
+ability_can_regenerate2
+can_cast_spells
+cannot_summon

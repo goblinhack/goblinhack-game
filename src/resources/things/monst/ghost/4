@@ -1,0 +1,39 @@
+"darkling ghost"
+render_depth=3
+does_stuff
+score=25
+strength=1
+stamina=100
+intelligence=1
+weight=1
+health=120
+loves_night
+loves_full_moon
+loves_midnight
+loves_halloween
+karma=-200
+bite_karma=10
+bite_karma_chance=10
+bite_damage=6
+bite_delay_in_tenths=0
+bite_chance=80
+metabolism=70
+can_see_distance=6
+is_monst
+lifespan=1000
+only_in_hell
+loves_void
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_undead
+fate=1
+attacks=[ "hero" ]
+attack_chance=[ 90 ]
+appearing_chance=[ 5 10 20 ]
+explosion_type="explosion/harmless"
+look_delay_in_tenths=2
+is_transparent
+opacity=80

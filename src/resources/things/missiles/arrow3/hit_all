@@ -1,0 +1,16 @@
+"enchanted arrow"
+render_depth=3
+does_stuff
+bite_damage=50
+bite_armour=20
+bite_delay_in_tenths=1
+bite_chance=100
+armour=100
+metabolism=170
+is_missile
+is_boring
+is_light_source
+lifespan=50
+audio_on_use="Bouncer_002"
+attacks=[ "all" ]
+attack_chance=[ 100 ]

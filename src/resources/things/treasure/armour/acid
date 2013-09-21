@@ -1,0 +1,12 @@
+"acid proof"
+render_depth=2
+armour=200
+cost=1800
+is_treasure
+is_inventory_item
+is_armour
+is_movable
+is_destroyable
+weight=70
+appearing_chance=[ 5 ]
+acid_proof=80

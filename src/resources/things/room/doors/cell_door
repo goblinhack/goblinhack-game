@@ -1,0 +1,12 @@
+"cell door"
+render_depth=2
+cant_see_past
+is_joinable
+opacity=2
+is_closed
+cached_gfx
+health=10000
+is_destroyable
+anim_speed=255
+appearing_chance=[ 5 ]
+is_door

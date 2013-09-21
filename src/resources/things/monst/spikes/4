@@ -1,0 +1,26 @@
+"wall of spikes"
+render_depth=3
+does_stuff
+score=41
+strength=1
+stamina=100
+intelligence=0
+weight=200
+health=200
+loves_friday_13th
+karma=0
+bite_damage=50
+bite_delay_in_tenths=1
+bite_chance=100
+metabolism=0
+anim_speed=4
+is_unable_to_move
+is_monst
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_movable
+is_destroyable
+attacks=[ "meat" "hero" ]
+attack_chance=[ 100 100 ]
+appearing_chance=[ 20 ]

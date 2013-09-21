@@ -1,0 +1,62 @@
+"vampire knight"
+fate=1
+leaves_corpse
+render_depth=3
+does_stuff
+score=50
+strength=200
+stamina=100
+intelligence=90
+weight=200
+health=280
+loves_night
+karma=-800
+bite_armour=5
+bite_delay_in_tenths=2
+bite_chance=80
+armour=200
+metabolism=40
+can_see_distance=8
+is_monst
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_undead
+attacks=[
+	"good"
+	"police"
+	"dragon"
+	"evil"
+	"hero"
+]
+attack_chance=[
+	200
+	100
+	100
+	0
+	100
+]
+appearing_chance=[ 0 0 0 0 0 1 1 1 1 1 2 3 4 5 5 5 10 ]
+hates_water
+bite_fate=1
+bite_fate_chance=5
+bite_karma=100
+bite_karma_chance=50
+bite_damage=60
+is_cold
+cold_proof=100
+hates_fire
+teleport_chance=10
+teleport_delay_in_tenths=400
+throws=[ 
+	"missiles/lavaball/hit_all" 
+]
+look_delay_in_tenths=2
+ability_can_auto_rage
+can_wield_weapons
+backpack=[
+    "100" "hoard/4" 
+]

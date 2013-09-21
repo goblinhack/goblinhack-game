@@ -1,0 +1,31 @@
+"slime mold"
+render_depth=1
+does_stuff
+score=1
+strength=7
+health=20
+bite_damage=1
+bite_delay_in_tenths=2
+bite_chance=100
+metabolism=1
+can_see_distance=0
+is_monst
+cannot_summon
+only_in_caves
+only_in_dungeons
+is_destroyable
+is_meat
+is_meat_eater
+is_unable_to_move
+spawns=[ "room/traps/slime" ]
+spawning_chance=[ 100 ]
+spawn_delay_in_tenths=20
+appearing_chance=[ 80 ]
+cached_gfx
+lifespan=2000
+attacks=[ "hero" "meat" "undead" ]
+attack_chance=[ 100 100 50 ]
+opacity=0
+anim_speed=10
+karma=-1
+audio_on_dead="Slime_001"

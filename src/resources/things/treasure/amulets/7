@@ -1,0 +1,10 @@
+"mertears"
+render_depth=2
+water_proof=100
+cost=4000
+is_amulet
+is_inventory_item
+is_treasure
+is_movable
+is_destroyable
+appearing_chance=[ 4 ]

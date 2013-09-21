@@ -1,0 +1,48 @@
+"Medusa"
+leaves_corpse
+render_depth=4
+fate=1
+does_stuff
+score=2300
+strength=5000
+stamina=100
+intelligence=80
+weight=1000
+health=1500
+loves_night
+karma=-200
+bite_stone=20
+bite_stone_chance=100
+is_suffocation
+bite_damage=60
+bite_armour=20
+bite_delay_in_tenths=5
+bite_chance=100
+armour=300
+metabolism=60
+can_see_distance=10
+is_monst
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+attacks=[
+	"meat"
+	"hero"
+]
+attack_chance=[
+	100
+	400
+]
+explosion_type="explosion/monst_fire"
+anim_speed=4
+audio_on_hit="dinosaur"
+ability_can_regenerate1
+poison_proof=100
+is_body_part
+follow_distance=7
+missile_spread_angle=30
+look_delay_in_tenths=7

@@ -1,0 +1,34 @@
+"firebug nest"
+render_depth=1
+does_stuff
+score=5
+strength=7
+health=7
+bite_damage=15
+bite_delay_in_tenths=1
+bite_chance=100
+metabolism=100
+can_see_distance=0
+is_monst
+cannot_summon
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_destroyable
+is_meat
+is_meat_eater
+is_unable_to_move
+spawns=[ "room/traps/fire" "monst/firebug/1" ]
+spawning_chance=[ 90 10 ]
+spawn_delay_in_tenths=10
+appearing_chance=[ 1 1 1 2 2 2 3 3 4 4 5 5 6 10 15 15 20 ]
+cached_gfx
+lifespan=1200
+attacks=[ "all" ]
+attack_chance=[ 100 ]
+opacity=0
+anim_speed=5
+is_fire
+fire_proof=100
+hates_cold
+karma=-10

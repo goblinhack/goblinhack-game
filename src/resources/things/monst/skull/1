@@ -1,0 +1,42 @@
+"skull king"
+render_depth=3
+does_stuff
+score=367
+strength=100
+stamina=100
+intelligence=1
+weight=10
+health=250
+loves_night
+loves_full_moon
+loves_midnight
+loves_halloween
+karma=-700
+bite_damage=25
+bite_delay_in_tenths=10
+bite_chance=100
+metabolism=30
+can_see_distance=6
+is_monst
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_undead
+attacks=[
+	"evil"
+	"good"
+	"hero"
+]
+attack_chance=[
+	0
+	200
+	100
+]
+throws=[ "missiles/basic/hit_all" ]
+appearing_chance=[ 1 1 1 2 3 4 5 10 30 50 ]
+explosion_type="explosion/harmless"
+fate=1
+can_cast_spells

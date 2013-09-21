@@ -1,0 +1,22 @@
+"broad"
+render_depth=1
+cost=800
+wield_as="weapons/sword"
+weight=80
+strength_req=150
+is_treasure
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+is_weapon
+appearing_chance=[ 8 ]
+bite_damage=60
+bite_armour=10
+bite_delay_in_tenths=1
+bite_chance=100
+metabolism=100
+is_sword
+hates_cold
+hates_acid
+health=12000

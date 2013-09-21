@@ -1,0 +1,77 @@
+"greedy imp"
+render_depth=3
+does_stuff
+score=40
+strength=1
+stamina=100
+intelligence=10
+weight=1
+health=60
+lifespan=3000
+loves_night
+loves_full_moon
+loves_midnight
+karma=-30
+bite_damage=3
+bite_delay_in_tenths=10
+bite_chance=100
+metabolism=30
+is_monst
+only_in_dungeons
+is_explorer
+is_movable
+can_see_distance=6
+is_destroyable
+is_meat
+is_meat_eater
+is_edible_eater
+is_treasure_eater
+attacks=[ 
+    "treasure" 
+    "food" 
+    "imp" 
+    "monst" 
+    "hero" 
+]
+attack_chance=[ 
+    100 
+    100 
+    0 
+    100 
+    100 
+]
+appearing_chance=[ 20 ]
+cluster_amount=3
+cluster_radius=100
+hates_fire
+hates_cold
+spawns=[ 
+  "monst/imp/1" 
+  "monst/imp/2" 
+  "monst/imp/3" 
+  "monst/imp/4" 
+  "monst/imp/5" 
+  "monst/imp/6" 
+]
+spawning_chance=[ 
+  10
+  10 
+  10 
+  10 
+  10 
+  10 
+]
+spawn_delay_in_tenths=200
+teleport_chance=50
+teleport_delay_in_tenths=100
+audio_on_dead="Frog_Bass_002"
+backpack=[
+    "90" "treasure/bag_of_gold/1" 
+    "50" "treasure/bag_of_gold/2" 
+    "10" "treasure/bag_of_gold/3" 
+    "10" "magic/potion/monsticide"
+    "10" "treasure/gems/blood_diamond" 
+    "10" "treasure/gems/tanzanite" 
+    "10" "treasure/gems/diamond" 
+    "1" "treasure/gems/infinitum" 
+]

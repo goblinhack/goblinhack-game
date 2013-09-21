@@ -1,0 +1,8 @@
+"gleaming crystal"
+render_depth=2
+treasure=150
+is_treasure
+is_movable
+is_destroyable
+appearing_chance=[ 50 ]
+explosion_type="explosion/potion"

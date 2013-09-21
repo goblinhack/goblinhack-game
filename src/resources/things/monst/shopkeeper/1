@@ -1,0 +1,48 @@
+"shopkeeper"
+can_insult
+fate=5
+render_depth=3
+does_stuff
+score=1000
+strength=10000
+stamina=100
+intelligence=50
+weight=1000
+health=10000
+bite_damage=100
+bite_armour=80
+bite_delay_in_tenths=1
+look_delay_in_tenths=2
+bite_chance=100
+metabolism=50
+can_see_distance=12
+is_monst
+only_in_dungeons
+is_movable
+is_destroyable
+is_meat
+is_found_only_in_shops
+is_shopkeeper
+attacks=[
+	"police"
+	"thief"
+	"evil"
+	"hero"
+	"monst"
+]
+attack_chance=[
+	0
+	100
+	100
+	0
+	30
+]
+throws=[ 
+	"missiles/fireball_triple/hit_all" 
+]
+appearing_chance=[ 0 ]
+explosion_type="explosion/harmless"
+treasure=1000
+karma=500
+cannot_summon
+teleport_proof=100

@@ -1,0 +1,8 @@
+"glistening treasure chest"
+treasure=10000
+is_treasure
+is_movable
+appearing_chance=[ 2 ]
+is_light_source
+light_strength=10
+is_destroyable

@@ -1,0 +1,19 @@
+"frost"
+render_depth=1
+cost=6000
+health=1500
+wield_as="weapons/bow"
+weight=10
+is_treasure
+is_bow
+charges=1000
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+appearing_chance=[ 0 0 0 0 0 1 ]
+throws=[ "missiles/arrow_fire/hit_all" ]
+audio_on_use="Electric_Zap"
+is_weapon
+strength_req=220
+dex_req=80

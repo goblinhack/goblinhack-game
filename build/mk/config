@@ -1,0 +1,83 @@
+#
+#   ghack.
+#   Copyright (C) 1999-2010 Neil McGill
+#
+#   This game is free software; you can redistribute it and/or
+#   modify it under the terms of the GNU Library General Public
+#   License as published by the Free Software Foundation; either
+#   version 2 of the License, or (at your option) any later version.
+#
+#   This game is distributed in the hope that it will be fun,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#   Library General Public License for more details.
+#
+#   You should have received a copy of the GNU Library General Public
+#   License along with this game; if not, write to the Free
+#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
+#   Neil McGill
+#
+#	$Id: config.in 1227 2009-06-28 03:29:28Z Goblinhack $
+#
+
+SHELL = /bin/sh
+
+srcdir = .
+prefix = /usr/local
+
+TOPDIR = /Users/nmcgill/goblinhack
+
+CC = g++
+RANLIB = ranlib
+AR = ar
+LN = ln -sf
+RM = rm -f
+RMDIR = rm -rf
+MKDIR = mkdir -p
+CP = cp -f
+EX = chmod +x
+
+#
+# How to highlight
+#
+PRINT = $(TOPDIR)/build/sh/print
+
+#
+# Echo the current build dir
+#
+CURRENT_DIRECTORY = `pwd`
+
+#
+# How to report the make progress
+#
+VERBOSE_CD = echo
+
+#
+# Nice terminal colour effects
+#
+include $(TOPDIR)/build/sh/colour.sh
+
+#
+# mingw doesn't seem to add in local/include; hack it in
+#
+INCLUDE +=  -I/usr/local/include -I$(TOPDIR)/src/include
+
+#
+# -rdynamic is for traceback function names
+# -O3 enables -finline-functions
+#
+CFLAGS = -g -O2 -Wall -DMACOSX  -I/Library/Frameworks/SDL.framework/Headers  -I/Library/Frameworks/SDL.framework/Versions/A/Headers  -I/Library/Frameworks/SDL_image.framework/Headers  -I/Library/Frameworks/SDL_image.framework/Versions/A/Headers  -I/Library/Frameworks/SDL_mixer.framework/Headers  -I/Library/Frameworks/SDL_mixer.framework/Versions/A/Headers  -I/Library/Frameworks/OpenGL.framework/Headers  -I/System/Library/Frameworks/SDL.framework/Headers  -I/System/Library/Frameworks/SDL.framework/Versions/A/Headers  -I/System/Library/Frameworks/SDL_image.framework/Headers  -I/System/Library/Frameworks/SDL_image.framework/Versions/A/Headers  -I/System/Library/Frameworks/SDL_mixer.framework/Headers  -I/System/Library/Frameworks/SDL_mixer.framework/Versions/A/Headers  -I/System/Library/Frameworks/OpenGL.framework/Headers  -I/opt/local/include/SDL -D_GNU_SOURCE=1 -D_THREAD_SAFE -O3 
+
+CFLAGS += -DGH_INSTALLED_DIR='"$(prefix)/games/ghack"' 
+
+#
+# For gprof
+#
+#CFLAGS += -pg
+#CFLAGS += -std=c++0x
+
+.SUFFIXES: .cpp
+
+.cpp.o:
+	$(CC) $(CFLAGS) $(INCLUDE) -c -o $*.o $<

@@ -1,0 +1,31 @@
+"huge bat"
+leaves_corpse
+render_depth=3
+does_stuff
+score=5
+strength=50
+stamina=100
+intelligence=1
+weight=5
+health=1
+loves_night
+loves_full_moon
+loves_midnight
+loves_halloween
+karma=-2
+bite_damage=5
+bite_delay_in_tenths=5
+bite_chance=20
+metabolism=90
+can_see_distance=3
+is_monst
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+attacks=[ "hero" "spider" "worm" ]
+attack_chance=[ 10 100 100 ]
+appearing_chance=[ 10 20 30 40 50 ]
+hates_fire
+is_meat

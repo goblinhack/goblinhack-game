@@ -1,0 +1,16 @@
+"deep icy water"
+render_depth=1
+is_boring
+is_water
+is_movable
+anim_speed=254
+cached_gfx
+bite_damage=3
+bite_chance=20
+attacks=[ "fire" "hero" ]
+attack_chance=[ 100 30 ]
+can_see_distance=0
+bite_delay_in_tenths=5
+opacity=50
+cluster_amount=3
+cluster_radius=20

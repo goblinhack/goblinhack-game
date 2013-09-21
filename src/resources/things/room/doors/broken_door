@@ -1,0 +1,13 @@
+"broken door"
+render_depth=2
+cant_see_past
+is_joinable
+opacity=1
+is_closed
+cached_gfx
+health=1
+is_destroyable
+anim_speed=255
+appearing_chance=[ 10 ]
+is_door
+not_in_shops

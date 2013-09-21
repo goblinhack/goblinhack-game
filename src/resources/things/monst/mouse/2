@@ -1,0 +1,31 @@
+"mouse"
+leaves_corpse
+render_depth=3
+does_stuff
+score=1
+strength=1
+stamina=100
+intelligence=1
+weight=1
+health=10
+loves_night
+karma=100
+bite_damage=5
+bite_delay_in_tenths=20
+bite_chance=10
+metabolism=30
+can_see_distance=4
+is_monst
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_edible_eater
+is_meat
+attacks=[ "hero" "cheese" ]
+attack_chance=[ 0 100 ]
+appearing_chance=[ 10 ]
+hates_fire
+hates_cold
+moves_up_down
+moves_left_right

@@ -1,0 +1,11 @@
+"tree"
+render_depth=3
+cant_see_past
+is_boring
+is_wall
+is_destroyable
+opacity=5
+health=1000
+anim_speed=255
+leaves_corpse
+is_movable

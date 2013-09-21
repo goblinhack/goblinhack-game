@@ -1,0 +1,21 @@
+"enchanted +4"
+render_depth=1
+cost=4000
+wield_as="weapons/staff"
+weight=10
+strength_req=200
+dex_req=85
+is_treasure
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+is_weapon
+appearing_chance=[ 0 0 0 0 0 0 0 0 0 0 0 0 0 1 ]
+bite_damage=60
+bite_armour=20
+bite_delay_in_tenths=1
+bite_chance=100
+metabolism=200
+is_staff
+health=20000

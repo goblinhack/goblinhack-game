@@ -1,0 +1,32 @@
+"formidable hulk"
+leaves_corpse
+render_depth=3
+does_stuff
+score=750
+strength=1000
+stamina=100
+intelligence=20
+weight=500
+health=1300
+loves_night
+karma=-100
+bite_damage=50
+bite_armour=10
+bite_delay_in_tenths=10
+bite_chance=100
+metabolism=95
+can_see_distance=10
+is_monst
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+attacks=[ "hero" "hulk" ]
+attack_chance=[ 100 100 ]
+appearing_chance=[ 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 2 3 4 5 10 ]
+explosion_type="explosion/harmless"
+audio_on_hit="dinosaur"
+audio_on_dead="demon_die"

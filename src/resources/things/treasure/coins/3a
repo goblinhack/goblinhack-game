@@ -1,0 +1,8 @@
+"5 gold pieces"
+render_depth=2
+treasure=5
+is_treasure
+is_movable
+appearing_chance=[ 2 ]
+cluster_amount=30
+cluster_radius=60

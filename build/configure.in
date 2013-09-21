@@ -1,0 +1,270 @@
+#   ghack.
+#   Copyright (C) 1999-2010 Neil McGill
+#
+#   This game is free software; you can redistribute it and/or
+#   modify it under the terms of the GNU Library General Public
+#   License as published by the Free Software Foundation; either
+#   version 2 of the License, or (at your option) any later version.
+#
+#   This game is distributed in the hope that it will be fun,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#   Library General Public License for more details.
+#
+#   You should have received a copy of the GNU Library General Public
+#   License along with this game; if not, write to the Free
+#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
+#   Neil McGill
+#
+#   $Id: configure.in 718 2008-02-17 05:10:38Z goblinhack $
+#
+
+dnl Process this file with autoconf to produce a configure script.
+AC_INIT()
+AM_CONFIG_HEADER(config.h)
+AC_PREREQ(2.0)
+
+################################################################################
+# ghack install base:
+################################################################################
+
+AC_MSG_CHECKING(where to install)
+
+GH_LOCAL_BASE=nope
+
+AC_ARG_WITH(py,[  --base=path             Set location of ghack to install to],[
+	GH_PACKAGE="$withval"], [GH_PACKAGE=nope])
+
+if test "$GH_LOCAL_BASE" = nope; then
+	GH_LOCAL_BASE="$prefix/games/ghack/"
+fi
+
+AC_MSG_RESULT($GH_LOCAL_BASE)
+
+AC_SUBST(GH_LOCAL_BASE)
+
+################################################################################
+# Compiler:
+################################################################################
+
+dnl Detect the canonical host and target build environment
+AC_CANONICAL_HOST
+AC_CANONICAL_TARGET
+
+
+dnl Checks for programs.
+AC_PROG_CXX
+AC_PROG_CC
+AC_PROG_RANLIB
+
+# AC_PROG_INSTALL
+
+################################################################################
+# 
+################################################################################
+
+AC_SUBST(AR)
+AC_SUBST(INCLUDES)
+AC_CHECK_PROGS(AR, ar aal, ar)
+AC_CHECK_HEADERS(zlib.h)
+
+dnl Checks for header files.
+dnl Checks for library functions.
+
+# This borrowed from the Python configuration file
+# Set info about shared libraries.
+
+if test "$ac_cv_prog_gcc" = yes; then
+	CFLAGS="${CFLAGS} -Wall"
+fi
+
+################################################################################
+# Look for SDL
+################################################################################
+sdl_check()
+{
+	sdl-config --version >/dev/null 2>&1
+	if test "$?" != "0"; then
+		AC_MSG_RESULT(no sdl-config; go to libsdl.org)
+		sdl-config --version >/dev/null 2>&1
+		exit 1
+	fi
+
+	SDL_LIBS=`sdl-config --libs`
+	SYSLIBS="${SYSLIBS} ${SDL_LIBS}"
+
+	SDL_FLAGS=`sdl-config --cflags`
+	CFLAGS="${CFLAGS} ${SDL_FLAGS}"
+}
+
+echo "Target: $target"
+
+dnl Figure out which math library to use
+case "$target" in
+    *-*-cygwin* | *-*-mingw32*)
+        MATHLIB=""
+        SYS_GL_LIBS="-lopengl32 -lglu32"
+		SYSLIBS="${SYSLIBS} -lSDL_image -lSDL_mixer"
+        ;;
+    *-*-beos*)
+        MATHLIB=""
+        SYS_GL_LIBS="-lGL -lGLU"
+		SYSLIBS="${SYSLIBS} -lSDL_image -lSDL_mixer"
+        ;;
+    *arwin* )
+        MATHLIB=""
+		# This is really annoying, but the SDL frameworks for Mac OS X do not supply
+		# an sdl-cflags binary to supply these arguments, so the choices are to
+		# either hard-code the include paths (as done below), or build the SDL libs
+		# from scratch. Having done both, hard-coding is *much* better. -TT
+		CFLAGS="$CFLAGS -DMACOSX "
+
+		CFLAGS="$CFLAGS -I/Library/Frameworks/SDL.framework/Headers "
+		CFLAGS="$CFLAGS -I/Library/Frameworks/SDL.framework/Versions/A/Headers "
+		CFLAGS="$CFLAGS -I/Library/Frameworks/SDL_image.framework/Headers "
+		CFLAGS="$CFLAGS -I/Library/Frameworks/SDL_image.framework/Versions/A/Headers "
+		CFLAGS="$CFLAGS -I/Library/Frameworks/SDL_mixer.framework/Headers "
+		CFLAGS="$CFLAGS -I/Library/Frameworks/SDL_mixer.framework/Versions/A/Headers "
+		CFLAGS="$CFLAGS -I/Library/Frameworks/OpenGL.framework/Headers "
+
+		CFLAGS="$CFLAGS -I/System/Library/Frameworks/SDL.framework/Headers "
+		CFLAGS="$CFLAGS -I/System/Library/Frameworks/SDL.framework/Versions/A/Headers "
+		CFLAGS="$CFLAGS -I/System/Library/Frameworks/SDL_image.framework/Headers "
+		CFLAGS="$CFLAGS -I/System/Library/Frameworks/SDL_image.framework/Versions/A/Headers "
+		CFLAGS="$CFLAGS -I/System/Library/Frameworks/SDL_mixer.framework/Headers "
+		CFLAGS="$CFLAGS -I/System/Library/Frameworks/SDL_mixer.framework/Versions/A/Headers "
+		CFLAGS="$CFLAGS -I/System/Library/Frameworks/OpenGL.framework/Headers "
+
+		SYS_GL_LIBS="$SYS_GL_LIBS -L/System/Library/Frameworks/OpenGL.framework/Libraries"
+		SYS_GL_LIBS="$SYS_GL_LIBS -lGL -lGLU"
+		SYS_GL_LIBS="$SYS_GL_LIBS -framework SDL"
+		SYS_GL_LIBS="$SYS_GL_LIBS -framework SDL_image"
+		SYS_GL_LIBS="$SYS_GL_LIBS -framework SDL_mixer"
+		SYS_GL_LIBS="$SYS_GL_LIBS -framework OpenGL"
+        ;;
+    *-*-aix*)
+        if test x$ac_cv_prog_gcc = xyes; then
+            CFLAGS="-mthreads"
+        fi
+        SYS_GL_LIBS=""
+		SYSLIBS="${SYSLIBS} -lSDL_image -lSDL_mixer"
+        ;;
+    *-*-mint*)
+        MATHLIB=""
+        AC_PATH_PROG(OSMESA_CONFIG, osmesa-config, no)
+        if test "x$OSMESA_CONFIG" = "xyes"; then
+            OSMESA_CFLAGS=`$OSMESA_CONFIG --cflags`
+            OSMESA_LIBS=`$OSMESA_CONFIG --libs`
+            CFLAGS="$CFLAGS $OSMESA_CFLAGS"
+            SYS_GL_LIBS="$OSMESA_LIBS"
+        else
+            SYS_GL_LIBS="-lOSMesa"
+        fi
+	SYSLIBS="${SYSLIBS} -lSDL_image -lSDL_mixer"
+	;;
+    *)
+        MATHLIB="-lm"
+        AC_PATH_X
+        AC_PATH_XTRA
+        if test x$have_x = xyes; then
+            CFLAGS="$CFLAGS $X_CFLAGS"
+            SYS_GL_LIBS="$X_LIBS -lGL -lGLU"
+        else
+            SYS_GL_LIBS="-lGL -lGLU"
+        fi
+	SYSLIBS="${SYSLIBS} -lSDL_image -lSDL_mixer"
+        ;;
+esac
+AC_SUBST(MATHLIB)
+
+################################################################################
+# glibc backtrace
+################################################################################
+
+AC_CHECK_FUNCS(backtrace)
+
+################################################################################
+# system libraries
+################################################################################
+
+sdl_check
+
+# hides the return code
+
+INCLUDE_COLOUR_SH="include \$(TOPDIR)/build/sh/colour.sh"
+
+SYSLIBS="${SYSLIBS} -lz "
+SYSLIBS="${SYSLIBS} ${SYS_GL_LIBS}"
+
+case "$target" in
+    *ming*)
+		CFLAGS="${CFLAGS} -O3"
+
+		STRIP_IF_NEEDED=echo
+		EXE_SUFFIX=.exe
+        ;;
+    *arwin* )
+		CFLAGS="${CFLAGS} -O3"
+
+		STRIP_IF_NEEDED=echo
+		EXE_SUFFIX=.exe
+        ;;
+    *)
+		CFLAGS="${CFLAGS} -rdynamic -O3"
+
+		STRIP_IF_NEEDED=echo
+		EXE_SUFFIX=.exe
+        ;;
+esac
+
+AC_SUBST(INCLUDE_COLOUR_SH)
+AC_SUBST(SYSLIBS)
+AC_SUBST(STRIP_IF_NEEDED)
+AC_SUBST(EXE_SUFFIX)
+
+################################################################################
+# Base for local running
+################################################################################
+
+TOPDIR=`cd ..; pwd`
+AC_SUBST(TOPDIR)
+
+AUTOGEN="\
+ ../Makefile\
+ ../build/Makefile\
+ ../build/sh/Makefile\
+ ../build/mk/config\
+ ../build/mk/library\
+ ../build/mk/program\
+ ../build/mk/rules\
+ ../bin/Makefile\
+ ../src/debug/Makefile\
+ ../src/io/Makefile\
+ ../src/player/Makefile\
+ ../src/term/Makefile\
+ ../src/Makefile\
+ ../src/game/Makefile\
+ ../src/map/Makefile\
+ ../src/math/Makefile\
+ ../src/misc/Makefile\
+ ../src/things/Makefile\
+ ../src/rooms/Makefile\
+ ../src/levels/Makefile\
+ ../src/sdl/Makefile\
+ ../src/ui/Makefile\
+ ../src/main/Makefile\
+ ../src/test/Makefile\
+ ../src/resources/Makefile\
+ ../src/resources/things/Makefile\
+ ../src/resources/things/room/Makefile\
+ ../src/resources/things/room/doors/Makefile\
+ ../src/resources/things/monst/Makefile\
+"
+
+AC_OUTPUT($AUTOGEN)
+
+#
+# Don't let people edit these temporary files without *really* meaning to.
+#
+chmod -w $AUTOGEN

@@ -1,0 +1,44 @@
+"galump"
+fate=1
+leaves_corpse
+render_depth=3
+does_stuff
+score=800
+strength=550
+stamina=100
+intelligence=5
+weight=500
+health=900
+loves_night
+karma=-400
+bite_damage=200
+bite_delay_in_tenths=5
+bite_chance=100
+metabolism=20
+can_see_distance=8
+is_monst
+only_in_forests
+only_in_landscapes
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat_eater
+attacks=[
+	"evil"
+	"good"
+	"hero"
+]
+attack_chance=[
+	0
+	200
+	100
+]
+appearing_chance=[ 1 2 3 4 5 5 5 10 10 10 10 20 20 ]
+explosion_type="explosion/harmless"
+hates_fire
+can_wield_weapons
+backpack=[
+    "100" "hoard/2" 
+]

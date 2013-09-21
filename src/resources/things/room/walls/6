@@ -1,0 +1,11 @@
+"wall"
+render_depth=1
+cant_see_past
+is_boring
+is_joinable
+is_wall
+is_destroyable
+opacity=100
+health=1300
+anim_speed=255
+is_hard

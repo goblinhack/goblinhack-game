@@ -1,0 +1,31 @@
+"Elve"
+fate=3
+render_depth=3
+does_stuff
+strength=210
+dex=80
+intelligence=90
+stamina=800
+health=120
+keys=20
+treasure=0
+bite_damage=5
+bite_delay_in_tenths=0
+bite_chance=100
+armour=0
+metabolism=100
+is_hero
+can_cast_spells
+can_wield_weapons
+is_edible_eater
+is_treasure_eater
+is_meat
+explosion_type="explosion/hero"
+can_see_distance=60
+backpack=[ 
+    "treasure/bows/basic" 
+    "food/lembas" 
+]
+is_destroyable
+audio_on_dead="System_Shutdown"
+karma=400

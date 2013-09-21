@@ -1,0 +1,50 @@
+"Firelord"
+leaves_corpse
+render_depth=3
+does_stuff
+score=300
+strength=500
+stamina=100
+intelligence=70
+weight=300
+health=700
+loves_night
+karma=-300
+bite_damage=10
+bite_armour=5
+bite_delay_in_tenths=10
+bite_chance=100
+metabolism=40
+can_see_distance=6
+is_monst
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+attacks=[ "hero" ]
+attack_chance=[ 100 ]
+appearing_chance=[ 0 1 1 1 1 5 5 5 5 5 5 10 ]
+explosion_type="explosion/harmless"
+audio_on_hit="dinosaur"
+audio_on_dead="demon_die"
+throws=[ 
+	"missiles/fireball/hit_all" 
+	"missiles/firebomb/hit_all" 
+]
+backpack=[
+    "90" "treasure/bag_of_gold/1" 
+    "50" "treasure/bag_of_gold/2" 
+    "10" "treasure/bag_of_gold/3" 
+    "50" "treasure/gems/ruby" 
+    "10" "magic/potion/monsticide"
+    "10" "magic/potion/monsticide5"
+]
+spawns=[ "monst/firebug/1" ]
+spawning_chance=[ 10 ]
+spawn_delay_in_tenths=100
+can_wield_weapons
+can_cast_spells

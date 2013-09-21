@@ -1,0 +1,19 @@
+"plasma +3"
+intelligence_req=50
+render_depth=1
+cost=1500
+health=2000
+wield_as="weapons/wand"
+weight=2
+is_treasure
+is_wand
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+appearing_chance=[ 2 ]
+explosion_type="explosion/wand2"
+throws=[ "missiles/plasmaball_triple/hit_all" ]
+charges=500
+audio_on_use="Electric_Zap"
+is_weapon

@@ -1,0 +1,7 @@
+"dirt"
+render_depth=0
+is_dirt
+is_boring
+cached_gfx
+appearing_chance=[ 1 ]
+anim_speed=255

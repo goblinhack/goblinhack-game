@@ -1,0 +1,45 @@
+"Mind Flayer"
+leaves_corpse
+render_depth=3
+fate=1
+does_stuff
+score=700
+strength=5000
+stamina=100
+intelligence=50
+weight=1000
+health=1500
+loves_night
+karma=-200
+bite_intelligence=1
+bite_intelligence_chance=100
+bite_damage=60
+bite_armour=20
+bite_delay_in_tenths=5
+bite_chance=100
+armour=300
+metabolism=60
+can_see_distance=10
+is_monst
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+attacks=[
+	"clever"
+]
+attack_chance=[
+	100
+]
+explosion_type="explosion/monst_fire"
+anim_speed=4
+audio_on_hit="dinosaur"
+ability_can_regenerate1
+poison_proof=100
+is_body_part
+follow_distance=7
+missile_spread_angle=90
+look_delay_in_tenths=7

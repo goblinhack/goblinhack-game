@@ -1,0 +1,72 @@
+"Lesser Hydra Jaws"
+leaves_corpse
+render_depth=4
+fate=1
+does_stuff
+score=700
+strength=2500
+stamina=80
+intelligence=50
+weight=1000
+health=800
+loves_night
+karma=-200
+bite_damage=60
+bite_armour=30
+bite_delay_in_tenths=2
+bite_chance=100
+armour=100
+metabolism=45
+can_see_distance=2
+is_monst
+only_in_hell
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+attacks=[
+	"meat"
+	"hero"
+]
+attack_chance=[
+	100
+	400
+]
+throws=[ 
+	"missiles/basic/hit_all" 
+	"missiles/basic_triple/hit_all" 
+]
+appearing_chance=[ 10 ]
+explosion_type="explosion/monst_fire"
+anim_speed=4
+audio_on_hit="dinosaur"
+ability_can_regenerate1
+can_cast_spells
+poison_proof=100
+limbs=2
+followers=[ 
+"monst/hydra/1a" 
+"monst/hydra/1a" 
+"monst/hydra/1a" 
+"monst/hydra/1a" 
+"monst/hydra/1a" 
+"monst/hydra/1a" 
+"monst/hydra/1a" 
+"monst/hydra/1a" 
+"monst/hydra/1a" 
+"monst/hydra/1a" 
+"monst/hydra/1a" 
+"monst/hydra/1a" 
+"monst/hydra/1a" 
+"monst/hydra/1a" 
+"monst/hydra/1a" 
+"monst/hydra/1a" 
+"monst/hydra/1b" 
+]
+follow_distance=4
+is_chained_body_part
+stay_above_torso
+look_delay_in_tenths=5

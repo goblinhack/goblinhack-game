@@ -1,0 +1,125 @@
+all normal
+################################################################################
+# These are the characters of the thing we will display. Frames of animation
+# run sideways.
+################################################################################
++------------------------------------------------------+------------------------------------------------------+------------------------------------------------------+------------------------------------------------------+
+|                 ___====-_  _-====___                 |                 ___====-_  _-====___                 |                  __====-_  _-====__                  |                 ___====-_  _-====___                 |
+|           _--~~~#####//      \\#####~~~--_           |           _--~~~#####//      \\#####~~~--_           |             _--~~####//      \\####~~--_             |           _--~~~#####//      \\#####~~~--_           |
+|        _-~##########// (    ) \\##########~-_        |        _-~##########// (    ) \\##########~-_        |          _-~########// (    ) \\########~-_          |        _-~##########// (    ) \\##########~-_        |
+|       -/###########//  :\^^/:  \\###########\-       |       -/###########//  :\^^/:  \\###########\-       |         -/#########//  :\^^/:  \\#########\-         |       -/###########//  :\^^/:  \\###########\-       |
+|     _~############//   (@::@)   \\############~_     |      ~/###########//   (@::@)   \\###########\~      |       _~/#########//   (O::O)   \\#########\~_       |      ~/###########//   (@::@)   \\###########\~      |
+|    ~/############((     \\//     ))############\~    |      /###########((     \\//     ))###########\      |       :/#########((     \\//     ))#########\:       |      /###########((     \\//     ))###########\      |
+|   -/##############\\    (^^)    //##############\-   |     -/############\\    (^^)    //#############-     |       :###########\\    (^^)    //###########:       |     -/############\\    (VV)    //############\-     |
+|  -#################\\  / "" \  //#################-  |    -###############\\  / "" \  //###############-    |       :############\\  / "" \  //############:       |    -/##############\\  / "" \  //##############\-    |
+| -###################\\/      \//###################- |    :################\\/      \//################:    |       \#############\\/      \//#############/       |    \################\\/      \//################/    |
+|_#/:##########/\######(   /\   )######/\##########:\#_|    \:########/\######(   /\   )######/\########:/    |        \#/#####/#####(   /\   )####/\#####\#/        |     :########/\######(   /\   )######/\########:     |
+|:/ :#/\#/\#/\/  \#/\##\  :  :  /##/\#/  \/\#/\#/\#: \:|     :\#/\#/\/  \#/\##\  :  :  /##/\#/  \/\#/\#/:     |         V \#/\/ \/\##\  :  :  /##/\  \/\#/ V         |     :\#/\#/\/  \#/\##\  :  :  /##/\#/  \/\#/\#/:     |
+|"  :/  V  V  "   V  \#\: :  : :/#/  V   "  V  V  \:  "|     : V  V  "   V  \#\: :  : :/#/  V   "  V  V :     |         "  V  "    \#\: :  : :/#/    "  V  "         |     " V  V  "   V  \#\: :  : :/#/  V   "  V  V "     |
+|   "   "  "      "   \ : :  : : /   "      "  "   "   |     " "  "      "   \ : :  : : /   "      "  " "     |            "        \ : :  : : /        "            |       "  "      "   \ : :  : : /   "      "  "       |
+################################################################################
+# These are the foreground colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------------------------------------------------------+------------------------------------------------------+------------------------------------------------------+------------------------------------------------------+
+|                 ___33333_  _33333___                 |                 ___33333_  _33333___                 |                  __33333_  _33333__                  |                 ___33333_  _33333___                 |
+|           _33333YyYYY33      33YyYYY33333_           |           _33333YyYYY33      33YyYYY33333_           |             _3333YyYY33      33YyYY3333_             |           _33333YyYYY33      33YyYYY33333_           |
+|        _33YyYYyYYyYY33 g    g 33YyYYyYYyYY33_        |        _33YyYYyYYyYY33 g    g 33YyYYyYYyYY33         |          _33YyYYyYYY33 g    g 33YyYYyYYY33_          |        _33YyYYyYYyYY33 g    g 33YyYYyYYyYY33         |
+|       3YyYYyYYyYYyY33  3gggg3  33YyYYyYYyYYyY3       |       3YyYYyYYyYYyY33  3gggg3  33YyYYyYYyYYY3        |         3YyYYyYYyYY33  3gggg3  33YyYYyYYyYY3         |       3YyYYyYYyYYyY33  3gggg3  33YyYYyYYyYYY3        |
+|     _3YyYYyYYyYYyY33   3R33R3   33YyYYyYYyYYyY3_     |      _YyYYyYYyYYyY33   3R33R3   33YyYYyYYyYYY3_      |       _3YyYYyYYyYY33   3R33R3   33YyYYyYYyYY3_       |      _YyYYyYYyYYyY33   3R33R3   33YyYYyYYyYYY3_      |
+|    3YyYYyYYyYYyYY33     3gg3     33YyYYyYYyYYyYY3    |      3YyYYyYYyYYY33     3gg3     33YyYYyYYyYYY3      |       3YyYYyYYyYY33     3gg3     33YyYYyYYyYY3       |      YyYYyYYyYYyY33     3gg3     33YyYYyYYyYYyY      |
+|   3YyYYyYYyYYyYYyY33    3ww3    33YyYYyYYyYYyYYyY3   |     3YyYYyYYyYYyYY33    3ww3    33YyYYyYYyYYyYY3     |       3YyYYyYYyYYY33    3ww3    33YyYYyYYyYYY3       |     3YyYYyYYyYYyYY33    3ww3    33YyYYyYYyYYyYY3     |
+|  3YyYYyYYyYYyYYyYYY33  3 33 3  33YyYYyYYyYYyYYyYYY3  |    3YyYYyYYyYYyYYyY33  3 33 3  33YyYYyYYyYYyYYyY3    |       3YyYYyYYyYYyY33  3 33 3  33YyYYyYYyYYyY3       |    3YyYYyYYyYYyYYyY33  3 33 3  33YyYYyYYyYYyYYyY3    |
+| 3YyYYyYYyYYyYYyYYyYY333      333YyYYyYYyYYyYYyYYyYY3 |    3YyYYyYYyYYyYYyYY333      333YyYYyYYyYYyYYyYY3    |       3YyYYyYYyYYyYY333      333YyYYyYYyYYyYY3       |    3YyYYyYYyYYyYYyYY333      333YyYYyYYyYYyYYyYY3    |
+|_Y33YyYYyYYyYY33YyYYyY3   33   3YyYYyY33YyYYyYYyYY33Y_|    33YyYYyYYY33YyYYyY3   33   3YyYYyY33YyYYyYYY33    |       3YyYYyYYY3YyYYY3   33   3YyYY33YyYYyYYY3       |    33YyYYyYYY33YyYYyY3   33   3YyYYyY33YyYYyYYY33    |
+|33 3Y33Y33Y333  3Y33YY3  3  3  3YY33Y3  333Y33Y33Y3 33|     33Y33Y333  3Y33YY3  3  3  3YY33Y3  333Y3Y333     |        3Y33Y333 333YY3  3  3  3YY33  333Y33Y3        |     33Y33Y333  3Y33YY3  3  3  3YY33Y3  333Y3Y333     |
+|g  33  3  3  3   3  3Y33 3  3 33Y3  3   3  3  3  33  g|     3 3  3  3   3  3Y33 3  3 33Y3  3   3  3 3  3     |         g  3  3    3Y33 3  3 33Y3    3  3  g         |     g 3  3  3   3  3Y33 3  3 33Y3  3   3  3 3  g     |
+|   g   g  g      g   3 3 3  3 3 3   g      g  g   g   |     g g  g      g   3 3 3  3 3 3   g      g g  g     |            g        3 3 3  3 3 3        g            |       g  g      g   3 3 3  3 3 3   g      g g        |
+################################################################################
+# These are the background colors for each frame of animation:
+# 
+#        black       w  white         r  red          E  dark_red
+#     g  green       e  dark_green    y  yellow       b  blue
+#     D  dark_blue   p  pink          c  cyan         R  random
+#     _  gray        W  snow          o  orange       O  light_orange
+#     G  lime        Y  light_yellow  B  light_blue   P  purple
+#     C  light_cyan  0  gray_0        1  gray_1       2  gray_2
+#     3  gray_3      4  gray_4        5  gray_5       6  gray_6
+#     7  gray_7      8  gray_8        9  gray_9       n  brown
+# 
+################################################################################
++------------------------------------------------------+------------------------------------------------------+------------------------------------------------------+------------------------------------------------------+
+|                                                      |                                                      |                                                      |                                                      |
+|                                                      |                                                      |                                                      |                                                      |
+|                                                      |                                                      |                                                      |                                                      |
+|                                                      |                                                      |                                                      |                                                      |
+|                                                      |                                                      |                                                      |                                                      |
+|                                                      |                                                      |                                                      |                                                      |
+|                                                      |                                                      |                                                      |                                                      |
+|                                                      |                                                      |                                                      |                                                      |
+|                                                      |                                                      |                                                      |                                                      |
+|                                                      |                                                      |                                                      |                                                      |
+|                                                      |                                                      |                                                      |                                                      |
+|                                                      |                                                      |                                                      |                                                      |
+|                                                      |                                                      |                                                      |                                                      |
+################################################################################
+# This is the 'can bite' collision mask. Areas that bite or can be bitten.
+################################################################################
++------------------------------------------------------+------------------------------------------------------+------------------------------------------------------+------------------------------------------------------+
+|                                                      |                                                      |                                                      |                                                      |
+|                                                      |                                                      |                                                      |                                                      |
+|                        g    g                        |                        g    g                        |                        g    g                        |                        g    g                        |
+|                        rggggr                        |                        rggggr                        |                        rggggr                        |                        rggggr                        |
+|                        rRrrRr                        |                        rRrrRr                        |                        rRrrRr                        |                        rRrrRr                        |
+|                         rggr                         |                         rggr                         |                         rggr                         |                         rggr                         |
+|                         rwwr                         |                         rwwr                         |                         rwwr                         |                         rwwr                         |
+|                        r rr r                        |                        r rr r                        |                        r rr r                        |                        r rr r                        |
+|                       r      r                       |                       r      r                       |                       r      r                       |                       r      r                       |
+|                      r   rr   r                      |                      r   rr   r                      |                      r   rr   r                      |                      r   rr   r                      |
+|                      r  r  r  r                      |                      r  r  r  r                      |                      r  r  r  r                      |                      r  r  r  r                      |
+|                      rr r  r rr                      |                      rr r  r rr                      |                      rr r  r rr                      |                      rr r  r rr                      |
+|                       r r  r r                       |                       r r  r r                       |                       r r  r r                       |                       r r  r r                       |
+################################################################################
+# This is the obstacle collision mask. Areas used in collisions with walls etc..
+################################################################################
++------------------------------------------------------+------------------------------------------------------+------------------------------------------------------+------------------------------------------------------+
+|                                                      |                                                      |                                                      |                                                      |
+|                                                      |                                                      |                                                      |                                                      |
+|                        g    g                        |                        g    g                        |                        g    g                        |                        g    g                        |
+|                        rggggr                        |                        rggggr                        |                        rggggr                        |                        rggggr                        |
+|                        rRrrRr                        |                        rRrrRr                        |                        rRrrRr                        |                        rRrrRr                        |
+|                         rggr                         |                         rggr                         |                         rggr                         |                         rggr                         |
+|                         rwwr                         |                         rwwr                         |                         rwwr                         |                         rwwr                         |
+|                        r rr r                        |                        r rr r                        |                        r rr r                        |                        r rr r                        |
+|                       r      r                       |                       r      r                       |                       r      r                       |                       r      r                       |
+|                      r   rr   r                      |                      r   rr   r                      |                      r   rr   r                      |                      r   rr   r                      |
+|                      r  r  r  r                      |                      r  r  r  r                      |                      r  r  r  r                      |                      r  r  r  r                      |
+|                      rr r  r rr                      |                      rr r  r rr                      |                      rr r  r rr                      |                      rr r  r rr                      |
+|                       r r  r r                       |                       r r  r r                       |                       r r  r r                       |                       r r  r r                       |
+################################################################################
+# This is the 'touch' collision mask. How we interact with things, like doors.
+################################################################################
++------------------------------------------------------+------------------------------------------------------+------------------------------------------------------+------------------------------------------------------+
+|                                                      |                                                      |                                                      |                                                      |
+|                                                      |                                                      |                                                      |                                                      |
+|                        g    g                        |                        g    g                        |                        g    g                        |                        g    g                        |
+|                        rggggr                        |                        rggggr                        |                        rggggr                        |                        rggggr                        |
+|                        rRrrRr                        |                        rRrrRr                        |                        rRrrRr                        |                        rRrrRr                        |
+|                         rggr                         |                         rggr                         |                         rggr                         |                         rggr                         |
+|                         rwwr                         |                         rwwr                         |                         rwwr                         |                         rwwr                         |
+|                        r rr r                        |                        r rr r                        |                        r rr r                        |                        r rr r                        |
+|                       r      r                       |                       r      r                       |                       r      r                       |                       r      r                       |
+|                      r   rr   r                      |                      r   rr   r                      |                      r   rr   r                      |                      r   rr   r                      |
+|                      r  r  r  r                      |                      r  r  r  r                      |                      r  r  r  r                      |                      r  r  r  r                      |
+|                      rr r  r rr                      |                      rr r  r rr                      |                      rr r  r rr                      |                      rr r  r rr                      |
+|                       r r  r r                       |                       r r  r r                       |                       r r  r r                       |                       r r  r r                       |
++------------------------------------------------------+------------------------------------------------------+------------------------------------------------------+------------------------------------------------------+

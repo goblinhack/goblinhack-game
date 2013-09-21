@@ -1,0 +1,7 @@
+"key"
+keys=1
+cost=10
+render_depth=2
+is_treasure
+is_movable
+appearing_chance=[ 500 ]

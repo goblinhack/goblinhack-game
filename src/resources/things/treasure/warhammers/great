@@ -1,0 +1,22 @@
+"obsidian"
+render_depth=1
+cost=1500
+wield_as="weapons/warhammer"
+weight=150
+strength_req=200
+dex_req=30
+is_treasure
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+is_weapon
+appearing_chance=[ 3 ]
+bite_damage=100
+bite_armour=20
+bite_delay_in_tenths=1
+bite_chance=100
+metabolism=130
+is_warhammer
+hates_acid
+health=25000

@@ -1,0 +1,39 @@
+"lava rock"
+render_depth=2
+does_stuff
+score=1000
+strength=0
+health=10000
+bite_damage=70
+bite_delay_in_tenths=1
+bite_chance=100
+metabolism=1
+can_see_distance=0
+is_rock
+only_in_dungeons
+only_in_hell
+only_in_caves
+is_destroyable
+is_meat_eater
+is_movable
+is_unable_to_move
+attacks=[
+    "lava"
+    "meat"
+    "cold"
+    "water"
+]
+attack_chance=[
+    0
+    100
+    100
+    100
+]
+appearing_chance=[ 1 ]
+anim_speed=5
+is_fire
+hates_cold
+fire_proof=100
+cluster_amount=5
+cluster_radius=20
+cluster_anywhere

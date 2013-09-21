@@ -1,0 +1,9 @@
+"Return exit"
+is_return_exit
+cant_see_past
+light_strength=10
+appearing_chance=[ 10 ]
+does_stuff
+render_depth=3
+is_destroyable
+explosion_type="explosion/monst_fire"

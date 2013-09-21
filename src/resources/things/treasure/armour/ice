@@ -1,0 +1,13 @@
+"ice proof"
+render_depth=2
+armour=197
+cost=900
+is_treasure
+is_inventory_item
+is_armour
+is_movable
+is_destroyable
+hates_fire
+weight=70
+appearing_chance=[ 5 ]
+cold_proof=50

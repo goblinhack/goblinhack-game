@@ -1,0 +1,9 @@
+"wholemeal bread"
+render_depth=2
+health=30
+is_edible
+is_movable
+is_destroyable
+appearing_chance=[ 50 ]
+strength=1
+cost=30

@@ -1,0 +1,22 @@
+"hardened"
+render_depth=1
+cost=500
+wield_as="weapons/staff"
+weight=10
+strength_req=50
+dex_req=65
+is_treasure
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+is_weapon
+appearing_chance=[ 5 ]
+bite_damage=20
+bite_armour=5
+bite_delay_in_tenths=1
+bite_chance=100
+metabolism=150
+is_staff
+hates_acid
+health=4000

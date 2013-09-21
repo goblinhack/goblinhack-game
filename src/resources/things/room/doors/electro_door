@@ -1,0 +1,23 @@
+"electro door"
+render_depth=2
+does_stuff
+strength=1
+health=1
+bite_damage=5
+bite_armour=5
+bite_delay_in_tenths=1
+bite_chance=100
+metabolism=0
+is_destroyable
+is_meat_eater
+attacks=[ "all" ]
+attack_chance=[ 100 ]
+explosion_type="explosion/harmless"
+destroy_joined
+opacity=15
+cant_see_past
+is_closed
+anim_speed=5
+is_door
+audio_on_open="Electric_Zap"
+not_in_shops

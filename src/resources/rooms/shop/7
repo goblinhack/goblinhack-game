@@ -1,0 +1,5 @@
+"shop"
+appearing_chance=[ 10 ]
+is_shop
+is_lit
+upon_enter="Welcome to Patricia's playhouse, friend!"

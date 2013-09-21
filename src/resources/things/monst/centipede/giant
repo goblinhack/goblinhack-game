@@ -1,0 +1,36 @@
+"giant centipede"
+render_depth=3
+does_stuff
+score=350
+strength=500
+stamina=100
+intelligence=50
+weight=200
+health=300
+loves_night
+loves_midnight
+karma=0
+bite_damage=80
+bite_delay_in_tenths=10
+bite_chance=65
+metabolism=65
+can_see_distance=5
+is_monst
+leaves_corpse
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+attacks=[
+	"meat"
+]
+attack_chance=[
+	100
+]
+appearing_chance=[ 0 0 0 0 1 1 1 1 1 1 5 ]
+explosion_type="explosion/harmless"
+bite_poison=20
+bite_poison_chance=50

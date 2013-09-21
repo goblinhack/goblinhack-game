@@ -1,0 +1,6 @@
+"pot of gold"
+render_depth=2
+treasure=100
+is_treasure
+is_movable
+appearing_chance=[ 10 ]

@@ -1,0 +1,3 @@
+"remove curses"
+cost=1000
+is_cursed

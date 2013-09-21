@@ -1,0 +1,19 @@
+"composite"
+render_depth=1
+cost=1000
+health=1000
+wield_as="weapons/bow"
+weight=5
+is_treasure
+is_bow
+charges=3000
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+appearing_chance=[ 2 ]
+throws=[ "missiles/arrow2/hit_all" ]
+audio_on_use="Electric_Zap"
+is_weapon
+strength_req=200
+dex_req=65

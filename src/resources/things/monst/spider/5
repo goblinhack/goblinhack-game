@@ -1,0 +1,39 @@
+"ghost spider"
+leaves_corpse
+render_depth=3
+does_stuff
+score=87
+strength=50
+stamina=100
+intelligence=10
+weight=10
+health=140
+loves_night
+karma=-100
+bite_damage=30
+bite_delay_in_tenths=2
+bite_chance=100
+metabolism=50
+can_see_distance=6
+bite_poison=10
+bite_poison_chance=50
+is_monst
+only_in_forests
+loves_void
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+attacks=[ "hero" "meat" ]
+attack_chance=[ 100 50 ]
+appearing_chance=[ 1 ]
+explosion_type="explosion/harmless"
+hates_fire
+opacity=50
+teleport_chance=50
+teleport_delay_in_tenths=90
+is_transparent
+bite_action=[ "sleep" ]

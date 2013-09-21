@@ -1,0 +1,36 @@
+"giant rat"
+leaves_corpse
+render_depth=3
+does_stuff
+score=3
+strength=1
+stamina=100
+intelligence=1
+weight=1
+health=80
+loves_night
+karma=-10
+bite_damage=20
+bite_delay_in_tenths=5
+bite_chance=30
+metabolism=70
+can_see_distance=4
+is_monst
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_edible_eater
+is_meat
+attacks=[ "hero" "cheese" ]
+attack_chance=[ 50 100 ]
+appearing_chance=[ 50 ]
+explosion_type="explosion/harmless"
+hates_fire
+hates_cold
+moves_up_down
+moves_left_right
+look_delay_in_tenths=2
+bite_poison=5
+bite_poison_chance=20

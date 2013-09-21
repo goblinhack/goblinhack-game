@@ -1,0 +1,87 @@
+#!/bin/sh
+#
+# usage: traceback <program> hex-stack
+#
+
+file=${TMPDIR:-/tmp}/rt_traceback$$
+files=$file.files
+lines=$file.lines
+funcs=$file.funcs
+
+echo "file $1" > $file
+
+shift
+
+for i in $*
+do
+	echo "info line *$i" >> $file
+done
+
+gdb < $file > $file.gdb
+
+rm -f $file
+
+cat $file.gdb | grep Line |\
+	sed -e 's/.*Line \(.*\) of "\(.*\)".*/\1 \2/g' |\
+	awk '{printf("%s\n",$2);}'\
+	> $files
+
+cat $file.gdb | grep Line |\
+	sed -e 's/.*Line \(.*\) of "\(.*\)".*/\1 \2/g' |\
+	awk '{printf("%d\n",$1);}'\
+	> $lines
+
+cat $file.gdb | grep "starts at" |\
+	sed -e 's/.*<\(.*\)>.*/\1()/g'\
+		-e 's/^__*\(.*\)_\(.*\)/\1-\2/g' -e 's/__.*//g' -e 's/[+()].*//g'\
+		> $funcs
+
+rm -f $file.gdb
+
+perl -e '
+my $a_file;
+my $a_line;
+my $a_func;
+
+format STDOUT_TOP=
+                        File Line    Function
+=========================================================
+.
+
+format STDOUT=
+^>>>>>>>>>>>>>>>>>>>>>>>>>>> @<<<<<< @<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+$a_file,$a_line,$a_func
+~^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+$a_file
+~^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+$a_file
+.
+
+open FILE, $ARGV[0];
+my @files=<FILE>;
+close FILE;
+
+open FILE, $ARGV[1];
+my @funcs=<FILE>;
+close FILE;
+
+open FILE, $ARGV[2];
+my @lines=<FILE>;
+close FILE;
+
+foreach $a_file (@files) {
+	foreach $a_func (@funcs) {
+		foreach $a_line (@lines) {
+			write(STDOUT);
+			shift @lines;
+			last;
+		}
+		shift @funcs;
+		last;
+	}
+}
+' $file.files $file.funcs $file.lines
+
+rm -f $file.files
+rm -f $file.funcs
+rm -f $file.lines

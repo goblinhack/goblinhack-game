@@ -1,0 +1,32 @@
+"dimensional rift"
+render_depth=2
+does_stuff
+score=1000
+strength=7
+health=1000
+loves_night
+loves_full_moon
+loves_friday_13th
+loves_midnight
+bite_damage=1
+bite_delay_in_tenths=30
+bite_chance=100
+metabolism=25
+can_see_distance=6
+is_monst
+loves_void
+only_in_caves
+only_in_dungeons
+is_trap
+is_meat_eater
+is_teleport_attack
+is_movable
+attacks=[ "all" ]
+attack_chance=[ 10 ]
+appearing_chance=[ 10 ]
+throws=[ "missiles/fireball/hit_hero_only" ]
+anim_speed=10
+is_fire
+cold_proof=100
+fire_proof=100
+teleport_proof=100

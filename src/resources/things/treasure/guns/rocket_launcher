@@ -1,0 +1,18 @@
+"rocket launcher"
+render_depth=1
+cost=5000
+health=6000
+wield_as="weapons/bazooka"
+weight=120
+is_treasure
+is_gun
+is_movable
+is_destroyable
+is_inventory_item
+is_auto_item
+appearing_chance=[ 2 ]
+explosion_type="explosion/monst_fire"
+throws=[ "missiles/shell2/hit_all" ]
+charges=200
+audio_on_use="boom"
+is_weapon

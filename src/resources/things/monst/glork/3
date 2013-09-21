@@ -1,0 +1,46 @@
+"greater glork"
+render_depth=3
+does_stuff
+score=1200
+strength=3000
+stamina=100
+intelligence=30
+weight=500
+health=5500
+loves_night
+loves_full_moon
+loves_friday_13th
+loves_midnight
+karma=-1000
+bite_damage=30
+bite_delay_in_tenths=15
+bite_chance=100
+metabolism=20
+can_see_distance=9
+is_monst
+loves_void
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+appearing_chance=[ 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 3 4 5 5 5 5 5 5 5 5 5 5 5 5 10 ]
+explosion_type="explosion/harmless"
+anim_speed=20
+hates_cold
+hates_fire
+attack_chance=[ 
+    0
+    80 
+    100 
+]
+attacks=[ 
+    "glork" 
+    "monst" 
+    "hero" 
+]
+throws=[ 
+    "missiles/mini_laser/hit_all"
+]
+cannot_summon

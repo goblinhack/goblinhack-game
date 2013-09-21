@@ -1,0 +1,9 @@
+"sumptuous chocolate"
+render_depth=2
+health=5
+is_edible
+is_destroyable
+is_movable
+appearing_chance=[ 40 ]
+karma=10
+cost=10

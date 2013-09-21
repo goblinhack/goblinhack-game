@@ -1,0 +1,22 @@
+"maggot tail"
+render_depth=3
+does_stuff
+score=1
+strength=1
+stamina=100
+intelligence=0
+weight=1
+health=1
+loves_night
+karma=4
+metabolism=10
+is_monst
+only_in_caves
+only_in_dungeons
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+is_body_part
+follow_distance=5
+cannot_summon

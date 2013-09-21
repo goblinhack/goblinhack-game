@@ -1,0 +1,56 @@
+"Lich Master"
+can_insult
+score=500
+leaves_corpse
+audio_on_hit="Monster_Roar"
+look_delay_in_tenths=5
+is_explorer
+is_movable
+is_undead
+only_in_dungeons
+loves_night
+loves_midnight
+loves_halloween
+bravery_curr=0
+fate=4
+render_depth=3
+does_stuff
+strength=450
+dex=40
+intelligence=90
+stamina=800
+health=450
+keys=30
+treasure=0
+bite_damage=65
+karma=-550
+bite_delay_in_tenths=1
+bite_chance=100
+armour=30
+metabolism=60
+is_monst
+can_cast_spells
+can_wield_weapons
+is_edible_eater
+is_treasure_eater
+is_meat
+is_meat_eater
+explosion_type="explosion/hero"
+can_see_distance=7
+backpack=[ 
+    "treasure/wands/death" 
+    "5" "hoard/3"
+]
+is_destroyable
+audio_on_dead="System_Shutdown"
+attacks=[
+	"evil"
+	"good"
+	"hero"
+]
+attack_chance=[
+	0
+	200
+	100
+]
+appearing_chance=[ 1 2 3 4 5 6 7 8 9 10 ]

@@ -1,0 +1,33 @@
+"moving wall"
+render_depth=3
+does_stuff
+score=10
+strength=200
+stamina=100
+intelligence=0
+weight=1000
+health=5000
+karma=0
+bite_damage=200
+bite_armour=200
+bite_delay_in_tenths=0
+bite_chance=100
+metabolism=100
+moves_up_down
+never_slows_down
+moves_until_collision
+can_see_distance=0
+cached_gfx
+is_monst
+only_in_dungeons
+is_movable
+is_destroyable
+is_edible_eater
+is_treasure_eater
+attacks=[ "all" ]
+attack_chance=[ 100 ]
+appearing_chance=[ 50 ]
+explosion_type="explosion/harmless"
+opacity=100
+cant_see_past
+cannot_summon

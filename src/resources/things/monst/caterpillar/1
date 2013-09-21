@@ -1,0 +1,20 @@
+"caterpillar"
+leaves_corpse
+render_depth=3
+does_stuff
+score=1
+strength=1
+stamina=100
+intelligence=1
+weight=1
+health=1
+karma=20
+metabolism=2
+is_monst
+only_in_forests
+only_in_dungeons
+is_movable
+is_destroyable
+is_meat
+appearing_chance=[ 100 90 80 70 60 40 30 20 10 10 5 1 ]
+hates_water

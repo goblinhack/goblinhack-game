@@ -1,0 +1,13 @@
+"obsidian"
+render_depth=2
+armour=290
+cost=2000
+is_treasure
+is_inventory_item
+is_armour
+is_movable
+is_destroyable
+weight=60
+appearing_chance=[ 10 ]
+water_proof=10
+fire_proof=30

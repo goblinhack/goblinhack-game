@@ -1,0 +1,16 @@
+"grass snake body"
+render_depth=3
+score=1
+strength=5
+stamina=100
+health=20
+metabolism=40
+is_monst
+leaves_corpse
+does_stuff
+is_explorer
+is_movable
+is_body_part
+is_destroyable
+is_meat
+follow_distance=1

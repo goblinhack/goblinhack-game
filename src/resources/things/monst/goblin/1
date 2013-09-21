@@ -1,0 +1,49 @@
+"smelly goblin"
+leaves_corpse
+render_depth=3
+does_stuff
+score=5
+strength=100
+stamina=100
+intelligence=10
+weight=150
+health=100
+loves_night
+karma=-200
+bite_damage=10
+bite_delay_in_tenths=5
+bite_chance=60
+metabolism=50
+can_see_distance=7
+is_monst
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+is_edible_eater
+attacks=[ 
+    "goblin" 
+    "orc" 
+    "dwarve" 
+    "good" 
+    "evil" 
+    "hero" 
+]
+attack_chance=[ 
+    -100
+    200
+    300 
+    200 
+    0
+    100
+]
+throws=[ "missiles/basic/hit_all" ]
+appearing_chance=[ 50 ]
+explosion_type="explosion/harmless"
+cluster_amount=3
+cluster_radius=90
+backpack=[
+    "5" "hoard/1"
+]

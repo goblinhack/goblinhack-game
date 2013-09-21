@@ -1,0 +1,35 @@
+"trapdoor spider"
+render_depth=3
+does_stuff
+score=150
+strength=400
+stamina=150
+intelligence=10
+weight=50
+health=550
+loves_night
+loves_full_moon
+loves_midnight
+loves_halloween
+bite_damage=30
+bite_delay_in_tenths=5
+look_delay_in_tenths=2
+bite_poison=15
+bite_poison_chance=50
+bite_chance=100
+metabolism=85
+can_see_distance=3
+is_monst
+only_in_forests
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat_eater
+attacks=[ "hero" "meat" ]
+attack_chance=[ 100 50 ]
+appearing_chance=[ 0 0 1 ]
+hates_fire
+karma=0
+sleeping=5000

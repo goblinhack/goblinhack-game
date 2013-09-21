@@ -1,0 +1,73 @@
+#
+#   ghack.
+#   Copyright (C) 1999-2010 Neil McGill
+#
+#   This game is free software; you can redistribute it and/or
+#   modify it under the terms of the GNU Library General Public
+#   License as published by the Free Software Foundation; either
+#   version 2 of the License, or (at your option) any later version.
+#
+#   This game is distributed in the hope that it will be fun,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#   Library General Public License for more details.
+#
+#   You should have received a copy of the GNU Library General Public
+#   License along with this game; if not, write to the Free
+#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
+#   Neil McGill
+#
+#       $Id: rules.in 280 2006-11-24 22:22:53Z goblinhack $
+#
+
+all clean clobber install:: Makefile\
+	$(TOP)/build/mk/rules\
+	$(TOP)/build/mk/config\
+	$(TOP)/build/mk/library\
+	$(TOP)/build/mk/program\
+	$(TOP)/build/configure.in
+
+#Makefile:: Makefile.in
+#	(cd $(TOP); RUNME -n;)
+#
+#$(TOP)/build/mk/rules: $(TOP)/build/mk/rules.in
+#	(cd $(TOP); RUNME  -n;)
+#
+#$(TOP)/build/mk/config: $(TOP)/build/mk/config.in
+#	(cd $(TOP); RUNME  -n;)
+#
+#$(TOP)/build/mk/library: $(TOP)/build/mk/library.in
+#	(cd $(TOP); RUNME  -n;)
+#
+#$(TOP)/build/mk/program: $(TOP)/build/mk/program.in
+#	(cd $(TOP); RUNME  -n;)
+#
+#$(TOP)/build/configure: $(TOP)/build/configure.in
+#	(cd $(TOP); RUNME  -n;)
+
+all clean::
+	@for dir in `echo $(SUBDIRS)`; do \
+		if [ -f $$dir/Makefile ]; then \
+			($(PRINT) $(DIR_ON); cd $$dir; $(VERBOSE_CD) "Making $@ in $(CURRENT_DIRECTORY)..."; $(PRINT) $(DIR_OFF); $(MAKE) $@ 2>&1); \
+			ERROR=$$?; \
+			if [ $$ERROR -ne 0 ]; then \
+				$(PRINT) $(ERR_ON)Make failed: $(ERR_OFF); \
+				exit $$ERROR; \
+			fi; \
+		fi; \
+	done; \
+	if [ "$(SUBDIRS)" != "" ]; then \
+		$(PRINT) $(DIR_ON); $(VERBOSE_CD) "Making $@ in $(CURRENT_DIRECTORY)..."; $(PRINT) $(DIR_OFF); \
+	fi
+
+clobber::
+	@for dir in `echo $(SUBDIRS) $(CLOBBER_SUBDIRS)`; do \
+		if [ -f $$dir/Makefile ]; then \
+			($(PRINT) $(DIR_ON); cd $$dir; $(VERBOSE_CD) "Making $@ in $(CURRENT_DIRECTORY)..."; $(PRINT) $(DIR_OFF); $(MAKE) $@); \
+		fi; \
+	done; \
+	if [ "$(SRCDIRS)$(CLOBBER_SUBDIRS)" != "" ]; then \
+		$(PRINT) $(DIR_ON); $(VERBOSE_CD) "Making $@ in $(CURRENT_DIRECTORY)..."; $(PRINT) $(DIR_OFF); \
+	fi
+	$(RM) Makefile

@@ -1,0 +1,33 @@
+"tarantula"
+leaves_corpse
+render_depth=3
+does_stuff
+score=180
+strength=50
+stamina=100
+intelligence=10
+weight=10
+health=140
+loves_night
+karma=50
+bite_damage=35
+bite_delay_in_tenths=2
+bite_chance=100
+bite_poison=30
+bite_poison_chance=80
+metabolism=60
+can_see_distance=6
+is_monst
+only_in_forests
+only_in_caves
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+is_meat_eater
+attacks=[ "hero" "meat" ]
+attack_chance=[ 100 50 ]
+appearing_chance=[ 1 ]
+explosion_type="explosion/harmless"
+hates_fire

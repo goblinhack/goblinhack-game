@@ -1,0 +1,14 @@
+"liquid metal"
+render_depth=2
+armour=380
+cost=2000
+is_treasure
+is_inventory_item
+is_armour
+is_movable
+is_destroyable
+hates_cold
+weight=90
+appearing_chance=[ 2 ]
+water_proof=100
+fire_proof=60

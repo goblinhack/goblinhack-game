@@ -1,0 +1,7 @@
+"exit"
+render_depth=3
+is_exit
+cant_see_past
+light_strength=10
+appearing_chance=[ 10 ]
+does_stuff

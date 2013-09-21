@@ -1,0 +1,8 @@
+"succulent apricot"
+render_depth=2
+health=7
+is_edible
+is_movable
+is_destroyable
+appearing_chance=[ 50 ]
+cost=10

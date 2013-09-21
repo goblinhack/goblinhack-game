@@ -1,0 +1,47 @@
+"goodly knight"
+fate=1
+leaves_corpse
+render_depth=3
+does_stuff
+score=30
+strength=200
+stamina=100
+intelligence=80
+weight=220
+health=190
+karma=400
+bite_damage=25
+bite_armour=3
+bite_delay_in_tenths=10
+bite_chance=60
+armour=200
+metabolism=45
+can_see_distance=6
+is_monst
+only_in_forests
+only_in_landscapes
+only_in_dungeons
+is_explorer
+is_movable
+is_destroyable
+is_meat
+attacks=[
+	"evil"
+	"good"
+]
+attack_chance=[
+	200
+	0
+]
+throws=[
+	"missiles/basic/hit_all"
+]
+appearing_chance=[ 50 ]
+cluster_amount=2
+cluster_radius=100
+look_delay_in_tenths=7
+ability_can_auto_rage
+can_wield_weapons
+backpack=[
+    "100" "hoard/3" 
+]

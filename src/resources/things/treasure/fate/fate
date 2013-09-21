@@ -1,0 +1,9 @@
+"fate point"
+fate=1
+cost=1000
+render_depth=2
+is_treasure
+is_movable
+appearing_chance=[ 15 ]
+explosion_type="explosion/potion"
+is_destroyable
