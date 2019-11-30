@@ -20,7 +20,6 @@ This game is no longer maintained - anyone interested in taking it over?
 ![Alt text](screenshot.3.png?raw=true "")
 ![Alt text](screenshot.4.png?raw=true "")
 ![Alt text](screenshot.5.png?raw=true "")
-![Alt text](screenshot.6.png?raw=true "")
 
 Welcome to GoblinHack 1.19. This version adds:                       
                                                                                 
