@@ -41,9 +41,9 @@
 #include <sstream>
 #include <iomanip>
 
-#ifndef __GXX_EXPERIMENTAL_CXX0X__
-#define decltype typeof
-#endif
+//#ifndef __GXX_EXPERIMENTAL_CXX0X__
+//#define decltype typeof
+//#endif
 
 using namespace std;
 

@@ -28,15 +28,19 @@
 #include <ghack.h>
 #include <gh_surface.h>
 #include <SDL.h>
-#include <SDL/SDL_syswm.h>
+#ifndef __APPLE__
+#include <SDL_syswm.h>
+#endif
 
 void gh_surface::center_window (void)
 {
     GH_FUNCTION()
 
+#ifndef __APPLE__
     SDL_SysWMinfo info;
 
     SDL_VERSION(&info.version);
+#endif
 
 #if 0
     if (SDL_GetWMInfo(&info) > 0) {
@@ -89,6 +93,12 @@ bool gh_surface::screensize (gh_size & s)
 {
     GH_FUNCTION()
 
+#ifdef __APPLE__
+    s.w = 1024;
+    s.h = 800;
+    GH_LOG("Default screensize as SDL_GetWMInfo failed");
+    return (true);
+#else
     SDL_SysWMinfo info;
 
     SDL_VERSION(&info.version);
@@ -143,4 +153,5 @@ bool gh_surface::screensize (gh_size & s)
         GH_LOG("Default screensize as SDL_GetWMInfo failed");
         return (true);
     }
+#endif
 }

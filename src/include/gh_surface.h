@@ -27,7 +27,7 @@
 #if defined WIN32 || defined __CYGWIN__
 #include <windows.h>
 #endif
-#include <SDL/SDL.h>
+#include <SDL.h>
 
 #ifdef MACOSX
 #include <SDL_image.h>

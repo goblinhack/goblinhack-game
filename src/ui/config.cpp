@@ -155,7 +155,6 @@ int gh_myscreen::gh_ui_display_configs (gh_game *game,
     int ret = -1;
 
     vector<string>::iterator f = options.begin();
-    vector<string>::iterator g = values.begin();
 
     while (f != options.end()) {
         char line[40];

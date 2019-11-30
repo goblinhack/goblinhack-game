@@ -25,7 +25,7 @@
 #include <gh_maze.h>
 #include <gh_math.h>
 #include <gh_room.h>
-#include <SDL/SDL.h>
+#include <SDL.h>
 #include <hacklib.h>
 
 #define nDEBUG_MAZE
@@ -2833,7 +2833,7 @@ void gh_maze::place_doors_along_corridor (int x, int y)
 
     map_searched[x][y] = 1;
 
-    if ((map[x]  [y-1] == GH_MAP_ROOM)) {
+    if (map[x][y-1] == GH_MAP_ROOM) {
         if (map_obj[x][y-1] != GH_MAP_DOOR) {
             if (myrand(100) < 70) {
                 map[x][y-1] = GH_MAP_ROOM_WALL;
@@ -2843,7 +2843,7 @@ void gh_maze::place_doors_along_corridor (int x, int y)
         }
     }
 
-    if ((map[x]  [y+1] == GH_MAP_ROOM)) {
+    if (map[x]  [y+1] == GH_MAP_ROOM) {
         if (map_obj[x][y+1] != GH_MAP_DOOR) {
             if (myrand(100) < 70) {
                 map[x][y+1] = GH_MAP_ROOM_WALL;
@@ -2853,7 +2853,7 @@ void gh_maze::place_doors_along_corridor (int x, int y)
         }
     }
 
-    if ((map[x+1][y] == GH_MAP_ROOM)) {
+    if (map[x+1][y] == GH_MAP_ROOM) {
         if (map_obj[x+1][y] != GH_MAP_DOOR) {
             if (myrand(100) < 70) {
                 map[x+1][y] = GH_MAP_ROOM_WALL;
@@ -2863,7 +2863,7 @@ void gh_maze::place_doors_along_corridor (int x, int y)
         }
     }
 
-    if ((map[x-1][y] == GH_MAP_ROOM)) {
+    if (map[x-1][y] == GH_MAP_ROOM) {
         if (map_obj[x-1][y] != GH_MAP_DOOR) {
             if (myrand(100) < 70) {
                 map[x-1][y] = GH_MAP_ROOM_WALL;
@@ -3036,28 +3036,28 @@ void gh_maze::place_doors (void)
 
             memset(map_searched, 0, sizeof(map_searched));
 
-            if ((map[x]  [y-1] == GH_MAP_DUSTY_CORR)) {
+            if (map[x]  [y-1] == GH_MAP_DUSTY_CORR) {
                 place_doors_along_corridor(x, y - 1);
             }
-            if ((map[x]  [y+1] == GH_MAP_DUSTY_CORR)) {
+            if (map[x]  [y+1] == GH_MAP_DUSTY_CORR) {
                 place_doors_along_corridor(x, y + 1);
             }
-            if ((map[x-1][y] == GH_MAP_DUSTY_CORR)) {
+            if (map[x-1][y] == GH_MAP_DUSTY_CORR) {
                 place_doors_along_corridor(x - 1, y);
             }
-            if ((map[x+1][y] == GH_MAP_DUSTY_CORR)) {
+            if (map[x+1][y] == GH_MAP_DUSTY_CORR) {
                 place_doors_along_corridor(x + 1, y);
             }
-            if ((map[x]  [y-1] == GH_MAP_CORR)) {
+            if (map[x]  [y-1] == GH_MAP_CORR) {
                 place_doors_along_corridor(x, y - 1);
             }
-            if ((map[x]  [y+1] == GH_MAP_CORR)) {
+            if (map[x]  [y+1] == GH_MAP_CORR) {
                 place_doors_along_corridor(x, y + 1);
             }
-            if ((map[x-1][y] == GH_MAP_CORR)) {
+            if (map[x-1][y] == GH_MAP_CORR) {
                 place_doors_along_corridor(x - 1, y);
             }
-            if ((map[x+1][y] == GH_MAP_CORR)) {
+            if (map[x+1][y] == GH_MAP_CORR) {
                 place_doors_along_corridor(x + 1, y);
             }
 

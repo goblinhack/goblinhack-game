@@ -62,7 +62,7 @@ char sdl_evt_to_char (const SDL_keysym &evt)
                 case SDLK_x: return ('X');
                 case SDLK_y: return ('Y');
                 case SDLK_z: return ('Z');
-                case SDLK_QUOTE: return ('¬');
+                case SDLK_QUOTE: return ('\'');
                 case SDLK_COMMA: return ('<');
                 case SDLK_MINUS: return ('_');
                 case SDLK_PERIOD: return ('>');
@@ -71,7 +71,7 @@ char sdl_evt_to_char (const SDL_keysym &evt)
                 case SDLK_0: return (')');
                 case SDLK_1: return ('!');
                 case SDLK_2: return ('"');
-                case SDLK_3: return ('£');
+                case SDLK_3: return ('#');
                 case SDLK_4: return ('$');
                 case SDLK_5: return ('%');
                 case SDLK_6: return ('^');

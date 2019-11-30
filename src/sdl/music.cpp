@@ -23,12 +23,7 @@
 
 #include <ghack.h>
 #include <gh_music.h>
-
-#ifdef MACOSX
 #include <SDL_mixer.h>
-#else
-#include <SDL/SDL_mixer.h>
-#endif
 
 gh_music::hash_all_music gh_music::all_music;
 
