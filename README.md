@@ -1,10 +1,3 @@
-goblinhack
-==========
-
-A 2d smooth scrolling ascii dungeon romp 
-
-This game is no longer maintained - anyone interested in taking it over?
-
 <pre>
   ____       _     _ _         _   _            _    
  / ___| ___ | |__ | (_)_ __   | | | | __ _  ___| | __
@@ -13,6 +6,10 @@ This game is no longer maintained - anyone interested in taking it over?
  \____|\___/|_.__/|_|_|_| |_| |_| |_|\__,_|\___|_|\_\
 
 </pre>
+
+A 2d smooth scrolling ascii dungeon romp 
+
+This game is no longer maintained - anyone interested in taking it over?
 
 ![Alt text](screenshot.1.png?raw=true "")
 ![Alt text](screenshot.2.png?raw=true "")
