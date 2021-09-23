@@ -9,7 +9,8 @@
 
 A 2d smooth scrolling ascii dungeon romp 
 
-This game is no longer maintained - anyone interested in taking it over?
+This game is no longer actively developed, but I try to keep it compiling on latest ubuntu.
+As of writing, it compiles on Ubuntu 21.02. Anyone interested in taking it over?
 
 ![Alt text](screenshot.1.png?raw=true "")
 ![Alt text](screenshot.2.png?raw=true "")
