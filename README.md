@@ -12,12 +12,11 @@ A 2d smooth scrolling ascii dungeon romp
 This game is no longer actively developed, but I try to keep it compiling on latest ubuntu.
 As of writing, it compiles on Ubuntu 21.04.
 
+You might also enjoy my other game (actively developed and work in progress)
+[Zorbash](https://github.com/goblinhack/zorbash)
+
 ![Alt text](screenshot.1.png?raw=true "")
 ![Alt text](screenshot.2.png?raw=true "")
 ![Alt text](screenshot.3.png?raw=true "")
 ![Alt text](screenshot.4.png?raw=true "")
 ![Alt text](screenshot.5.png?raw=true "")
-
-You might also enjoy my other game (actively developed and work in progress)
-[Zorbash](https://github.com/goblinhack/zorbash)
-
